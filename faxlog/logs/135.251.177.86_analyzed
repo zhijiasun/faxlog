@@ -1,0 +1,41 @@
+SipWrapper->FAX_IDLE:Iwu_en_FaxTone_DetectInd
+Note over FAX_IDLE:CallId=9
+Note over FAX_IDLE:Iwu_en_FaxTone_DetectInd:dToneTypeDetected=Iwu_en_normalVBDOnScn
+Note over FAX_IDLE:dIsV152NegoSucc=false, gVbdMode=AutoSwitch,lIsSendVBDChangedReq=true, lIsSendECChangedReq=true
+FAX_IDLE->SipWrapper:entering iwu_fn_sendChangeVBDModel,dVBDState=1,dECState=0,dDataCallState=0
+Note over FAX_IDLE:dIsT38Attempted is:0, dIsT38AttemptedFailed is:0
+FAX_IDLE->VBD_INITIATED:change state to VBD_INITIATED
+SipWrapper->VBD_INITIATED:Iwu_en_vbdstate_change_resp
+Note over VBD_INITIATED:CallId=9
+Note over VBD_INITIATED:Iwu_en_vbdstate_change_resp:dVBDState=1,dECState=0,result=1
+Note over VBD_INITIATED:dIsV152NegoSucc=0, gVbdMode=1,isLocalCNGReceived=0 dIsVBDNegotiated=0
+VBD_INITIATED->VBD_ACTIVATED:change state to VBD_ACTIVATED
+CM->VBD_ACTIVATED:Iwu_en_callmgntDataCallModifyInd
+Note over VBD_ACTIVATED:CallId=9
+Note over VBD_ACTIVATED:Iwu_en_callmgntDataCallModifyInd:isSucc=1,type=1,is_v152_nego_succ=0
+VBD_ACTIVATED->VBD_ACTIVATED:change state to VBD_ACTIVATED
+SipWrapper->VBD_ACTIVATED:Iwu_en_FaxTone_DetectInd
+Note over VBD_ACTIVATED:CallId=9
+Note over VBD_ACTIVATED:Iwu_en_FaxTone_DetectInd,dToneTypeDetected=9gVbdMode=1, dIsV152NegoSucc=0, dIsVBDNegotiated=1, lIsAutoSwitch=0
+Note over VBD_ACTIVATED:lIsSendVBDChangedReq=0, lIsSendECChangedReq=0, lIsSendVoiceReq=0, lIsSendT38Req=0
+VBD_ACTIVATED->VBD_ACTIVATED:change state to VBD_ACTIVATED
+SipWrapper->VBD_ACTIVATED:Iwu_en_FaxTone_DetectInd
+Note over VBD_ACTIVATED:CallId=9
+Note over VBD_ACTIVATED:Iwu_en_FaxTone_DetectInd,dToneTypeDetected=9gVbdMode=1, dIsV152NegoSucc=0, dIsVBDNegotiated=1, lIsAutoSwitch=0
+Note over VBD_ACTIVATED:lIsSendVBDChangedReq=0, lIsSendECChangedReq=0, lIsSendVoiceReq=0, lIsSendT38Req=0
+VBD_ACTIVATED->VBD_ACTIVATED:change state to VBD_ACTIVATED
+SipWrapper->VBD_ACTIVATED:Iwu_en_FaxTone_DetectInd
+Note over VBD_ACTIVATED:CallId=9
+Note over VBD_ACTIVATED:Iwu_en_FaxTone_DetectInd,dToneTypeDetected=11gVbdMode=1, dIsV152NegoSucc=0, dIsVBDNegotiated=1, lIsAutoSwitch=0
+Note over VBD_ACTIVATED:lIsSendVBDChangedReq=0, lIsSendECChangedReq=1, lIsSendVoiceReq=0, lIsSendT38Req=0
+Note over VBD_ACTIVATED:entering iwu_fn_sendChangeVBDModel,dVBDState=2,dECState=1,dDataCallState=1
+VBD_ACTIVATED->VBD_ACTIVATED:change state to VBD_ACTIVATED
+SipWrapper->VBD_ACTIVATED:Iwu_en_vbdstate_change_resp
+Note over VBD_ACTIVATED:CallId=9
+Note over VBD_ACTIVATED:Iwu_en_vbdstate_change_resp:dVBDState=2,dECState=1,result=1
+VBD_ACTIVATED->VBD_ACTIVATED:change state to VBD_ACTIVATED
+SipWrapper->VBD_ACTIVATED:Iwu_en_FaxTone_DetectInd
+Note over VBD_ACTIVATED:CallId=9
+Note over VBD_ACTIVATED:Iwu_en_FaxTone_DetectInd,dToneTypeDetected=11gVbdMode=1, dIsV152NegoSucc=0, dIsVBDNegotiated=1, lIsAutoSwitch=0
+Note over VBD_ACTIVATED:lIsSendVBDChangedReq=0, lIsSendECChangedReq=0, lIsSendVoiceReq=0, lIsSendT38Req=0
+VBD_ACTIVATED->VBD_ACTIVATED:change state to VBD_ACTIVATED

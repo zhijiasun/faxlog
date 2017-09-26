@@ -1,0 +1,651 @@
+2017-09-26 11:13:38,345 [Thread-4:23152] [faxlog.analyzer:89] [analyzer:handleIdleLine] [INFO]- line is:[iwu_fn_ccFaxIdle, 63]:[Enter FAX FSM]state=FaxccCallState_FaxIdle,event=Iwu_en_FaxTone_DetectInd,CallId=9
+
+2017-09-26 11:13:38,345 [Thread-4:23152] [faxlog.analyzer:95] [analyzer:handleIdleLine] [INFO]- event:Iwu_en_FaxTone_DetectInd,callid:9,module:SipWrapper
+2017-09-26 11:13:38,345 [Thread-4:23152] [faxlog.analyzer:89] [analyzer:handleIdleLine] [INFO]- line is:[iwu_fn_ccFaxIdle, 203]:Iwu_en_FaxTone_DetectInd:dToneTypeDetected=9
+
+2017-09-26 11:13:38,345 [Thread-4:23152] [faxlog.analyzer:89] [analyzer:handleIdleLine] [INFO]- line is:[iwu_fn_ccFaxIdle, 256]:dIsV152NegoSucc=0, gVbdMode=1,lIsSendVBDChangedReq=1, lIsSendECChangedReq=1
+
+2017-09-26 11:13:38,345 [Thread-4:23152] [faxlog.analyzer:89] [analyzer:handleIdleLine] [INFO]- line is:[iwu_fn_ccFaxIdle, 265]:entering iwu_fn_sendChangeVBDModel,dVBDState=1,dECState=0,dDataCallState=0
+
+2017-09-26 11:13:38,345 [Thread-4:23152] [faxlog.analyzer:89] [analyzer:handleIdleLine] [INFO]- line is:[iwu_fn_ccFaxIdle, 290]:dIsT38Attempted is:0, dIsT38AttemptedFailed is:0
+
+2017-09-26 11:13:38,361 [Thread-4:23152] [faxlog.analyzer:89] [analyzer:handleIdleLine] [INFO]- line is:[iwu_fn_ccFaxIdle, 297]:[Leave FAX FSM]current state=FaxccCallState_VBD_DATA_CALL_INITIATED
+
+INFO line is:[iwu_fn_ccFaxIdle, 63]:[Enter FAX FSM]state=FaxccCallState_FaxIdle,event=Iwu_en_FaxTone_DetectInd,CallId=9
+
+INFO event:Iwu_en_FaxTone_DetectInd,callid:9,module:SipWrapper
+INFO line is:[iwu_fn_ccFaxIdle, 203]:Iwu_en_FaxTone_DetectInd:dToneTypeDetected=9
+
+INFO line is:[iwu_fn_ccFaxIdle, 256]:dIsV152NegoSucc=0, gVbdMode=1,lIsSendVBDChangedReq=1, lIsSendECChangedReq=1
+
+INFO line is:[iwu_fn_ccFaxIdle, 265]:entering iwu_fn_sendChangeVBDModel,dVBDState=1,dECState=0,dDataCallState=0
+
+INFO line is:[iwu_fn_ccFaxIdle, 290]:dIsT38Attempted is:0, dIsT38AttemptedFailed is:0
+
+INFO line is:[iwu_fn_ccFaxIdle, 297]:[Leave FAX FSM]current state=FaxccCallState_VBD_DATA_CALL_INITIATED
+
+2017-09-26 12:06:16,676 [89]:line is:[iwu_fn_ccFaxIdle, 63]:[Enter FAX FSM]state=FaxccCallState_FaxIdle,event=Iwu_en_FaxTone_DetectInd,CallId=9
+
+2017-09-26 12:06:16,676 [95]:event:Iwu_en_FaxTone_DetectInd,callid:9,module:SipWrapper
+2017-09-26 12:06:16,676 [89]:line is:[iwu_fn_ccFaxIdle, 203]:Iwu_en_FaxTone_DetectInd:dToneTypeDetected=9
+
+2017-09-26 12:06:16,676 [89]:line is:[iwu_fn_ccFaxIdle, 256]:dIsV152NegoSucc=0, gVbdMode=1,lIsSendVBDChangedReq=1, lIsSendECChangedReq=1
+
+2017-09-26 12:06:16,676 [89]:line is:[iwu_fn_ccFaxIdle, 265]:entering iwu_fn_sendChangeVBDModel,dVBDState=1,dECState=0,dDataCallState=0
+
+2017-09-26 12:06:16,676 [89]:line is:[iwu_fn_ccFaxIdle, 290]:dIsT38Attempted is:0, dIsT38AttemptedFailed is:0
+
+2017-09-26 12:06:16,676 [89]:line is:[iwu_fn_ccFaxIdle, 297]:[Leave FAX FSM]current state=FaxccCallState_VBD_DATA_CALL_INITIATED
+
+2017-09-26 12:07:28,579 [faxlog.analyzer:89]:line is:[iwu_fn_ccFaxIdle, 63]:[Enter FAX FSM]state=FaxccCallState_FaxIdle,event=Iwu_en_FaxTone_DetectInd,CallId=9
+
+2017-09-26 12:07:28,579 [faxlog.analyzer:95]:event:Iwu_en_FaxTone_DetectInd,callid:9,module:SipWrapper
+2017-09-26 12:07:28,579 [faxlog.analyzer:89]:line is:[iwu_fn_ccFaxIdle, 203]:Iwu_en_FaxTone_DetectInd:dToneTypeDetected=9
+
+2017-09-26 12:07:28,579 [faxlog.analyzer:89]:line is:[iwu_fn_ccFaxIdle, 256]:dIsV152NegoSucc=0, gVbdMode=1,lIsSendVBDChangedReq=1, lIsSendECChangedReq=1
+
+2017-09-26 12:07:28,579 [faxlog.analyzer:89]:line is:[iwu_fn_ccFaxIdle, 265]:entering iwu_fn_sendChangeVBDModel,dVBDState=1,dECState=0,dDataCallState=0
+
+2017-09-26 12:07:28,579 [faxlog.analyzer:89]:line is:[iwu_fn_ccFaxIdle, 290]:dIsT38Attempted is:0, dIsT38AttemptedFailed is:0
+
+2017-09-26 12:07:28,579 [faxlog.analyzer:89]:line is:[iwu_fn_ccFaxIdle, 297]:[Leave FAX FSM]current state=FaxccCallState_VBD_DATA_CALL_INITIATED
+
+2017-09-26 13:42:21,732 [faxlog.analyzer:89]:line is:[iwu_fn_ccFaxIdle, 63]:[Enter FAX FSM]state=FaxccCallState_FaxIdle,event=Iwu_en_FaxTone_DetectInd,CallId=9
+
+2017-09-26 13:42:21,732 [faxlog.analyzer:95]:event:Iwu_en_FaxTone_DetectInd,callid:9,module:SipWrapper
+2017-09-26 13:42:21,732 [faxlog.analyzer:89]:line is:[iwu_fn_ccFaxIdle, 203]:Iwu_en_FaxTone_DetectInd:dToneTypeDetected=9
+
+2017-09-26 13:42:21,732 [faxlog.analyzer:89]:line is:[iwu_fn_ccFaxIdle, 256]:dIsV152NegoSucc=0, gVbdMode=1,lIsSendVBDChangedReq=1, lIsSendECChangedReq=1
+
+2017-09-26 13:42:21,732 [faxlog.analyzer:89]:line is:[iwu_fn_ccFaxIdle, 265]:entering iwu_fn_sendChangeVBDModel,dVBDState=1,dECState=0,dDataCallState=0
+
+2017-09-26 13:42:21,746 [faxlog.analyzer:89]:line is:[iwu_fn_ccFaxIdle, 290]:dIsT38Attempted is:0, dIsT38AttemptedFailed is:0
+
+2017-09-26 13:42:21,746 [faxlog.analyzer:89]:line is:[iwu_fn_ccFaxIdle, 297]:[Leave FAX FSM]current state=FaxccCallState_VBD_DATA_CALL_INITIATED
+
+2017-09-26 13:50:18,927 [faxlog.analyzer:89]:line is:[iwu_fn_ccFaxIdle, 63]:[Enter FAX FSM]state=FaxccCallState_FaxIdle,event=Iwu_en_FaxTone_DetectInd,CallId=9
+
+2017-09-26 13:50:18,927 [faxlog.analyzer:95]:event:Iwu_en_FaxTone_DetectInd,callid:9,module:SipWrapper
+2017-09-26 13:50:18,927 [faxlog.analyzer:89]:line is:[iwu_fn_ccFaxIdle, 203]:Iwu_en_FaxTone_DetectInd:dToneTypeDetected=9
+
+2017-09-26 13:50:18,927 [faxlog.analyzer:89]:line is:[iwu_fn_ccFaxIdle, 256]:dIsV152NegoSucc=0, gVbdMode=1,lIsSendVBDChangedReq=1, lIsSendECChangedReq=1
+
+2017-09-26 13:50:18,927 [faxlog.analyzer:89]:line is:[iwu_fn_ccFaxIdle, 265]:entering iwu_fn_sendChangeVBDModel,dVBDState=1,dECState=0,dDataCallState=0
+
+2017-09-26 13:50:18,927 [faxlog.analyzer:89]:line is:[iwu_fn_ccFaxIdle, 290]:dIsT38Attempted is:0, dIsT38AttemptedFailed is:0
+
+2017-09-26 13:50:18,927 [faxlog.analyzer:89]:line is:[iwu_fn_ccFaxIdle, 297]:[Leave FAX FSM]current state=FaxccCallState_VBD_DATA_CALL_INITIATED
+
+2017-09-26 13:53:19,440 [faxlog.analyzer:89]:line is:[iwu_fn_ccFaxIdle, 63]:[Enter FAX FSM]state=FaxccCallState_FaxIdle,event=Iwu_en_FaxTone_DetectInd,CallId=9
+
+2017-09-26 13:53:19,440 [faxlog.analyzer:95]:event:Iwu_en_FaxTone_DetectInd,callid:9,module:SipWrapper
+2017-09-26 13:53:19,440 [faxlog.analyzer:89]:line is:[iwu_fn_ccFaxIdle, 203]:Iwu_en_FaxTone_DetectInd:dToneTypeDetected=9
+
+2017-09-26 13:53:19,440 [faxlog.analyzer:89]:line is:[iwu_fn_ccFaxIdle, 256]:dIsV152NegoSucc=0, gVbdMode=1,lIsSendVBDChangedReq=1, lIsSendECChangedReq=1
+
+2017-09-26 13:53:19,440 [faxlog.analyzer:89]:line is:[iwu_fn_ccFaxIdle, 265]:entering iwu_fn_sendChangeVBDModel,dVBDState=1,dECState=0,dDataCallState=0
+
+2017-09-26 13:53:19,440 [faxlog.analyzer:89]:line is:[iwu_fn_ccFaxIdle, 290]:dIsT38Attempted is:0, dIsT38AttemptedFailed is:0
+
+2017-09-26 13:53:19,440 [faxlog.analyzer:89]:line is:[iwu_fn_ccFaxIdle, 297]:[Leave FAX FSM]current state=FaxccCallState_VBD_DATA_CALL_INITIATED
+
+2017-09-26 14:08:27,391 [faxlog.analyzer:89]:line is:[iwu_fn_ccFaxIdle, 63]:[Enter FAX FSM]state=FaxccCallState_FaxIdle,event=Iwu_en_FaxTone_DetectInd,CallId=9
+
+2017-09-26 14:08:27,391 [faxlog.analyzer:95]:event:Iwu_en_FaxTone_DetectInd,callid:9,module:SipWrapper
+2017-09-26 14:08:27,391 [faxlog.analyzer:89]:line is:[iwu_fn_ccFaxIdle, 203]:Iwu_en_FaxTone_DetectInd:dToneTypeDetected=9
+
+2017-09-26 14:08:27,391 [faxlog.analyzer:89]:line is:[iwu_fn_ccFaxIdle, 256]:dIsV152NegoSucc=0, gVbdMode=1,lIsSendVBDChangedReq=1, lIsSendECChangedReq=1
+
+2017-09-26 14:08:27,391 [faxlog.analyzer:89]:line is:[iwu_fn_ccFaxIdle, 265]:entering iwu_fn_sendChangeVBDModel,dVBDState=1,dECState=0,dDataCallState=0
+
+2017-09-26 14:08:27,391 [faxlog.analyzer:89]:line is:[iwu_fn_ccFaxIdle, 290]:dIsT38Attempted is:0, dIsT38AttemptedFailed is:0
+
+2017-09-26 14:08:27,391 [faxlog.analyzer:89]:line is:[iwu_fn_ccFaxIdle, 297]:[Leave FAX FSM]current state=FaxccCallState_VBD_DATA_CALL_INITIATED
+
+2017-09-26 14:18:38,940 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 63]:[Enter FAX FSM]state=FaxccCallState_FaxIdle,event=Iwu_en_FaxTone_DetectInd,CallId=9
+
+2017-09-26 14:18:38,940 [faxlog.analyzer:110]:event:Iwu_en_FaxTone_DetectInd,callid:9,module:SipWrapper
+2017-09-26 14:18:38,940 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 203]:Iwu_en_FaxTone_DetectInd:dToneTypeDetected=9
+
+2017-09-26 14:18:38,940 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 256]:dIsV152NegoSucc=0, gVbdMode=1,lIsSendVBDChangedReq=1, lIsSendECChangedReq=1
+
+2017-09-26 14:18:38,940 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 265]:entering iwu_fn_sendChangeVBDModel,dVBDState=1,dECState=0,dDataCallState=0
+
+2017-09-26 14:18:38,940 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 290]:dIsT38Attempted is:0, dIsT38AttemptedFailed is:0
+
+2017-09-26 14:18:38,940 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 297]:[Leave FAX FSM]current state=FaxccCallState_VBD_DATA_CALL_INITIATED
+
+2017-09-26 14:26:56,043 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 63]:[Enter FAX FSM]state=FaxccCallState_FaxIdle,event=Iwu_en_FaxTone_DetectInd,CallId=9
+
+2017-09-26 14:26:56,043 [faxlog.analyzer:111]:event:Iwu_en_FaxTone_DetectInd,callid:9,module:SipWrapper
+2017-09-26 14:26:56,043 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 203]:Iwu_en_FaxTone_DetectInd:dToneTypeDetected=9
+
+2017-09-26 14:26:56,043 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 256]:dIsV152NegoSucc=0, gVbdMode=1,lIsSendVBDChangedReq=1, lIsSendECChangedReq=1
+
+2017-09-26 14:26:56,043 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 265]:entering iwu_fn_sendChangeVBDModel,dVBDState=1,dECState=0,dDataCallState=0
+
+2017-09-26 14:26:56,043 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 290]:dIsT38Attempted is:0, dIsT38AttemptedFailed is:0
+
+2017-09-26 14:26:56,043 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 297]:[Leave FAX FSM]current state=FaxccCallState_VBD_DATA_CALL_INITIATED
+
+2017-09-26 14:27:51,407 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 63]:[Enter FAX FSM]state=FaxccCallState_FaxIdle,event=Iwu_en_FaxTone_DetectInd,CallId=9
+
+2017-09-26 14:27:51,407 [faxlog.analyzer:111]:event:Iwu_en_FaxTone_DetectInd,callid:9,module:SipWrapper
+2017-09-26 14:27:51,407 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 203]:Iwu_en_FaxTone_DetectInd:dToneTypeDetected=9
+
+2017-09-26 14:27:51,407 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 256]:dIsV152NegoSucc=0, gVbdMode=1,lIsSendVBDChangedReq=1, lIsSendECChangedReq=1
+
+2017-09-26 14:27:51,407 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 265]:entering iwu_fn_sendChangeVBDModel,dVBDState=1,dECState=0,dDataCallState=0
+
+2017-09-26 14:27:51,407 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 290]:dIsT38Attempted is:0, dIsT38AttemptedFailed is:0
+
+2017-09-26 14:27:51,407 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 297]:[Leave FAX FSM]current state=FaxccCallState_VBD_DATA_CALL_INITIATED
+
+2017-09-26 14:27:51,407 [faxlog.analyzer:96]:KeyError('8',)
+2017-09-26 14:43:43,950 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 63]:[Enter FAX FSM]state=FaxccCallState_FaxIdle,event=Iwu_en_FaxTone_DetectInd,CallId=9
+
+2017-09-26 14:43:43,950 [faxlog.analyzer:111]:event:Iwu_en_FaxTone_DetectInd,callid:9,module:SipWrapper
+2017-09-26 14:43:43,950 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 203]:Iwu_en_FaxTone_DetectInd:dToneTypeDetected=9
+
+2017-09-26 14:43:43,950 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 256]:dIsV152NegoSucc=0, gVbdMode=1,lIsSendVBDChangedReq=1, lIsSendECChangedReq=1
+
+2017-09-26 14:43:43,950 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 265]:entering iwu_fn_sendChangeVBDModel,dVBDState=1,dECState=0,dDataCallState=0
+
+2017-09-26 14:43:43,950 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 290]:dIsT38Attempted is:0, dIsT38AttemptedFailed is:0
+
+2017-09-26 14:43:43,950 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 297]:[Leave FAX FSM]current state=FaxccCallState_VBD_DATA_CALL_INITIATED
+
+2017-09-26 15:18:35,239 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 63]:[Enter FAX FSM]state=FaxccCallState_FaxIdle,event=Iwu_en_FaxTone_DetectInd,CallId=9
+
+2017-09-26 15:18:35,253 [faxlog.analyzer:111]:event:Iwu_en_FaxTone_DetectInd,callid:9,module:SipWrapper
+2017-09-26 15:18:35,253 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 203]:Iwu_en_FaxTone_DetectInd:dToneTypeDetected=9
+
+2017-09-26 15:18:35,253 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 256]:dIsV152NegoSucc=0, gVbdMode=1,lIsSendVBDChangedReq=1, lIsSendECChangedReq=1
+
+2017-09-26 15:18:35,253 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 265]:entering iwu_fn_sendChangeVBDModel,dVBDState=1,dECState=0,dDataCallState=0
+
+2017-09-26 15:18:35,253 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 290]:dIsT38Attempted is:0, dIsT38AttemptedFailed is:0
+
+2017-09-26 15:18:35,253 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 297]:[Leave FAX FSM]current state=FaxccCallState_VBD_DATA_CALL_INITIATED
+
+2017-09-26 15:26:52,148 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 63]:[Enter FAX FSM]state=FaxccCallState_FaxIdle,event=Iwu_en_FaxTone_DetectInd,CallId=9
+
+2017-09-26 15:26:52,148 [faxlog.analyzer:111]:event:Iwu_en_FaxTone_DetectInd,callid:9,module:SipWrapper
+2017-09-26 15:26:52,148 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 203]:Iwu_en_FaxTone_DetectInd:dToneTypeDetected=9
+
+2017-09-26 15:26:52,148 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 256]:dIsV152NegoSucc=0, gVbdMode=1,lIsSendVBDChangedReq=1, lIsSendECChangedReq=1
+
+2017-09-26 15:26:52,148 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 265]:entering iwu_fn_sendChangeVBDModel,dVBDState=1,dECState=0,dDataCallState=0
+
+2017-09-26 15:26:52,148 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 290]:dIsT38Attempted is:0, dIsT38AttemptedFailed is:0
+
+2017-09-26 15:26:52,148 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 297]:[Leave FAX FSM]current state=FaxccCallState_VBD_DATA_CALL_INITIATED
+
+2017-09-26 15:28:14,392 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 63]:[Enter FAX FSM]state=FaxccCallState_FaxIdle,event=Iwu_en_FaxTone_DetectInd,CallId=9
+
+2017-09-26 15:28:14,392 [faxlog.analyzer:111]:event:Iwu_en_FaxTone_DetectInd,callid:9,module:SipWrapper
+2017-09-26 15:28:14,392 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 203]:Iwu_en_FaxTone_DetectInd:dToneTypeDetected=9
+
+2017-09-26 15:28:14,392 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 256]:dIsV152NegoSucc=0, gVbdMode=1,lIsSendVBDChangedReq=1, lIsSendECChangedReq=1
+
+2017-09-26 15:28:14,392 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 265]:entering iwu_fn_sendChangeVBDModel,dVBDState=1,dECState=0,dDataCallState=0
+
+2017-09-26 15:28:14,392 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 290]:dIsT38Attempted is:0, dIsT38AttemptedFailed is:0
+
+2017-09-26 15:28:14,392 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 297]:[Leave FAX FSM]current state=FaxccCallState_VBD_DATA_CALL_INITIATED
+
+2017-09-26 15:33:59,431 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 63]:[Enter FAX FSM]state=FaxccCallState_FaxIdle,event=Iwu_en_FaxTone_DetectInd,CallId=9
+
+2017-09-26 15:33:59,431 [faxlog.analyzer:111]:event:Iwu_en_FaxTone_DetectInd,callid:9,module:SipWrapper
+2017-09-26 15:33:59,431 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 203]:Iwu_en_FaxTone_DetectInd:dToneTypeDetected=9
+
+2017-09-26 15:33:59,431 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 256]:dIsV152NegoSucc=0, gVbdMode=1,lIsSendVBDChangedReq=1, lIsSendECChangedReq=1
+
+2017-09-26 15:33:59,431 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 265]:entering iwu_fn_sendChangeVBDModel,dVBDState=1,dECState=0,dDataCallState=0
+
+2017-09-26 15:33:59,431 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 290]:dIsT38Attempted is:0, dIsT38AttemptedFailed is:0
+
+2017-09-26 15:33:59,431 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 297]:[Leave FAX FSM]current state=FaxccCallState_VBD_DATA_CALL_INITIATED
+
+2017-09-26 15:34:10,848 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 63]:[Enter FAX FSM]state=FaxccCallState_FaxIdle,event=Iwu_en_FaxTone_DetectInd,CallId=9
+
+2017-09-26 15:34:10,848 [faxlog.analyzer:111]:event:Iwu_en_FaxTone_DetectInd,callid:9,module:SipWrapper
+2017-09-26 15:34:10,848 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 203]:Iwu_en_FaxTone_DetectInd:dToneTypeDetected=9
+
+2017-09-26 15:34:10,848 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 256]:dIsV152NegoSucc=0, gVbdMode=1,lIsSendVBDChangedReq=1, lIsSendECChangedReq=1
+
+2017-09-26 15:34:10,848 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 265]:entering iwu_fn_sendChangeVBDModel,dVBDState=1,dECState=0,dDataCallState=0
+
+2017-09-26 15:34:10,848 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 290]:dIsT38Attempted is:0, dIsT38AttemptedFailed is:0
+
+2017-09-26 15:34:10,848 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 297]:[Leave FAX FSM]current state=FaxccCallState_VBD_DATA_CALL_INITIATED
+
+2017-09-26 15:34:11,769 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 63]:[Enter FAX FSM]state=FaxccCallState_FaxIdle,event=Iwu_en_FaxTone_DetectInd,CallId=9
+
+2017-09-26 15:34:11,769 [faxlog.analyzer:111]:event:Iwu_en_FaxTone_DetectInd,callid:9,module:SipWrapper
+2017-09-26 15:34:11,769 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 203]:Iwu_en_FaxTone_DetectInd:dToneTypeDetected=9
+
+2017-09-26 15:34:11,769 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 256]:dIsV152NegoSucc=0, gVbdMode=1,lIsSendVBDChangedReq=1, lIsSendECChangedReq=1
+
+2017-09-26 15:34:11,769 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 265]:entering iwu_fn_sendChangeVBDModel,dVBDState=1,dECState=0,dDataCallState=0
+
+2017-09-26 15:34:11,769 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 290]:dIsT38Attempted is:0, dIsT38AttemptedFailed is:0
+
+2017-09-26 15:34:11,769 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 297]:[Leave FAX FSM]current state=FaxccCallState_VBD_DATA_CALL_INITIATED
+
+2017-09-26 15:34:12,378 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 63]:[Enter FAX FSM]state=FaxccCallState_FaxIdle,event=Iwu_en_FaxTone_DetectInd,CallId=9
+
+2017-09-26 15:34:12,378 [faxlog.analyzer:111]:event:Iwu_en_FaxTone_DetectInd,callid:9,module:SipWrapper
+2017-09-26 15:34:12,378 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 203]:Iwu_en_FaxTone_DetectInd:dToneTypeDetected=9
+
+2017-09-26 15:34:12,378 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 256]:dIsV152NegoSucc=0, gVbdMode=1,lIsSendVBDChangedReq=1, lIsSendECChangedReq=1
+
+2017-09-26 15:34:12,378 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 265]:entering iwu_fn_sendChangeVBDModel,dVBDState=1,dECState=0,dDataCallState=0
+
+2017-09-26 15:34:12,378 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 290]:dIsT38Attempted is:0, dIsT38AttemptedFailed is:0
+
+2017-09-26 15:34:12,378 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 297]:[Leave FAX FSM]current state=FaxccCallState_VBD_DATA_CALL_INITIATED
+
+2017-09-26 15:34:12,894 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 63]:[Enter FAX FSM]state=FaxccCallState_FaxIdle,event=Iwu_en_FaxTone_DetectInd,CallId=9
+
+2017-09-26 15:34:12,894 [faxlog.analyzer:111]:event:Iwu_en_FaxTone_DetectInd,callid:9,module:SipWrapper
+2017-09-26 15:34:12,894 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 203]:Iwu_en_FaxTone_DetectInd:dToneTypeDetected=9
+
+2017-09-26 15:34:12,894 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 256]:dIsV152NegoSucc=0, gVbdMode=1,lIsSendVBDChangedReq=1, lIsSendECChangedReq=1
+
+2017-09-26 15:34:12,894 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 265]:entering iwu_fn_sendChangeVBDModel,dVBDState=1,dECState=0,dDataCallState=0
+
+2017-09-26 15:34:12,894 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 290]:dIsT38Attempted is:0, dIsT38AttemptedFailed is:0
+
+2017-09-26 15:34:12,894 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 297]:[Leave FAX FSM]current state=FaxccCallState_VBD_DATA_CALL_INITIATED
+
+2017-09-26 15:34:46,105 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 63]:[Enter FAX FSM]state=FaxccCallState_FaxIdle,event=Iwu_en_FaxTone_DetectInd,CallId=9
+
+2017-09-26 15:34:46,108 [faxlog.analyzer:111]:event:Iwu_en_FaxTone_DetectInd,callid:9,module:SipWrapper
+2017-09-26 15:34:46,108 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 203]:Iwu_en_FaxTone_DetectInd:dToneTypeDetected=9
+
+2017-09-26 15:34:46,108 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 256]:dIsV152NegoSucc=0, gVbdMode=1,lIsSendVBDChangedReq=1, lIsSendECChangedReq=1
+
+2017-09-26 15:34:46,108 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 265]:entering iwu_fn_sendChangeVBDModel,dVBDState=1,dECState=0,dDataCallState=0
+
+2017-09-26 15:34:46,108 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 290]:dIsT38Attempted is:0, dIsT38AttemptedFailed is:0
+
+2017-09-26 15:34:46,109 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 297]:[Leave FAX FSM]current state=FaxccCallState_VBD_DATA_CALL_INITIATED
+
+2017-09-26 15:35:29,282 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 63]:[Enter FAX FSM]state=FaxccCallState_FaxIdle,event=Iwu_en_FaxTone_DetectInd,CallId=9
+
+2017-09-26 15:35:29,283 [faxlog.analyzer:111]:event:Iwu_en_FaxTone_DetectInd,callid:9,module:SipWrapper
+2017-09-26 15:35:29,285 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 203]:Iwu_en_FaxTone_DetectInd:dToneTypeDetected=9
+
+2017-09-26 15:35:29,286 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 256]:dIsV152NegoSucc=0, gVbdMode=1,lIsSendVBDChangedReq=1, lIsSendECChangedReq=1
+
+2017-09-26 15:35:29,286 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 265]:entering iwu_fn_sendChangeVBDModel,dVBDState=1,dECState=0,dDataCallState=0
+
+2017-09-26 15:35:29,288 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 290]:dIsT38Attempted is:0, dIsT38AttemptedFailed is:0
+
+2017-09-26 15:35:29,288 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 297]:[Leave FAX FSM]current state=FaxccCallState_VBD_DATA_CALL_INITIATED
+
+2017-09-26 15:36:13,723 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 63]:[Enter FAX FSM]state=FaxccCallState_FaxIdle,event=Iwu_en_FaxTone_DetectInd,CallId=9
+
+2017-09-26 15:36:13,723 [faxlog.analyzer:111]:event:Iwu_en_FaxTone_DetectInd,callid:9,module:SipWrapper
+2017-09-26 15:36:13,723 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 203]:Iwu_en_FaxTone_DetectInd:dToneTypeDetected=9
+
+2017-09-26 15:36:13,723 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 256]:dIsV152NegoSucc=0, gVbdMode=1,lIsSendVBDChangedReq=1, lIsSendECChangedReq=1
+
+2017-09-26 15:36:13,723 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 265]:entering iwu_fn_sendChangeVBDModel,dVBDState=1,dECState=0,dDataCallState=0
+
+2017-09-26 15:36:13,723 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 290]:dIsT38Attempted is:0, dIsT38AttemptedFailed is:0
+
+2017-09-26 15:36:13,723 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 297]:[Leave FAX FSM]current state=FaxccCallState_VBD_DATA_CALL_INITIATED
+
+2017-09-26 15:36:26,904 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 63]:[Enter FAX FSM]state=FaxccCallState_FaxIdle,event=Iwu_en_FaxTone_DetectInd,CallId=9
+
+2017-09-26 15:36:26,904 [faxlog.analyzer:111]:event:Iwu_en_FaxTone_DetectInd,callid:9,module:SipWrapper
+2017-09-26 15:36:26,904 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 203]:Iwu_en_FaxTone_DetectInd:dToneTypeDetected=9
+
+2017-09-26 15:36:26,904 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 256]:dIsV152NegoSucc=0, gVbdMode=1,lIsSendVBDChangedReq=1, lIsSendECChangedReq=1
+
+2017-09-26 15:36:26,904 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 265]:entering iwu_fn_sendChangeVBDModel,dVBDState=1,dECState=0,dDataCallState=0
+
+2017-09-26 15:36:26,904 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 290]:dIsT38Attempted is:0, dIsT38AttemptedFailed is:0
+
+2017-09-26 15:36:26,920 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 297]:[Leave FAX FSM]current state=FaxccCallState_VBD_DATA_CALL_INITIATED
+
+2017-09-26 15:36:30,102 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 63]:[Enter FAX FSM]state=FaxccCallState_FaxIdle,event=Iwu_en_FaxTone_DetectInd,CallId=9
+
+2017-09-26 15:36:30,102 [faxlog.analyzer:111]:event:Iwu_en_FaxTone_DetectInd,callid:9,module:SipWrapper
+2017-09-26 15:36:30,102 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 203]:Iwu_en_FaxTone_DetectInd:dToneTypeDetected=9
+
+2017-09-26 15:36:30,102 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 256]:dIsV152NegoSucc=0, gVbdMode=1,lIsSendVBDChangedReq=1, lIsSendECChangedReq=1
+
+2017-09-26 15:36:30,102 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 265]:entering iwu_fn_sendChangeVBDModel,dVBDState=1,dECState=0,dDataCallState=0
+
+2017-09-26 15:36:30,102 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 290]:dIsT38Attempted is:0, dIsT38AttemptedFailed is:0
+
+2017-09-26 15:36:30,102 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 297]:[Leave FAX FSM]current state=FaxccCallState_VBD_DATA_CALL_INITIATED
+
+2017-09-26 15:37:39,964 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 63]:[Enter FAX FSM]state=FaxccCallState_FaxIdle,event=Iwu_en_FaxTone_DetectInd,CallId=9
+
+2017-09-26 15:37:39,964 [faxlog.analyzer:111]:event:Iwu_en_FaxTone_DetectInd,callid:9,module:SipWrapper
+2017-09-26 15:37:39,964 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 203]:Iwu_en_FaxTone_DetectInd:dToneTypeDetected=9
+
+2017-09-26 15:37:39,964 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 256]:dIsV152NegoSucc=0, gVbdMode=1,lIsSendVBDChangedReq=1, lIsSendECChangedReq=1
+
+2017-09-26 15:37:39,964 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 265]:entering iwu_fn_sendChangeVBDModel,dVBDState=1,dECState=0,dDataCallState=0
+
+2017-09-26 15:37:39,964 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 290]:dIsT38Attempted is:0, dIsT38AttemptedFailed is:0
+
+2017-09-26 15:37:39,964 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 297]:[Leave FAX FSM]current state=FaxccCallState_VBD_DATA_CALL_INITIATED
+
+2017-09-26 15:37:40,105 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 63]:[Enter FAX FSM]state=FaxccCallState_FaxIdle,event=Iwu_en_FaxTone_DetectInd,CallId=9
+
+2017-09-26 15:37:40,105 [faxlog.analyzer:111]:event:Iwu_en_FaxTone_DetectInd,callid:9,module:SipWrapper
+2017-09-26 15:37:40,105 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 203]:Iwu_en_FaxTone_DetectInd:dToneTypeDetected=9
+
+2017-09-26 15:37:40,105 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 256]:dIsV152NegoSucc=0, gVbdMode=1,lIsSendVBDChangedReq=1, lIsSendECChangedReq=1
+
+2017-09-26 15:37:40,121 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 265]:entering iwu_fn_sendChangeVBDModel,dVBDState=1,dECState=0,dDataCallState=0
+
+2017-09-26 15:37:40,121 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 290]:dIsT38Attempted is:0, dIsT38AttemptedFailed is:0
+
+2017-09-26 15:37:40,121 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 297]:[Leave FAX FSM]current state=FaxccCallState_VBD_DATA_CALL_INITIATED
+
+2017-09-26 15:43:00,289 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 63]:[Enter FAX FSM]state=FaxccCallState_FaxIdle,event=Iwu_en_FaxTone_DetectInd,CallId=9
+
+2017-09-26 15:43:00,289 [faxlog.analyzer:111]:event:Iwu_en_FaxTone_DetectInd,callid:9,module:SipWrapper
+2017-09-26 15:43:00,289 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 203]:Iwu_en_FaxTone_DetectInd:dToneTypeDetected=9
+
+2017-09-26 15:43:00,289 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 256]:dIsV152NegoSucc=0, gVbdMode=1,lIsSendVBDChangedReq=1, lIsSendECChangedReq=1
+
+2017-09-26 15:43:00,289 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 265]:entering iwu_fn_sendChangeVBDModel,dVBDState=1,dECState=0,dDataCallState=0
+
+2017-09-26 15:43:00,289 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 290]:dIsT38Attempted is:0, dIsT38AttemptedFailed is:0
+
+2017-09-26 15:43:00,289 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 297]:[Leave FAX FSM]current state=FaxccCallState_VBD_DATA_CALL_INITIATED
+
+2017-09-26 15:51:18,957 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 63]:[Enter FAX FSM]state=FaxccCallState_FaxIdle,event=Iwu_en_FaxTone_DetectInd,CallId=9
+
+2017-09-26 15:51:18,960 [faxlog.analyzer:111]:event:Iwu_en_FaxTone_DetectInd,callid:9,module:SipWrapper
+2017-09-26 15:51:18,960 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 203]:Iwu_en_FaxTone_DetectInd:dToneTypeDetected=9
+
+2017-09-26 15:51:18,960 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 256]:dIsV152NegoSucc=0, gVbdMode=1,lIsSendVBDChangedReq=1, lIsSendECChangedReq=1
+
+2017-09-26 15:51:18,960 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 265]:entering iwu_fn_sendChangeVBDModel,dVBDState=1,dECState=0,dDataCallState=0
+
+2017-09-26 15:51:18,960 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 290]:dIsT38Attempted is:0, dIsT38AttemptedFailed is:0
+
+2017-09-26 15:51:18,961 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 297]:[Leave FAX FSM]current state=FaxccCallState_VBD_DATA_CALL_INITIATED
+
+2017-09-26 15:56:58,617 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 63]:[Enter FAX FSM]state=FaxccCallState_FaxIdle,event=Iwu_en_FaxTone_DetectInd,CallId=9
+
+2017-09-26 15:56:58,617 [faxlog.analyzer:111]:event:Iwu_en_FaxTone_DetectInd,callid:9,module:SipWrapper
+2017-09-26 15:56:58,617 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 203]:Iwu_en_FaxTone_DetectInd:dToneTypeDetected=9
+
+2017-09-26 15:56:58,617 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 256]:dIsV152NegoSucc=0, gVbdMode=1,lIsSendVBDChangedReq=1, lIsSendECChangedReq=1
+
+2017-09-26 15:56:58,617 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 265]:entering iwu_fn_sendChangeVBDModel,dVBDState=1,dECState=0,dDataCallState=0
+
+2017-09-26 15:56:58,617 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 290]:dIsT38Attempted is:0, dIsT38AttemptedFailed is:0
+
+2017-09-26 15:56:58,617 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 297]:[Leave FAX FSM]current state=FaxccCallState_VBD_DATA_CALL_INITIATED
+
+2017-09-26 16:06:41,989 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 63]:[Enter FAX FSM]state=FaxccCallState_FaxIdle,event=Iwu_en_FaxTone_DetectInd,CallId=9
+
+2017-09-26 16:06:41,989 [faxlog.analyzer:111]:event:Iwu_en_FaxTone_DetectInd,callid:9,module:SipWrapper
+2017-09-26 16:06:41,989 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 203]:Iwu_en_FaxTone_DetectInd:dToneTypeDetected=9
+
+2017-09-26 16:06:41,989 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 256]:dIsV152NegoSucc=0, gVbdMode=1,lIsSendVBDChangedReq=1, lIsSendECChangedReq=1
+
+2017-09-26 16:06:42,005 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 265]:entering iwu_fn_sendChangeVBDModel,dVBDState=1,dECState=0,dDataCallState=0
+
+2017-09-26 16:06:42,005 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 290]:dIsT38Attempted is:0, dIsT38AttemptedFailed is:0
+
+2017-09-26 16:06:42,005 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 297]:[Leave FAX FSM]current state=FaxccCallState_VBD_DATA_CALL_INITIATED
+
+2017-09-26 16:08:22,759 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 63]:[Enter FAX FSM]state=FaxccCallState_FaxIdle,event=Iwu_en_FaxTone_DetectInd,CallId=9
+
+2017-09-26 16:08:22,759 [faxlog.analyzer:111]:event:Iwu_en_FaxTone_DetectInd,callid:9,module:SipWrapper
+2017-09-26 16:08:22,759 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 203]:Iwu_en_FaxTone_DetectInd:dToneTypeDetected=9
+
+2017-09-26 16:08:22,759 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 256]:dIsV152NegoSucc=0, gVbdMode=1,lIsSendVBDChangedReq=1, lIsSendECChangedReq=1
+
+2017-09-26 16:08:22,759 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 265]:entering iwu_fn_sendChangeVBDModel,dVBDState=1,dECState=0,dDataCallState=0
+
+2017-09-26 16:08:22,759 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 290]:dIsT38Attempted is:0, dIsT38AttemptedFailed is:0
+
+2017-09-26 16:08:22,759 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 297]:[Leave FAX FSM]current state=FaxccCallState_VBD_DATA_CALL_INITIATED
+
+2017-09-26 16:08:54,785 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 63]:[Enter FAX FSM]state=FaxccCallState_FaxIdle,event=Iwu_en_FaxTone_DetectInd,CallId=9
+
+2017-09-26 16:08:54,785 [faxlog.analyzer:111]:event:Iwu_en_FaxTone_DetectInd,callid:9,module:SipWrapper
+2017-09-26 16:08:54,785 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 203]:Iwu_en_FaxTone_DetectInd:dToneTypeDetected=9
+
+2017-09-26 16:08:54,785 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 256]:dIsV152NegoSucc=0, gVbdMode=1,lIsSendVBDChangedReq=1, lIsSendECChangedReq=1
+
+2017-09-26 16:08:54,799 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 265]:entering iwu_fn_sendChangeVBDModel,dVBDState=1,dECState=0,dDataCallState=0
+
+2017-09-26 16:08:54,799 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 290]:dIsT38Attempted is:0, dIsT38AttemptedFailed is:0
+
+2017-09-26 16:08:54,799 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 297]:[Leave FAX FSM]current state=FaxccCallState_VBD_DATA_CALL_INITIATED
+
+2017-09-26 16:09:08,293 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 63]:[Enter FAX FSM]state=FaxccCallState_FaxIdle,event=Iwu_en_FaxTone_DetectInd,CallId=9
+
+2017-09-26 16:09:08,309 [faxlog.analyzer:111]:event:Iwu_en_FaxTone_DetectInd,callid:9,module:SipWrapper
+2017-09-26 16:09:08,309 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 203]:Iwu_en_FaxTone_DetectInd:dToneTypeDetected=9
+
+2017-09-26 16:09:08,309 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 256]:dIsV152NegoSucc=0, gVbdMode=1,lIsSendVBDChangedReq=1, lIsSendECChangedReq=1
+
+2017-09-26 16:09:08,309 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 265]:entering iwu_fn_sendChangeVBDModel,dVBDState=1,dECState=0,dDataCallState=0
+
+2017-09-26 16:09:08,309 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 290]:dIsT38Attempted is:0, dIsT38AttemptedFailed is:0
+
+2017-09-26 16:09:08,309 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 297]:[Leave FAX FSM]current state=FaxccCallState_VBD_DATA_CALL_INITIATED
+
+2017-09-26 16:14:51,750 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 63]:[Enter FAX FSM]state=FaxccCallState_FaxIdle,event=Iwu_en_FaxTone_DetectInd,CallId=9
+
+2017-09-26 16:14:51,750 [faxlog.analyzer:111]:event:Iwu_en_FaxTone_DetectInd,callid:9,module:SipWrapper
+2017-09-26 16:14:51,750 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 203]:Iwu_en_FaxTone_DetectInd:dToneTypeDetected=9
+
+2017-09-26 16:14:51,750 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 256]:dIsV152NegoSucc=0, gVbdMode=1,lIsSendVBDChangedReq=1, lIsSendECChangedReq=1
+
+2017-09-26 16:14:51,750 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 265]:entering iwu_fn_sendChangeVBDModel,dVBDState=1,dECState=0,dDataCallState=0
+
+2017-09-26 16:14:51,750 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 290]:dIsT38Attempted is:0, dIsT38AttemptedFailed is:0
+
+2017-09-26 16:14:51,750 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 297]:[Leave FAX FSM]current state=FaxccCallState_VBD_DATA_CALL_INITIATED
+
+2017-09-26 16:33:05,161 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 63]:[Enter FAX FSM]state=FaxccCallState_FaxIdle,event=Iwu_en_FaxTone_DetectInd,CallId=9
+
+2017-09-26 16:33:05,161 [faxlog.analyzer:111]:event:Iwu_en_FaxTone_DetectInd,callid:9,module:SipWrapper
+2017-09-26 16:33:05,161 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 203]:Iwu_en_FaxTone_DetectInd:dToneTypeDetected=9
+
+2017-09-26 16:33:05,161 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 256]:dIsV152NegoSucc=0, gVbdMode=1,lIsSendVBDChangedReq=1, lIsSendECChangedReq=1
+
+2017-09-26 16:33:05,161 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 265]:entering iwu_fn_sendChangeVBDModel,dVBDState=1,dECState=0,dDataCallState=0
+
+2017-09-26 16:33:05,161 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 290]:dIsT38Attempted is:0, dIsT38AttemptedFailed is:0
+
+2017-09-26 16:33:05,161 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 297]:[Leave FAX FSM]current state=FaxccCallState_VBD_DATA_CALL_INITIATED
+
+2017-09-26 16:38:42,065 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 63]:[Enter FAX FSM]state=FaxccCallState_FaxIdle,event=Iwu_en_FaxTone_DetectInd,CallId=9
+
+2017-09-26 16:38:42,065 [faxlog.analyzer:111]:event:Iwu_en_FaxTone_DetectInd,callid:9,module:SipWrapper
+2017-09-26 16:38:42,065 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 203]:Iwu_en_FaxTone_DetectInd:dToneTypeDetected=9
+
+2017-09-26 16:38:42,065 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 256]:dIsV152NegoSucc=0, gVbdMode=1,lIsSendVBDChangedReq=1, lIsSendECChangedReq=1
+
+2017-09-26 16:38:42,065 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 265]:entering iwu_fn_sendChangeVBDModel,dVBDState=1,dECState=0,dDataCallState=0
+
+2017-09-26 16:38:42,065 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 290]:dIsT38Attempted is:0, dIsT38AttemptedFailed is:0
+
+2017-09-26 16:38:42,065 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 297]:[Leave FAX FSM]current state=FaxccCallState_VBD_DATA_CALL_INITIATED
+
+2017-09-26 21:28:53,229 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 63]:[Enter FAX FSM]state=FaxccCallState_FaxIdle,event=Iwu_en_FaxTone_DetectInd,CallId=9
+
+2017-09-26 21:28:53,229 [faxlog.analyzer:111]:event:Iwu_en_FaxTone_DetectInd,callid:9,module:SipWrapper
+2017-09-26 21:28:53,229 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 203]:Iwu_en_FaxTone_DetectInd:dToneTypeDetected=9
+
+2017-09-26 21:28:53,244 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 256]:dIsV152NegoSucc=0, gVbdMode=1,lIsSendVBDChangedReq=1, lIsSendECChangedReq=1
+
+2017-09-26 21:28:53,244 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 265]:entering iwu_fn_sendChangeVBDModel,dVBDState=1,dECState=0,dDataCallState=0
+
+2017-09-26 21:28:53,244 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 290]:dIsT38Attempted is:0, dIsT38AttemptedFailed is:0
+
+2017-09-26 21:28:53,244 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 297]:[Leave FAX FSM]current state=FaxccCallState_VBD_DATA_CALL_INITIATED
+
+2017-09-26 21:33:13,937 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 63]:[Enter FAX FSM]state=FaxccCallState_FaxIdle,event=Iwu_en_FaxTone_DetectInd,CallId=9
+
+2017-09-26 21:33:13,937 [faxlog.analyzer:111]:event:Iwu_en_FaxTone_DetectInd,callid:9,module:SipWrapper
+2017-09-26 21:33:13,937 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 203]:Iwu_en_FaxTone_DetectInd:dToneTypeDetected=9
+
+2017-09-26 21:33:13,937 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 256]:dIsV152NegoSucc=0, gVbdMode=1,lIsSendVBDChangedReq=1, lIsSendECChangedReq=1
+
+2017-09-26 21:33:13,953 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 265]:entering iwu_fn_sendChangeVBDModel,dVBDState=1,dECState=0,dDataCallState=0
+
+2017-09-26 21:33:13,953 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 290]:dIsT38Attempted is:0, dIsT38AttemptedFailed is:0
+
+2017-09-26 21:33:13,953 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 297]:[Leave FAX FSM]current state=FaxccCallState_VBD_DATA_CALL_INITIATED
+
+2017-09-26 21:34:06,592 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 63]:[Enter FAX FSM]state=FaxccCallState_FaxIdle,event=Iwu_en_FaxTone_DetectInd,CallId=9
+
+2017-09-26 21:34:06,592 [faxlog.analyzer:111]:event:Iwu_en_FaxTone_DetectInd,callid:9,module:SipWrapper
+2017-09-26 21:34:06,592 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 203]:Iwu_en_FaxTone_DetectInd:dToneTypeDetected=9
+
+2017-09-26 21:34:06,592 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 256]:dIsV152NegoSucc=0, gVbdMode=1,lIsSendVBDChangedReq=1, lIsSendECChangedReq=1
+
+2017-09-26 21:34:06,592 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 265]:entering iwu_fn_sendChangeVBDModel,dVBDState=1,dECState=0,dDataCallState=0
+
+2017-09-26 21:34:06,592 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 290]:dIsT38Attempted is:0, dIsT38AttemptedFailed is:0
+
+2017-09-26 21:34:06,592 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 297]:[Leave FAX FSM]current state=FaxccCallState_VBD_DATA_CALL_INITIATED
+
+2017-09-26 21:34:26,585 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 63]:[Enter FAX FSM]state=FaxccCallState_FaxIdle,event=Iwu_en_FaxTone_DetectInd,CallId=9
+
+2017-09-26 21:34:26,585 [faxlog.analyzer:111]:event:Iwu_en_FaxTone_DetectInd,callid:9,module:SipWrapper
+2017-09-26 21:34:26,585 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 203]:Iwu_en_FaxTone_DetectInd:dToneTypeDetected=9
+
+2017-09-26 21:34:26,585 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 256]:dIsV152NegoSucc=0, gVbdMode=1,lIsSendVBDChangedReq=1, lIsSendECChangedReq=1
+
+2017-09-26 21:34:26,585 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 265]:entering iwu_fn_sendChangeVBDModel,dVBDState=1,dECState=0,dDataCallState=0
+
+2017-09-26 21:34:26,585 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 290]:dIsT38Attempted is:0, dIsT38AttemptedFailed is:0
+
+2017-09-26 21:34:26,585 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 297]:[Leave FAX FSM]current state=FaxccCallState_VBD_DATA_CALL_INITIATED
+
+2017-09-26 21:35:52,494 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 63]:[Enter FAX FSM]state=FaxccCallState_FaxIdle,event=Iwu_en_FaxTone_DetectInd,CallId=9
+
+2017-09-26 21:35:52,494 [faxlog.analyzer:111]:event:Iwu_en_FaxTone_DetectInd,callid:9,module:SipWrapper
+2017-09-26 21:35:52,494 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 203]:Iwu_en_FaxTone_DetectInd:dToneTypeDetected=9
+
+2017-09-26 21:35:52,494 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 256]:dIsV152NegoSucc=0, gVbdMode=1,lIsSendVBDChangedReq=1, lIsSendECChangedReq=1
+
+2017-09-26 21:35:52,494 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 265]:entering iwu_fn_sendChangeVBDModel,dVBDState=1,dECState=0,dDataCallState=0
+
+2017-09-26 21:35:52,494 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 290]:dIsT38Attempted is:0, dIsT38AttemptedFailed is:0
+
+2017-09-26 21:35:52,494 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 297]:[Leave FAX FSM]current state=FaxccCallState_VBD_DATA_CALL_INITIATED
+
+2017-09-26 21:37:07,213 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 63]:[Enter FAX FSM]state=FaxccCallState_FaxIdle,event=Iwu_en_FaxTone_DetectInd,CallId=9
+
+2017-09-26 21:37:07,213 [faxlog.analyzer:111]:event:Iwu_en_FaxTone_DetectInd,callid:9,module:SipWrapper
+2017-09-26 21:37:07,213 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 203]:Iwu_en_FaxTone_DetectInd:dToneTypeDetected=9
+
+2017-09-26 21:37:07,213 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 256]:dIsV152NegoSucc=0, gVbdMode=1,lIsSendVBDChangedReq=1, lIsSendECChangedReq=1
+
+2017-09-26 21:37:07,213 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 265]:entering iwu_fn_sendChangeVBDModel,dVBDState=1,dECState=0,dDataCallState=0
+
+2017-09-26 21:37:07,213 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 290]:dIsT38Attempted is:0, dIsT38AttemptedFailed is:0
+
+2017-09-26 21:37:07,213 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 297]:[Leave FAX FSM]current state=FaxccCallState_VBD_DATA_CALL_INITIATED
+
+2017-09-26 21:38:02,066 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 63]:[Enter FAX FSM]state=FaxccCallState_FaxIdle,event=Iwu_en_FaxTone_DetectInd,CallId=9
+
+2017-09-26 21:38:02,066 [faxlog.analyzer:111]:event:Iwu_en_FaxTone_DetectInd,callid:9,module:SipWrapper
+2017-09-26 21:38:02,066 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 203]:Iwu_en_FaxTone_DetectInd:dToneTypeDetected=9
+
+2017-09-26 21:38:02,066 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 256]:dIsV152NegoSucc=0, gVbdMode=1,lIsSendVBDChangedReq=1, lIsSendECChangedReq=1
+
+2017-09-26 21:38:02,066 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 265]:entering iwu_fn_sendChangeVBDModel,dVBDState=1,dECState=0,dDataCallState=0
+
+2017-09-26 21:38:02,066 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 290]:dIsT38Attempted is:0, dIsT38AttemptedFailed is:0
+
+2017-09-26 21:38:02,066 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 297]:[Leave FAX FSM]current state=FaxccCallState_VBD_DATA_CALL_INITIATED
+
+2017-09-26 21:38:24,572 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 63]:[Enter FAX FSM]state=FaxccCallState_FaxIdle,event=Iwu_en_FaxTone_DetectInd,CallId=9
+
+2017-09-26 21:38:24,586 [faxlog.analyzer:111]:event:Iwu_en_FaxTone_DetectInd,callid:9,module:SipWrapper
+2017-09-26 21:38:24,586 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 203]:Iwu_en_FaxTone_DetectInd:dToneTypeDetected=9
+
+2017-09-26 21:38:24,586 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 256]:dIsV152NegoSucc=0, gVbdMode=1,lIsSendVBDChangedReq=1, lIsSendECChangedReq=1
+
+2017-09-26 21:38:24,586 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 265]:entering iwu_fn_sendChangeVBDModel,dVBDState=1,dECState=0,dDataCallState=0
+
+2017-09-26 21:38:24,586 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 290]:dIsT38Attempted is:0, dIsT38AttemptedFailed is:0
+
+2017-09-26 21:38:24,586 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 297]:[Leave FAX FSM]current state=FaxccCallState_VBD_DATA_CALL_INITIATED
+
+2017-09-26 21:38:53,825 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 63]:[Enter FAX FSM]state=FaxccCallState_FaxIdle,event=Iwu_en_FaxTone_DetectInd,CallId=9
+
+2017-09-26 21:38:53,825 [faxlog.analyzer:111]:event:Iwu_en_FaxTone_DetectInd,callid:9,module:SipWrapper
+2017-09-26 21:38:53,825 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 203]:Iwu_en_FaxTone_DetectInd:dToneTypeDetected=9
+
+2017-09-26 21:38:53,825 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 256]:dIsV152NegoSucc=0, gVbdMode=1,lIsSendVBDChangedReq=1, lIsSendECChangedReq=1
+
+2017-09-26 21:38:53,825 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 265]:entering iwu_fn_sendChangeVBDModel,dVBDState=1,dECState=0,dDataCallState=0
+
+2017-09-26 21:38:53,825 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 290]:dIsT38Attempted is:0, dIsT38AttemptedFailed is:0
+
+2017-09-26 21:38:53,825 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 297]:[Leave FAX FSM]current state=FaxccCallState_VBD_DATA_CALL_INITIATED
+
+2017-09-26 21:39:05,602 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 63]:[Enter FAX FSM]state=FaxccCallState_FaxIdle,event=Iwu_en_FaxTone_DetectInd,CallId=9
+
+2017-09-26 21:39:05,602 [faxlog.analyzer:111]:event:Iwu_en_FaxTone_DetectInd,callid:9,module:SipWrapper
+2017-09-26 21:39:05,602 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 203]:Iwu_en_FaxTone_DetectInd:dToneTypeDetected=9
+
+2017-09-26 21:39:05,618 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 256]:dIsV152NegoSucc=0, gVbdMode=1,lIsSendVBDChangedReq=1, lIsSendECChangedReq=1
+
+2017-09-26 21:39:05,618 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 265]:entering iwu_fn_sendChangeVBDModel,dVBDState=1,dECState=0,dDataCallState=0
+
+2017-09-26 21:39:05,618 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 290]:dIsT38Attempted is:0, dIsT38AttemptedFailed is:0
+
+2017-09-26 21:39:05,618 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 297]:[Leave FAX FSM]current state=FaxccCallState_VBD_DATA_CALL_INITIATED
+
+2017-09-26 21:39:34,253 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 63]:[Enter FAX FSM]state=FaxccCallState_FaxIdle,event=Iwu_en_FaxTone_DetectInd,CallId=9
+
+2017-09-26 21:39:34,253 [faxlog.analyzer:111]:event:Iwu_en_FaxTone_DetectInd,callid:9,module:SipWrapper
+2017-09-26 21:39:34,253 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 203]:Iwu_en_FaxTone_DetectInd:dToneTypeDetected=9
+
+2017-09-26 21:39:34,253 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 256]:dIsV152NegoSucc=0, gVbdMode=1,lIsSendVBDChangedReq=1, lIsSendECChangedReq=1
+
+2017-09-26 21:39:34,253 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 265]:entering iwu_fn_sendChangeVBDModel,dVBDState=1,dECState=0,dDataCallState=0
+
+2017-09-26 21:39:34,253 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 290]:dIsT38Attempted is:0, dIsT38AttemptedFailed is:0
+
+2017-09-26 21:39:34,253 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 297]:[Leave FAX FSM]current state=FaxccCallState_VBD_DATA_CALL_INITIATED
+
+2017-09-26 21:40:14,516 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 63]:[Enter FAX FSM]state=FaxccCallState_FaxIdle,event=Iwu_en_FaxTone_DetectInd,CallId=9
+
+2017-09-26 21:40:14,516 [faxlog.analyzer:111]:event:Iwu_en_FaxTone_DetectInd,callid:9,module:SipWrapper
+2017-09-26 21:40:14,516 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 203]:Iwu_en_FaxTone_DetectInd:dToneTypeDetected=9
+
+2017-09-26 21:40:14,516 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 256]:dIsV152NegoSucc=0, gVbdMode=1,lIsSendVBDChangedReq=1, lIsSendECChangedReq=1
+
+2017-09-26 21:40:14,516 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 265]:entering iwu_fn_sendChangeVBDModel,dVBDState=1,dECState=0,dDataCallState=0
+
+2017-09-26 21:40:14,516 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 290]:dIsT38Attempted is:0, dIsT38AttemptedFailed is:0
+
+2017-09-26 21:40:14,516 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 297]:[Leave FAX FSM]current state=FaxccCallState_VBD_DATA_CALL_INITIATED
+
+2017-09-26 21:55:04,371 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 63]:[Enter FAX FSM]state=FaxccCallState_FaxIdle,event=Iwu_en_FaxTone_DetectInd,CallId=9
+
+2017-09-26 21:55:04,371 [faxlog.analyzer:111]:event:Iwu_en_FaxTone_DetectInd,callid:9,module:SipWrapper
+2017-09-26 21:55:04,385 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 203]:Iwu_en_FaxTone_DetectInd:dToneTypeDetected=9
+
+2017-09-26 21:55:04,385 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 256]:dIsV152NegoSucc=0, gVbdMode=1,lIsSendVBDChangedReq=1, lIsSendECChangedReq=1
+
+2017-09-26 21:55:04,385 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 265]:entering iwu_fn_sendChangeVBDModel,dVBDState=1,dECState=0,dDataCallState=0
+
+2017-09-26 21:55:04,385 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 290]:dIsT38Attempted is:0, dIsT38AttemptedFailed is:0
+
+2017-09-26 21:55:04,385 [faxlog.analyzer:104]:line is:[iwu_fn_ccFaxIdle, 297]:[Leave FAX FSM]current state=FaxccCallState_VBD_DATA_CALL_INITIATED
+

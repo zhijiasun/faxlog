@@ -1,0 +1,55 @@
+<html>
+<head>
+<script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+<script src="webfontloader.js"></script>
+<script src="snap.svg-min.js"></script>
+<script src="underscore-min.js"></script>
+<script src="sequence-diagram-min.js"></script>
+</head>
+<body>
+<div class="diagram">
+SipWrapper->FAX_IDLE:Iwu_en_ccToneDetected
+Note over FAX_IDLE:CallId=4
+Note over FAX_IDLE:Iwu_en_ccToneDetected:dToneTypeDetected=9
+Note over FAX_IDLE:dIsV152NegoSucc=0, gVbdMode=1,lIsSendVBDChangedReq=1, lIsSendECChangedReq=1
+Note over FAX_IDLE:entering iwu_fn_sendChangeVBDModel,current channel type=0,changed to channel type=1,change reason=0
+Note over FAX_IDLE:dIsT38Attempted is:0, dIsT38AttemptedFailed is:0
+FAX_IDLE->VBD_INITIATED:change state to VBD_INITIATED
+SipWrapper->VBD_INITIATED:Iwu_en_vbdstate_change_resp
+Note over VBD_INITIATED:CallId=4
+Note over VBD_INITIATED:Iwu_en_vbdstate_change_resp:dVBDState=1,dECState=0,result=1
+Note over VBD_INITIATED:dIsV152NegoSucc=0, gVbdMode=1,isLocalCNGReceived=0 dIsVBDNegotiated=0
+VBD_INITIATED->VBD_ACTIVATED:change state to VBD_ACTIVATED
+SipWrapper->VBD_ACTIVATED:Iwu_en_ccToneDetected
+Note over VBD_ACTIVATED:CallId=4
+Note over VBD_ACTIVATED:Iwu_en_ccToneDetected,dToneTypeDetected=9gVbdMode=1, dIsV152NegoSucc=0, dIsVBDNegotiated=0, lIsAutoSwitch=1
+Note over VBD_ACTIVATED:lIsSendVBDChangedReq=0, lIsSendECChangedReq=0, lIsSendVoiceReq=0, lIsSendT38Req=0
+VBD_ACTIVATED->VBD_ACTIVATED:change state to VBD_ACTIVATED
+SipWrapper->VBD_ACTIVATED:Iwu_en_ccToneDetected
+Note over VBD_ACTIVATED:CallId=4
+Note over VBD_ACTIVATED:Iwu_en_ccToneDetected,dToneTypeDetected=9gVbdMode=1, dIsV152NegoSucc=0, dIsVBDNegotiated=0, lIsAutoSwitch=1
+Note over VBD_ACTIVATED:lIsSendVBDChangedReq=0, lIsSendECChangedReq=0, lIsSendVoiceReq=0, lIsSendT38Req=0
+VBD_ACTIVATED->VBD_ACTIVATED:change state to VBD_ACTIVATED
+SipWrapper->VBD_ACTIVATED:Iwu_en_ccToneDetected
+Note over VBD_ACTIVATED:CallId=4
+Note over VBD_ACTIVATED:Iwu_en_ccToneDetected,dToneTypeDetected=11gVbdMode=1, dIsV152NegoSucc=0, dIsVBDNegotiated=0, lIsAutoSwitch=1
+Note over VBD_ACTIVATED:lIsSendVBDChangedReq=0, lIsSendECChangedReq=1, lIsSendVoiceReq=0, lIsSendT38Req=0
+Note over VBD_ACTIVATED:entering iwu_fn_sendChangeVBDModel
+VBD_ACTIVATED->VBD_ACTIVATED:change state to VBD_ACTIVATED
+SipWrapper->VBD_ACTIVATED:Iwu_en_vbdstate_change_resp
+Note over VBD_ACTIVATED:CallId=4
+Note over VBD_ACTIVATED:Iwu_en_vbdstate_change_resp:dVBDState=2,dECState=1,result=1
+VBD_ACTIVATED->VBD_ACTIVATED:change state to VBD_ACTIVATED
+SipWrapper->VBD_ACTIVATED:Iwu_en_ccToneDetected
+Note over VBD_ACTIVATED:CallId=4
+Note over VBD_ACTIVATED:Iwu_en_ccToneDetected,dToneTypeDetected=11gVbdMode=1, dIsV152NegoSucc=0, dIsVBDNegotiated=0, lIsAutoSwitch=1
+Note over VBD_ACTIVATED:lIsSendVBDChangedReq=0, lIsSendECChangedReq=0, lIsSendVoiceReq=0, lIsSendT38Req=0
+VBD_ACTIVATED->VBD_ACTIVATED:change state to VBD_ACTIVATED
+
+
+</div>
+<script type="text/javascript">
+$(".diagram").sequenceDiagram({theme: 'simple'});
+</script>
+</body>
+</html>

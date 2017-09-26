@@ -1,0 +1,51 @@
+<html>
+{% load static %}
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+        <link rel="stylesheet" href="{% static 'analyzer/css/bootstrap.min.css' %}" type="text/css" media="screen" charset="utf-8">
+    
+        <title>fax log analyzer</title>
+        <script type="text/javascript" charset="utf-8">
+            function getValue()
+            {
+                var x=document.getElementById("docId").value;
+                if(x=="")
+                {
+                    alert("please select your log file first");
+                    return false;
+                }
+                return true;
+            }
+        </script>
+         <style type="text/css">
+		body{background:#D2D460;text-align:center;height: 100%;}
+		</style>
+    </head>
+    <body>
+    <form action="" method="post" enctype="multipart/form-data" style="height: 50%;" onsubmit="return getValue();">
+        {% csrf_token %}
+        <table style="height:100%;width:100%;" border="0">
+            <tbody>
+                <tr border="0">
+                    <td align="center">
+                        <h1>Welcom To Use Analyzer</h1>
+                    </td>
+                </tr>
+            <tr>
+                <td align="center" valign="middle"> 
+                    <input type="file" name="log" value="" class="btn btn-primary" id="docId">
+                </td>
+            </tr>
+            <tr>
+                <td align="center" valign="middle">
+                    <button type="submit" class="btn btn-primary" >Submit</button>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </form>
+
+    <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+    <script src="{% static 'analyzer/js/bootstrap.min.js' %}"></script>
+    </body>
+</html>

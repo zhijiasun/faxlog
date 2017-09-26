@@ -1,0 +1,100 @@
+﻿OAM:
+configure mstp general disable-stp   //very important
+
+configure mstp general disable-stp
+configure interface shub port 0 port-type network admin-status up
+configure interface shub port 2 port-type network admin-status up
+configure interface shub port 5 port-type network admin-status up
+exit all
+
+configure system management host-ip-address manual:135.252.37.73/27
+configure system management default-route 135.252.37.65
+
+configure interface shub port [0...7] port-type network admin-status up
+exit all
+
+configure vlan shub id 4093 egress-port network:2s
+configure vlan shub id 4093  untag-port network:2
+configure bridge shub port 2 pvid 4093
+exit all
+
+(1)	Update the new binary and enable.
+admin software-mngt oswp 2 commit        
+configure software-mngt oswp 1 download-set complete-set primary-file-server-id 135.251.87.45
+admin software-mngt oswp 1 download L6GPAA43.861  
+admin software-mngt oswp 2 activate with-default-db    
+
+(2) Update the CDE file and active.
+admin software-mngt cdeprof download 135.251.87.45:MSR2QC43.001
+admin software-mngt cdeprof activate  MSR2QC43.001  
+
+(3)	Active the NVPS card and NPOT-A card.     
+configure equipment slot lt:1/1/17 planned-type nvps-a      
+configure equipment slot lt:1/1/16 planned-type npot-b capab-profile h248
+exit all
+
+(4)	Provision MEGACO VLAN.
+configure vlan shub id 87 mode residential-bridge
+configure vlan shub id 87 egress-port network:0   
+configure vlan shub id 87 egress-port network:5  
+configure vlan shub id 87 egress-port lt:1/1/17   
+configure vlan shub id 87 untag-port network:5
+configure bridge shub port 5 pvid 87
+exit all
+
+(5)	Provision voice vlan
+configure vlan shub id 2 name voice mode voice-vlan
+configure vlan shub id 2 egress-port network:0
+configure vlan shub id 2 egress-port lt:1/1/13  
+configure vlan shub id 2 egress-port lt:1/1/3
+configure vlan shub id 2 egress-port lt:1/1/16
+exit all
+
+
+(6)	Provision the VRF
+configure ip shub vrf 4 fast-path-mode:ena-user-user-com name voice 
+configure interface shub vlan-id 2
+configure interface shub ip 2 vrf-id 4
+configure interface shub ip 2 ip-addr 20.0.0.189/24
+configure ip shub vrf 4 route-dest 0.0.0.0/0 next-hop 20.0.0.1 vlan-id 2
+configure interface shub vlan-id 2 admin-status up 
+exit all
+
+(7)	Provision media gateway   // mg：192.168.0.110 mgc：192.168.0.2  小卡：192.168.0.1
+
+configure voice cluster 7 ip ivps-ip 20.0.0.188 netmask 255.255.255.0 router-ip 20.0.0.1 vlan-id 2   
+configure voice cluster 7 media-gateway 1 name Mg1 ip-address 192.168.0.110 netmask 255.255.255.0 router-ip 192.168.0.1 vlan-id 87 prim-mgc-ip 192.168.0.2 admin-status unlocked
+configure voice cluster 7 equipment 1 asam-id node1 ip-address 20.0.0.189 next-hop 0.0.0.0   
+configure voice cluster 7 signal-gateway 1 prim-asp-ip 192.168.0.2  ip-address 192.168.0.110 prim-sctp-port 9900 sgi-mgi 1 sgi-user-label psgi admin-status unlocked
+exit all
+
+(8)	Provision termination
+configure voice cluster 7 equipment 1 board 1/1/3 lanx-port 3 planned-type npot-a
+configure voice cluster 7 equipment 1 board 1/1/16 lanx-port 13 planned-type npot-b
+
+ 
+
+  
+configure voice cluster 7 equipment 1 termination 1/1/3/25 termination-id 1 media-gateway-id 1 admin-status unlocked
+configure voice cluster 7 equipment 1 termination 1/1/3/26 termination-id 2 media-gateway-id 1 admin-status unlocked 
+configure voice cluster 7 equipment 1 termination 1/1/3/27 termination-id 3 media-gateway-id 1 admin-status unlocked
+
+configure voice cluster 7 equipment 1 termination 1/1/16/1 termination-id 9 media-gateway-id 1 admin-status unlocked
+configure voice cluster 7 equipment 1 termination 1/1/16/2 termination-id 10 media-gateway-id 1 admin-status unlocked 
+configure voice cluster 7 equipment 1 termination 1/1/16/3 termination-id 11 media-gateway-id 1 admin-status unlocked
+
+(9)	Start the MGC.
+Double click to run mgc_run.bat
+
+(10)	Need restart MG if MGC is not available at first.
+configure voice cluster 7 media-gateway 1 admin-status locked 
+configure voice cluster 7 signal-gateway 1 admin-status locked
+configure voice cluster 7 media-gateway 1 admin-status unlocked
+configure voice cluster 7 signal-gateway 1 admin-status unlocked
+
+
+
+查看终端状态：
+
+show voice cluster 7 termination
+

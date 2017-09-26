@@ -1,0 +1,797 @@
+2017-09-26 10:32:15,700 [Dummy-1:18404] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2017-09-26 10:32:15,700 [Dummy-1:18404] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2017-09-26 10:32:18,336 [Thread-2:18424] [django.server:131] [basehttp:log_message] [INFO]- "GET /analyzer/ HTTP/1.1" 200 1387
+2017-09-26 10:36:34,084 [Dummy-1:18744] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2017-09-26 10:36:34,098 [Dummy-1:18744] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2017-09-26 10:36:37,203 [Thread-2:18056] [django.server:131] [basehttp:log_message] [INFO]- "GET /analyzer/ HTTP/1.1" 200 1387
+2017-09-26 10:37:18,118 [Dummy-1:18984] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2017-09-26 10:37:18,134 [Dummy-1:18984] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2017-09-26 10:37:22,253 [Thread-2:14172] [django.server:131] [basehttp:log_message] [INFO]- "GET /analyzer/ HTTP/1.1" 200 1387
+2017-09-26 10:37:53,094 [Dummy-1:19048] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2017-09-26 10:37:53,109 [Dummy-1:19048] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2017-09-26 10:37:55,948 [Thread-2:17496] [django.server:131] [basehttp:log_message] [INFO]- "GET /analyzer/ HTTP/1.1" 200 1387
+2017-09-26 10:38:08,203 [Dummy-1:15296] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2017-09-26 10:38:08,220 [Dummy-1:15296] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2017-09-26 10:38:37,766 [Dummy-1:16984] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2017-09-26 10:38:37,766 [Dummy-1:16984] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2017-09-26 10:40:01,042 [Dummy-1:17372] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2017-09-26 10:40:01,042 [Dummy-1:17372] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2017-09-26 10:41:35,611 [Thread-2:20296] [django.server:131] [basehttp:log_message] [INFO]- "POST /analyzer/ HTTP/1.1" 200 4046
+2017-09-26 11:04:00,838 [Dummy-1:21256] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2017-09-26 11:04:00,838 [Dummy-1:21256] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2017-09-26 11:05:24,456 [Dummy-1:21208] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2017-09-26 11:05:24,456 [Dummy-1:21208] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2017-09-26 11:12:30,345 [Dummy-1:22068] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2017-09-26 11:12:30,345 [Dummy-1:22068] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2017-09-26 11:13:10,691 [Dummy-1:22648] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2017-09-26 11:13:10,691 [Dummy-1:22648] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2017-09-26 11:13:26,480 [Dummy-1:22912] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2017-09-26 11:13:26,483 [Dummy-1:22912] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2017-09-26 11:13:30,326 [Thread-2:22936] [django.server:131] [basehttp:log_message] [INFO]- "GET /analyzer/ HTTP/1.1" 200 1387
+2017-09-26 11:13:38,361 [Thread-4:23152] [django.server:131] [basehttp:log_message] [INFO]- "POST /analyzer/ HTTP/1.1" 200 4046
+2017-09-26 11:15:07,122 [Dummy-1:23088] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2017-09-26 11:15:07,122 [Dummy-1:23088] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2017-09-26 11:15:18,260 [Thread-2:22580] [django.server:131] [basehttp:log_message] [INFO]- "GET /analyzer/ HTTP/1.1" 200 1387
+2017-09-26 11:15:25,141 [Thread-5:22844] [django.server:131] [basehttp:log_message] [INFO]- "POST /analyzer/ HTTP/1.1" 200 4046
+2017-09-26 12:04:33,173 [Dummy-1:8380] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2017-09-26 12:04:33,173 [Dummy-1:8380] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2017-09-26 12:04:45,572 [Dummy-1:22628] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2017-09-26 12:04:45,572 [Dummy-1:22628] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2017-09-26 12:06:03,993 [Dummy-1:23736] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2017-09-26 12:06:03,993 [Dummy-1:23736] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2017-09-26 12:06:09,500 [Thread-2:23776] [django.server:131] [basehttp:log_message] [INFO]- "GET /analyzer/ HTTP/1.1" 200 1387
+2017-09-26 12:06:16,691 [Thread-5:23944] [django.server:131] [basehttp:log_message] [INFO]- "POST /analyzer/ HTTP/1.1" 200 4046
+2017-09-26 12:07:20,624 [Dummy-1:23648] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2017-09-26 12:07:20,624 [Dummy-1:23648] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2017-09-26 12:07:23,369 [Thread-2:23664] [django.server:131] [basehttp:log_message] [INFO]- "GET /analyzer/ HTTP/1.1" 200 1387
+2017-09-26 12:07:28,595 [Thread-5:22708] [django.server:131] [basehttp:log_message] [INFO]- "POST /analyzer/ HTTP/1.1" 200 4046
+2017-09-26 12:11:17,900 [Thread-1:18412] [django.server:131] [basehttp:log_message] [INFO]- "GET /analyzer/ HTTP/1.1" 200 1387
+2017-09-26 12:11:25,877 [Thread-4:24220] [django.request:152] [base:get_response] [WARNING]- Not Found: /
+2017-09-26 12:11:25,878 [Thread-4:24220] [django.server:131] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 74
+2017-09-26 12:11:31,661 [Thread-5:22832] [django.request:152] [base:get_response] [WARNING]- Not Found: /analyzer/fadf
+2017-09-26 12:11:31,676 [Thread-5:22832] [django.server:131] [basehttp:log_message] [WARNING]- "GET /analyzer/fadf HTTP/1.1" 404 87
+2017-09-26 12:11:37,447 [Thread-6:22996] [django.request:152] [base:get_response] [WARNING]- Not Found: /
+2017-09-26 12:11:37,447 [Thread-6:22996] [django.server:131] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 74
+2017-09-26 12:11:42,082 [Thread-7:10812] [django.server:131] [basehttp:log_message] [INFO]- "GET /analyzer/ HTTP/1.1" 200 1387
+2017-09-26 12:11:49,444 [Thread-9:21208] [django.server:131] [basehttp:log_message] [INFO]- "POST /analyzer/ HTTP/1.1" 200 1061
+2017-09-26 12:19:28,555 [Thread-1:23384] [django.server:131] [basehttp:log_message] [INFO]- "GET /analyzer/ HTTP/1.1" 200 1387
+2017-09-26 12:19:37,759 [Thread-4:23056] [django.request:132] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /analyzer/
+Traceback (most recent call last):
+  File "D:\Python27\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = get_response(request)
+  File "D:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\codes\python\faxlog\analyzer\views.py", line 40, in index
+    if faxlog:
+NameError: global name 'faxlog' is not defined
+2017-09-26 12:19:37,759 [Thread-4:23056] [django.server:131] [basehttp:log_message] [ERROR]- "POST /analyzer/ HTTP/1.1" 500 27
+2017-09-26 12:21:19,635 [Thread-1:26324] [django.server:131] [basehttp:log_message] [INFO]- "GET /analyzer/ HTTP/1.1" 200 1387
+2017-09-26 12:21:27,670 [Thread-4:26172] [django.request:132] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /analyzer/
+Traceback (most recent call last):
+  File "D:\Python27\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = get_response(request)
+  File "D:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\codes\python\faxlog\analyzer\views.py", line 40, in index
+    if faxlog:
+NameError: global name 'faxlog' is not defined
+2017-09-26 12:21:27,686 [Thread-4:26172] [django.server:131] [basehttp:log_message] [ERROR]- "POST /analyzer/ HTTP/1.1" 500 27
+2017-09-26 12:21:47,250 [Thread-1:26804] [django.server:131] [basehttp:log_message] [INFO]- "GET /analyzer/ HTTP/1.1" 200 1387
+2017-09-26 12:21:52,273 [Thread-3:26808] [django.server:131] [basehttp:log_message] [INFO]- "POST /analyzer/ HTTP/1.1" 200 1153
+2017-09-26 13:41:52,700 [Thread-1:26612] [django.server:131] [basehttp:log_message] [INFO]- "GET /analyzer HTTP/1.1" 301 0
+2017-09-26 13:41:52,730 [Thread-3:27088] [django.server:131] [basehttp:log_message] [INFO]- "GET /analyzer/ HTTP/1.1" 200 1387
+2017-09-26 13:41:52,792 [Thread-4:23624] [django.request:152] [base:get_response] [WARNING]- Not Found: /static/analyzer/css/bootstrap.min.css
+2017-09-26 13:41:52,792 [Thread-4:23624] [django.server:131] [basehttp:log_message] [WARNING]- "GET /static/analyzer/css/bootstrap.min.css HTTP/1.1" 404 111
+2017-09-26 13:41:52,964 [Thread-5:26792] [django.request:152] [base:get_response] [WARNING]- Not Found: /static/analyzer/js/bootstrap.min.js
+2017-09-26 13:41:52,964 [Thread-5:26792] [django.server:131] [basehttp:log_message] [WARNING]- "GET /static/analyzer/js/bootstrap.min.js HTTP/1.1" 404 109
+2017-09-26 13:41:53,012 [Thread-6:26776] [django.request:152] [base:get_response] [WARNING]- Not Found: /static/analyzer/js/bootstrap.min.js
+2017-09-26 13:41:53,012 [Thread-6:26776] [django.server:131] [basehttp:log_message] [WARNING]- "GET /static/analyzer/js/bootstrap.min.js HTTP/1.1" 404 109
+2017-09-26 13:41:53,167 [Thread-7:26772] [django.request:152] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2017-09-26 13:41:53,167 [Thread-7:26772] [django.server:131] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 85
+2017-09-26 13:41:53,276 [Thread-8:20916] [django.request:152] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2017-09-26 13:41:53,276 [Thread-8:20916] [django.server:131] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 85
+2017-09-26 13:42:21,746 [Thread-9:25624] [django.server:131] [basehttp:log_message] [INFO]- "POST /analyzer/ HTTP/1.1" 200 4064
+2017-09-26 13:42:21,809 [Thread-10:27428] [django.request:152] [base:get_response] [WARNING]- Not Found: /static/analyzer/css/bootstrap.min.css
+2017-09-26 13:42:21,809 [Thread-10:27428] [django.server:131] [basehttp:log_message] [WARNING]- "GET /static/analyzer/css/bootstrap.min.css HTTP/1.1" 404 111
+2017-09-26 13:42:21,825 [Thread-11:21188] [django.request:152] [base:get_response] [WARNING]- Not Found: /static/analyzer/js/jquery-3.2.1.min.js
+2017-09-26 13:42:21,825 [Thread-11:21188] [django.server:131] [basehttp:log_message] [WARNING]- "GET /static/analyzer/js/jquery-3.2.1.min.js HTTP/1.1" 404 112
+2017-09-26 13:42:21,825 [Thread-12:22812] [django.request:152] [base:get_response] [WARNING]- Not Found: /static/analyzer/js/webfontloader.js
+2017-09-26 13:42:21,825 [Thread-13:24656] [django.request:152] [base:get_response] [WARNING]- Not Found: /static/analyzer/js/snap.svg-min.js
+2017-09-26 13:42:21,825 [Thread-12:22812] [django.server:131] [basehttp:log_message] [WARNING]- "GET /static/analyzer/js/webfontloader.js HTTP/1.1" 404 109
+2017-09-26 13:42:21,825 [Thread-14:26784] [django.request:152] [base:get_response] [WARNING]- Not Found: /static/analyzer/js/underscore-min.js
+2017-09-26 13:42:21,825 [Thread-15:13528] [django.request:152] [base:get_response] [WARNING]- Not Found: /static/analyzer/js/sequence-diagram-min.js
+2017-09-26 13:42:21,825 [Thread-13:24656] [django.server:131] [basehttp:log_message] [WARNING]- "GET /static/analyzer/js/snap.svg-min.js HTTP/1.1" 404 108
+2017-09-26 13:42:21,825 [Thread-14:26784] [django.server:131] [basehttp:log_message] [WARNING]- "GET /static/analyzer/js/underscore-min.js HTTP/1.1" 404 110
+2017-09-26 13:42:21,825 [Thread-15:13528] [django.server:131] [basehttp:log_message] [WARNING]- "GET /static/analyzer/js/sequence-diagram-min.js HTTP/1.1" 404 116
+2017-09-26 13:42:21,855 [Thread-16:24796] [django.request:152] [base:get_response] [WARNING]- Not Found: /static/analyzer/js/webfontloader.js
+2017-09-26 13:42:21,855 [Thread-16:24796] [django.server:131] [basehttp:log_message] [WARNING]- "GET /static/analyzer/js/webfontloader.js HTTP/1.1" 404 109
+2017-09-26 13:42:21,855 [Thread-17:26936] [django.request:152] [base:get_response] [WARNING]- Not Found: /static/analyzer/js/snap.svg-min.js
+2017-09-26 13:42:21,855 [Thread-17:26936] [django.server:131] [basehttp:log_message] [WARNING]- "GET /static/analyzer/js/snap.svg-min.js HTTP/1.1" 404 108
+2017-09-26 13:42:21,871 [Thread-18:25560] [django.request:152] [base:get_response] [WARNING]- Not Found: /static/analyzer/js/underscore-min.js
+2017-09-26 13:42:21,871 [Thread-18:25560] [django.server:131] [basehttp:log_message] [WARNING]- "GET /static/analyzer/js/underscore-min.js HTTP/1.1" 404 110
+2017-09-26 13:42:21,871 [Thread-19:22464] [django.request:152] [base:get_response] [WARNING]- Not Found: /static/analyzer/js/sequence-diagram-min.js
+2017-09-26 13:42:21,871 [Thread-19:22464] [django.server:131] [basehttp:log_message] [WARNING]- "GET /static/analyzer/js/sequence-diagram-min.js HTTP/1.1" 404 116
+2017-09-26 13:42:26,739 [Thread-20:26644] [django.server:131] [basehttp:log_message] [INFO]- "GET /analyzer/ HTTP/1.1" 200 1387
+2017-09-26 13:44:51,506 [Thread-22:23824] [django.request:152] [base:get_response] [WARNING]- Not Found: /analyzer/ static/analyzer/js/underscore-min.js
+2017-09-26 13:44:51,506 [Thread-22:23824] [django.server:131] [basehttp:log_message] [WARNING]- "GET /analyzer/%20static/analyzer/js/underscore-min.js HTTP/1.1" 404 120
+2017-09-26 13:44:56,592 [Thread-23:27428] [django.request:152] [base:get_response] [WARNING]- Not Found: /analyzer/static/analyzer/js/underscore-min.js
+2017-09-26 13:44:56,592 [Thread-23:27428] [django.server:131] [basehttp:log_message] [WARNING]- "GET /analyzer/static/analyzer/js/underscore-min.js HTTP/1.1" 404 119
+2017-09-26 13:45:04,829 [Thread-24:27556] [django.request:152] [base:get_response] [WARNING]- Not Found: /static/analyzer/js/underscore-min.js
+2017-09-26 13:45:04,829 [Thread-24:27556] [django.server:131] [basehttp:log_message] [WARNING]- "GET /static/analyzer/js/underscore-min.js HTTP/1.1" 404 110
+2017-09-26 13:45:09,042 [Thread-25:27548] [django.request:152] [base:get_response] [WARNING]- Not Found: /static/analyzer/js/underscore-min.js
+2017-09-26 13:45:09,042 [Thread-25:27548] [django.server:131] [basehttp:log_message] [WARNING]- "GET /static/analyzer/js/underscore-min.js HTTP/1.1" 404 110
+2017-09-26 13:47:54,765 [Thread-1:28476] [django.server:131] [basehttp:log_message] [INFO]- "GET /analyzer/ HTTP/1.1" 200 1387
+2017-09-26 13:47:54,826 [Thread-3:28460] [django.request:152] [base:get_response] [WARNING]- Not Found: /static/analyzer/css/bootstrap.min.css
+2017-09-26 13:47:54,826 [Thread-3:28460] [django.server:131] [basehttp:log_message] [WARNING]- "GET /static/analyzer/css/bootstrap.min.css HTTP/1.1" 404 111
+2017-09-26 13:47:55,092 [Thread-4:28420] [django.request:152] [base:get_response] [WARNING]- Not Found: /static/analyzer/js/bootstrap.min.js
+2017-09-26 13:47:55,092 [Thread-4:28420] [django.server:131] [basehttp:log_message] [WARNING]- "GET /static/analyzer/js/bootstrap.min.js HTTP/1.1" 404 109
+2017-09-26 13:47:55,138 [Thread-5:28416] [django.request:152] [base:get_response] [WARNING]- Not Found: /static/analyzer/js/bootstrap.min.js
+2017-09-26 13:47:55,138 [Thread-5:28416] [django.server:131] [basehttp:log_message] [WARNING]- "GET /static/analyzer/js/bootstrap.min.js HTTP/1.1" 404 109
+2017-09-26 13:49:54,233 [Dummy-1:29340] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2017-09-26 13:49:54,233 [Dummy-1:29340] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2017-09-26 13:49:57,197 [Thread-2:29376] [django.server:131] [basehttp:log_message] [INFO]- "GET /analyzer/ HTTP/1.1" 200 1387
+2017-09-26 13:49:57,805 [Thread-4:29388] [django.server:131] [basehttp:log_message] [INFO]- "GET /static/analyzer/js/bootstrap.min.js HTTP/1.1" 200 37045
+2017-09-26 13:49:57,805 [Thread-3:29384] [django.server:131] [basehttp:log_message] [INFO]- "GET /static/analyzer/css/bootstrap.min.css HTTP/1.1" 200 121200
+2017-09-26 13:50:18,943 [Thread-5:29624] [django.server:131] [basehttp:log_message] [INFO]- "POST /analyzer/ HTTP/1.1" 200 4064
+2017-09-26 13:50:18,990 [Thread-7:29632] [django.server:131] [basehttp:log_message] [INFO]- "GET /static/analyzer/js/webfontloader.js HTTP/1.1" 200 12505
+2017-09-26 13:50:18,990 [Thread-6:29628] [django.server:131] [basehttp:log_message] [INFO]- "GET /static/analyzer/js/jquery-3.2.1.min.js HTTP/1.1" 200 86659
+2017-09-26 13:50:19,005 [Thread-9:29640] [django.server:131] [basehttp:log_message] [INFO]- "GET /static/analyzer/js/underscore-min.js HTTP/1.1" 200 16449
+2017-09-26 13:50:19,005 [Thread-8:29636] [django.server:131] [basehttp:log_message] [INFO]- "GET /static/analyzer/js/snap.svg-min.js HTTP/1.1" 200 82399
+2017-09-26 13:50:19,005 [Thread-10:29644] [django.server:131] [basehttp:log_message] [INFO]- "GET /static/analyzer/js/sequence-diagram-min.js HTTP/1.1" 200 90694
+2017-09-26 13:52:29,783 [Thread-11:27356] [django.server:131] [basehttp:log_message] [INFO]- "GET /analyzer/ HTTP/1.1" 200 1387
+2017-09-26 13:52:29,954 [Thread-13:22960] [django.server:131] [basehttp:log_message] [INFO]- "GET /static/analyzer/js/bootstrap.min.js HTTP/1.1" 200 37045
+2017-09-26 13:52:29,986 [Thread-12:27940] [django.server:131] [basehttp:log_message] [INFO]- "GET /static/analyzer/css/bootstrap.min.css HTTP/1.1" 200 121200
+2017-09-26 13:52:32,201 [Thread-14:26928] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "D:\Python27\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u"<RegexURLResolver <module 'analyzer.urls' from 'E:\\codes\\python\\faxlog\\analyzer\\urls.pyc'> (None:None) ^analyzer/>"
+2017-09-26 13:52:32,201 [Thread-14:26928] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "D:\Python27\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u'<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+2017-09-26 13:52:32,217 [Thread-14:26928] [django.request:152] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2017-09-26 13:52:32,217 [Thread-14:26928] [django.server:131] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2051
+2017-09-26 13:53:19,471 [Thread-15:29076] [django.server:131] [basehttp:log_message] [INFO]- "POST /analyzer/ HTTP/1.1" 200 4064
+2017-09-26 13:53:19,690 [Thread-17:29064] [django.server:131] [basehttp:log_message] [INFO]- "GET /static/analyzer/js/webfontloader.js HTTP/1.1" 200 12505
+2017-09-26 13:53:19,706 [Thread-18:29068] [django.server:131] [basehttp:log_message] [INFO]- "GET /static/analyzer/js/underscore-min.js HTTP/1.1" 200 16449
+2017-09-26 13:53:19,736 [Thread-19:22772] [django.server:131] [basehttp:log_message] [INFO]- "GET /static/analyzer/js/snap.svg-min.js HTTP/1.1" 200 82399
+2017-09-26 13:53:19,752 [Thread-20:28996] [django.server:131] [basehttp:log_message] [INFO]- "GET /static/analyzer/js/sequence-diagram-min.js HTTP/1.1" 200 90694
+2017-09-26 13:53:19,752 [Thread-16:29072] [django.server:131] [basehttp:log_message] [INFO]- "GET /static/analyzer/js/jquery-3.2.1.min.js HTTP/1.1" 200 86659
+2017-09-26 13:53:33,073 [Thread-21:28792] [django.server:131] [basehttp:log_message] [INFO]- "GET /analyzer/ HTTP/1.1" 200 1387
+2017-09-26 13:54:06,069 [Thread-26:29172] [django.server:131] [basehttp:log_message] [INFO]- "GET /static/analyzer/css/bootstrap.min.css.map HTTP/1.1" 200 542194
+2017-09-26 14:03:08,644 [Thread-27:23692] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "D:\Python27\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u'<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+2017-09-26 14:03:08,644 [Thread-27:23692] [django.request:152] [base:get_response] [WARNING]- Not Found: /analyzer/sss
+2017-09-26 14:03:08,644 [Thread-27:23692] [django.server:131] [basehttp:log_message] [WARNING]- "GET /analyzer/sss HTTP/1.1" 404 2298
+2017-09-26 14:03:18,395 [Thread-28:26412] [django.server:131] [basehttp:log_message] [INFO]- "GET /analyzer/ HTTP/1.1" 200 1387
+2017-09-26 14:04:29,278 [Thread-30:28760] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "D:\Python27\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u"<RegexURLResolver <module 'analyzer.urls' from 'E:\\codes\\python\\faxlog\\analyzer\\urls.pyc'> (None:None) ^analyzer/>"
+2017-09-26 14:04:29,278 [Thread-30:28760] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "D:\Python27\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u'<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+2017-09-26 14:04:29,292 [Thread-30:28760] [django.request:152] [base:get_response] [WARNING]- Not Found: /
+2017-09-26 14:04:29,292 [Thread-30:28760] [django.server:131] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2018
+2017-09-26 14:04:33,677 [Thread-31:22880] [django.server:131] [basehttp:log_message] [INFO]- "GET /analyzer/ HTTP/1.1" 200 1387
+2017-09-26 14:04:39,786 [Thread-33:26920] [django.server:131] [basehttp:log_message] [INFO]- "POST /analyzer/ HTTP/1.1" 200 1153
+2017-09-26 14:04:42,703 [Thread-34:29488] [django.server:131] [basehttp:log_message] [INFO]- "GET /analyzer/ HTTP/1.1" 200 1387
+2017-09-26 14:08:27,407 [Thread-36:26568] [django.server:131] [basehttp:log_message] [INFO]- "POST /analyzer/ HTTP/1.1" 200 4064
+2017-09-26 14:10:53,976 [Dummy-1:30184] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2017-09-26 14:10:53,976 [Dummy-1:30184] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2017-09-26 14:11:58,349 [Dummy-1:25296] [django.db.backends:90] [utils:execute] [DEBUG]- (0.015) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2017-09-26 14:11:58,349 [Dummy-1:25296] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2017-09-26 14:13:22,519 [Dummy-1:30244] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2017-09-26 14:13:22,519 [Dummy-1:30244] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2017-09-26 14:13:25,515 [Dummy-1:29320] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2017-09-26 14:13:25,515 [Dummy-1:29320] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2017-09-26 14:14:07,595 [Dummy-1:31712] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2017-09-26 14:14:07,595 [Dummy-1:31712] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2017-09-26 14:14:11,862 [Dummy-1:31012] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2017-09-26 14:14:11,867 [Dummy-1:31012] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2017-09-26 14:15:48,733 [Dummy-1:28808] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2017-09-26 14:15:48,747 [Dummy-1:28808] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2017-09-26 14:18:32,325 [Thread-2:30708] [django.server:131] [basehttp:log_message] [INFO]- "GET /analyzer/ HTTP/1.1" 200 1387
+2017-09-26 14:18:38,954 [Thread-4:26984] [django.server:131] [basehttp:log_message] [INFO]- "POST /analyzer/ HTTP/1.1" 200 4077
+2017-09-26 14:23:00,816 [Dummy-1:32468] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2017-09-26 14:23:00,816 [Dummy-1:32468] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2017-09-26 14:23:03,786 [Dummy-1:32728] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2017-09-26 14:23:03,786 [Dummy-1:32728] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2017-09-26 14:23:15,298 [Dummy-1:31864] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2017-09-26 14:23:15,298 [Dummy-1:31864] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2017-09-26 14:23:49,888 [Dummy-1:32432] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2017-09-26 14:23:49,891 [Dummy-1:32432] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2017-09-26 14:23:52,913 [Dummy-1:32672] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2017-09-26 14:23:52,917 [Dummy-1:32672] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2017-09-26 14:24:35,844 [Dummy-1:32152] [django.db.backends:90] [utils:execute] [DEBUG]- (0.016) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2017-09-26 14:24:35,844 [Dummy-1:32152] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2017-09-26 14:25:00,069 [Dummy-1:32584] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2017-09-26 14:25:00,069 [Dummy-1:32584] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2017-09-26 14:25:22,974 [Dummy-1:31604] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2017-09-26 14:25:22,974 [Dummy-1:31604] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2017-09-26 14:25:36,421 [Dummy-1:32300] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2017-09-26 14:25:36,437 [Dummy-1:32300] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2017-09-26 14:25:54,075 [Dummy-1:32452] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2017-09-26 14:25:54,078 [Dummy-1:32452] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2017-09-26 14:26:22,177 [Dummy-1:33196] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2017-09-26 14:26:22,177 [Dummy-1:33196] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2017-09-26 14:26:44,344 [Dummy-1:33712] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2017-09-26 14:26:44,344 [Dummy-1:33712] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2017-09-26 14:26:48,759 [Thread-2:33736] [django.server:131] [basehttp:log_message] [INFO]- "GET /analyzer/ HTTP/1.1" 200 1387
+2017-09-26 14:26:56,059 [Thread-4:31408] [django.server:131] [basehttp:log_message] [INFO]- "POST /analyzer/ HTTP/1.1" 200 4292
+2017-09-26 14:27:43,700 [Thread-6:34096] [django.server:131] [basehttp:log_message] [INFO]- "GET /analyzer/ HTTP/1.1" 200 1387
+2017-09-26 14:27:51,424 [Thread-8:34152] [django.server:131] [basehttp:log_message] [INFO]- "POST /analyzer/ HTTP/1.1" 200 4288
+2017-09-26 14:43:43,966 [Thread-10:29944] [django.server:131] [basehttp:log_message] [INFO]- "POST /analyzer/ HTTP/1.1" 200 4292
+2017-09-26 14:43:44,214 [Thread-11:30028] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "D:\Python27\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u"<RegexURLResolver <module 'analyzer.urls' from 'E:\\codes\\python\\faxlog\\analyzer\\urls.pyc'> (None:None) ^analyzer/>"
+2017-09-26 14:43:44,214 [Thread-12:32772] [django.server:131] [basehttp:log_message] [WARNING]- "GET /static/analyzer/js/underscore-min.map HTTP/1.1" 404 1708
+2017-09-26 14:43:44,214 [Thread-11:30028] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "D:\Python27\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u'<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+2017-09-26 14:43:44,214 [Thread-13:34332] [django.server:131] [basehttp:log_message] [WARNING]- "GET /static/analyzer/js/sequence-diagram.js HTTP/1.1" 404 1711
+2017-09-26 14:43:44,214 [Thread-11:30028] [django.request:152] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2017-09-26 14:43:44,214 [Thread-11:30028] [django.server:131] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2051
+2017-09-26 14:43:53,884 [Thread-14:34712] [django.server:131] [basehttp:log_message] [INFO]- "GET /analyzer/ HTTP/1.1" 200 1387
+2017-09-26 14:50:35,588 [Thread-19:35164] [django.request:132] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /analyzer/
+Traceback (most recent call last):
+  File "D:\Python27\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = get_response(request)
+  File "D:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\codes\python\faxlog\analyzer\views.py", line 26, in index
+    for chunk in f.chunks():
+AttributeError: 'NoneType' object has no attribute 'chunks'
+2017-09-26 14:50:35,822 [Thread-19:35164] [django.server:131] [basehttp:log_message] [ERROR]- "POST /analyzer/ HTTP/1.1" 500 78074
+2017-09-26 15:13:10,280 [Dummy-1:38596] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2017-09-26 15:13:10,280 [Dummy-1:38596] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2017-09-26 15:13:13,493 [Thread-2:38612] [django.server:131] [basehttp:log_message] [INFO]- "GET /analyzer/ HTTP/1.1" 200 1539
+2017-09-26 15:13:21,684 [Thread-4:38784] [django.request:132] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /analyzer/
+Traceback (most recent call last):
+  File "D:\Python27\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = get_response(request)
+  File "D:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\codes\python\faxlog\analyzer\views.py", line 26, in index
+    for chunk in f.chunks():
+AttributeError: 'NoneType' object has no attribute 'chunks'
+2017-09-26 15:13:21,763 [Thread-4:38784] [django.server:131] [basehttp:log_message] [ERROR]- "POST /analyzer/ HTTP/1.1" 500 77737
+2017-09-26 15:13:55,025 [Thread-6:37728] [django.server:131] [basehttp:log_message] [INFO]- "GET /analyzer HTTP/1.1" 301 0
+2017-09-26 15:13:55,039 [Thread-7:37732] [django.server:131] [basehttp:log_message] [INFO]- "GET /analyzer/ HTTP/1.1" 200 1539
+2017-09-26 15:14:20,003 [Thread-10:38372] [django.server:131] [basehttp:log_message] [INFO]- "GET /analyzer/ HTTP/1.1" 200 1539
+2017-09-26 15:15:36,144 [Thread-11:35312] [django.server:131] [basehttp:log_message] [INFO]- "GET /analyzer/ HTTP/1.1" 200 1539
+2017-09-26 15:15:37,206 [Thread-12:37704] [django.server:131] [basehttp:log_message] [INFO]- "GET /static/analyzer/css/bootstrap.min.css HTTP/1.1" 200 121200
+2017-09-26 15:15:37,253 [Thread-13:37112] [django.server:131] [basehttp:log_message] [INFO]- "GET /static/analyzer/js/bootstrap.min.js HTTP/1.1" 200 37045
+2017-09-26 15:15:41,776 [Thread-14:37524] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "D:\Python27\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u"<RegexURLResolver <module 'analyzer.urls' from 'E:\\codes\\python\\faxlog\\analyzer\\urls.pyc'> (None:None) ^analyzer/>"
+2017-09-26 15:15:41,776 [Thread-14:37524] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "D:\Python27\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u'<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+2017-09-26 15:15:41,792 [Thread-14:37524] [django.request:152] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2017-09-26 15:15:41,792 [Thread-14:37524] [django.server:131] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2051
+2017-09-26 15:15:41,855 [Thread-15:35204] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "D:\Python27\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u"<RegexURLResolver <module 'analyzer.urls' from 'E:\\codes\\python\\faxlog\\analyzer\\urls.pyc'> (None:None) ^analyzer/>"
+2017-09-26 15:15:41,855 [Thread-15:35204] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "D:\Python27\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u'<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+2017-09-26 15:15:41,855 [Thread-15:35204] [django.request:152] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2017-09-26 15:15:41,855 [Thread-15:35204] [django.server:131] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2051
+2017-09-26 15:16:00,714 [Thread-16:38156] [django.request:132] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /analyzer/
+Traceback (most recent call last):
+  File "D:\Python27\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = get_response(request)
+  File "D:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\codes\python\faxlog\analyzer\views.py", line 26, in index
+    for chunk in f.chunks():
+AttributeError: 'NoneType' object has no attribute 'chunks'
+2017-09-26 15:16:00,792 [Thread-16:38156] [django.server:131] [basehttp:log_message] [ERROR]- "POST /analyzer/ HTTP/1.1" 500 77738
+2017-09-26 15:18:10,105 [Thread-17:38540] [django.server:131] [basehttp:log_message] [INFO]- "GET /analyzer/ HTTP/1.1" 200 1832
+2017-09-26 15:18:22,289 [Thread-18:38660] [django.request:132] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /analyzer/
+Traceback (most recent call last):
+  File "D:\Python27\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = get_response(request)
+  File "D:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\codes\python\faxlog\analyzer\views.py", line 26, in index
+    for chunk in f.chunks():
+AttributeError: 'NoneType' object has no attribute 'chunks'
+2017-09-26 15:18:22,509 [Thread-18:38660] [django.server:131] [basehttp:log_message] [ERROR]- "POST /analyzer/ HTTP/1.1" 500 78074
+2017-09-26 15:18:35,269 [Thread-19:29208] [django.server:131] [basehttp:log_message] [INFO]- "POST /analyzer/ HTTP/1.1" 200 4292
+2017-09-26 15:18:35,503 [Thread-23:38060] [django.server:131] [basehttp:log_message] [WARNING]- "GET /static/analyzer/js/underscore-min.map HTTP/1.1" 404 1708
+2017-09-26 15:18:35,503 [Thread-24:38052] [django.server:131] [basehttp:log_message] [WARNING]- "GET /static/analyzer/js/sequence-diagram.js HTTP/1.1" 404 1711
+2017-09-26 15:18:41,930 [Thread-25:36308] [django.server:131] [basehttp:log_message] [INFO]- "GET /analyzer/ HTTP/1.1" 200 1832
+2017-09-26 15:18:58,246 [Thread-28:34332] [django.server:131] [basehttp:log_message] [INFO]- "GET /analyzer/ HTTP/1.1" 200 1832
+2017-09-26 15:19:44,315 [Thread-29:35404] [django.server:131] [basehttp:log_message] [INFO]- "GET /analyzer/ HTTP/1.1" 200 1863
+2017-09-26 15:19:46,203 [Thread-30:27588] [django.request:132] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /analyzer/
+Traceback (most recent call last):
+  File "D:\Python27\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = get_response(request)
+  File "D:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\codes\python\faxlog\analyzer\views.py", line 26, in index
+    for chunk in f.chunks():
+AttributeError: 'NoneType' object has no attribute 'chunks'
+2017-09-26 15:19:46,266 [Thread-30:27588] [django.server:131] [basehttp:log_message] [ERROR]- "POST /analyzer/ HTTP/1.1" 500 77739
+2017-09-26 15:24:37,318 [Thread-34:38536] [django.server:131] [basehttp:log_message] [INFO]- "GET /analyzer/ HTTP/1.1" 200 1863
+2017-09-26 15:24:51,607 [Thread-37:39036] [django.server:131] [basehttp:log_message] [INFO]- "GET /analyzer/ HTTP/1.1" 200 1873
+2017-09-26 15:24:53,292 [Thread-38:39044] [django.request:132] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /analyzer/
+Traceback (most recent call last):
+  File "D:\Python27\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = get_response(request)
+  File "D:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\codes\python\faxlog\analyzer\views.py", line 26, in index
+    for chunk in f.chunks():
+AttributeError: 'NoneType' object has no attribute 'chunks'
+2017-09-26 15:24:53,385 [Thread-38:39044] [django.server:131] [basehttp:log_message] [ERROR]- "POST /analyzer/ HTTP/1.1" 500 77739
+2017-09-26 15:26:08,316 [Thread-39:38420] [django.server:131] [basehttp:log_message] [INFO]- "GET /analyzer/ HTTP/1.1" 200 1876
+2017-09-26 15:26:26,928 [Thread-41:33188] [django.server:131] [basehttp:log_message] [INFO]- "GET /analyzer/ HTTP/1.1" 200 1874
+2017-09-26 15:26:37,749 [Thread-43:25396] [django.server:131] [basehttp:log_message] [INFO]- "POST /analyzer/ HTTP/1.1" 200 1153
+2017-09-26 15:26:40,727 [Thread-44:25256] [django.server:131] [basehttp:log_message] [INFO]- "GET /analyzer/ HTTP/1.1" 200 1874
+2017-09-26 15:26:52,148 [Thread-46:39796] [django.server:131] [basehttp:log_message] [INFO]- "POST /analyzer/ HTTP/1.1" 200 4292
+2017-09-26 15:27:08,653 [Thread-48:39308] [django.server:131] [basehttp:log_message] [INFO]- "POST /analyzer/ HTTP/1.1" 200 1153
+2017-09-26 15:27:22,269 [Thread-49:39860] [django.server:131] [basehttp:log_message] [INFO]- "GET /analyzer/ HTTP/1.1" 200 1874
+2017-09-26 15:27:53,266 [Thread-52:39392] [django.server:131] [basehttp:log_message] [INFO]- "POST /analyzer/ HTTP/1.1" 200 1153
+2017-09-26 15:28:06,997 [Thread-53:38460] [django.server:131] [basehttp:log_message] [INFO]- "GET /analyzer/ HTTP/1.1" 200 1874
+2017-09-26 15:28:14,407 [Thread-55:38992] [django.server:131] [basehttp:log_message] [INFO]- "POST /analyzer/ HTTP/1.1" 200 4410
+2017-09-26 15:29:06,463 [Thread-57:38248] [django.server:131] [basehttp:log_message] [INFO]- "GET /analyzer/ HTTP/1.1" 200 1874
+2017-09-26 15:29:12,188 [Thread-59:39268] [django.server:131] [basehttp:log_message] [WARNING]- "GET /static/analyzer/js/underscore-min.map HTTP/1.1" 404 1708
+2017-09-26 15:29:12,204 [Thread-60:38964] [django.server:131] [basehttp:log_message] [WARNING]- "GET /static/analyzer/js/sequence-diagram.js HTTP/1.1" 404 1711
+2017-09-26 15:30:33,615 [Thread-61:40340] [django.server:131] [basehttp:log_message] [INFO]- "GET /analyzer/ HTTP/1.1" 200 1874
+2017-09-26 15:30:39,391 [Thread-63:40424] [django.server:131] [basehttp:log_message] [INFO]- "POST /analyzer/ HTTP/1.1" 200 1380
+2017-09-26 15:30:41,632 [Thread-65:40436] [django.server:131] [basehttp:log_message] [INFO]- "GET /analyzer/ HTTP/1.1" 200 1874
+2017-09-26 15:30:43,381 [Thread-66:40440] [django.server:131] [basehttp:log_message] [INFO]- "POST /analyzer/ HTTP/1.1" 200 1380
+2017-09-26 15:30:43,552 [Thread-67:40444] [django.server:131] [basehttp:log_message] [WARNING]- "GET /static/analyzer/js/underscore-min.map HTTP/1.1" 404 1708
+2017-09-26 15:30:43,615 [Thread-68:40464] [django.server:131] [basehttp:log_message] [WARNING]- "GET /static/analyzer/js/sequence-diagram.js HTTP/1.1" 404 1711
+2017-09-26 15:31:08,121 [Thread-69:40784] [django.server:131] [basehttp:log_message] [INFO]- "GET /analyzer/ HTTP/1.1" 200 1874
+2017-09-26 15:31:15,062 [Thread-71:40888] [django.server:131] [basehttp:log_message] [INFO]- "POST /analyzer/ HTTP/1.1" 200 1423
+2017-09-26 15:32:26,197 [Thread-74:40356] [django.server:131] [basehttp:log_message] [INFO]- "POST /analyzer/ HTTP/1.1" 200 1423
+2017-09-26 15:33:17,122 [Thread-76:40828] [django.server:131] [basehttp:log_message] [INFO]- "POST /analyzer/ HTTP/1.1" 200 1423
+2017-09-26 15:33:17,295 [Thread-77:40888] [django.server:131] [basehttp:log_message] [WARNING]- "GET /static/analyzer/js/underscore-min.map HTTP/1.1" 404 1708
+2017-09-26 15:33:17,295 [Thread-78:25256] [django.server:131] [basehttp:log_message] [WARNING]- "GET /static/analyzer/js/sequence-diagram.js HTTP/1.1" 404 1711
+2017-09-26 15:33:19,167 [Thread-79:40884] [django.server:131] [basehttp:log_message] [INFO]- "POST /analyzer/ HTTP/1.1" 200 1423
+2017-09-26 15:33:19,354 [Thread-80:29660] [django.server:131] [basehttp:log_message] [WARNING]- "GET /static/analyzer/js/underscore-min.map HTTP/1.1" 404 1708
+2017-09-26 15:33:19,354 [Thread-81:35820] [django.server:131] [basehttp:log_message] [WARNING]- "GET /static/analyzer/js/sequence-diagram.js HTTP/1.1" 404 1711
+2017-09-26 15:33:20,851 [Thread-82:40844] [django.server:131] [basehttp:log_message] [INFO]- "POST /analyzer/ HTTP/1.1" 200 1423
+2017-09-26 15:33:21,023 [Thread-83:40852] [django.server:131] [basehttp:log_message] [WARNING]- "GET /static/analyzer/js/underscore-min.map HTTP/1.1" 404 1708
+2017-09-26 15:33:21,039 [Thread-84:40856] [django.server:131] [basehttp:log_message] [WARNING]- "GET /static/analyzer/js/sequence-diagram.js HTTP/1.1" 404 1711
+2017-09-26 15:33:21,460 [Thread-85:40860] [django.server:131] [basehttp:log_message] [INFO]- "POST /analyzer/ HTTP/1.1" 200 1423
+2017-09-26 15:33:21,724 [Thread-86:40864] [django.server:131] [basehttp:log_message] [WARNING]- "GET /static/analyzer/js/underscore-min.map HTTP/1.1" 404 1708
+2017-09-26 15:33:21,724 [Thread-87:38348] [django.server:131] [basehttp:log_message] [WARNING]- "GET /static/analyzer/js/sequence-diagram.js HTTP/1.1" 404 1711
+2017-09-26 15:33:21,772 [Thread-88:40892] [django.server:131] [basehttp:log_message] [INFO]- "POST /analyzer/ HTTP/1.1" 200 1423
+2017-09-26 15:33:21,927 [Thread-89:40896] [django.server:131] [basehttp:log_message] [WARNING]- "GET /static/analyzer/js/underscore-min.map HTTP/1.1" 404 1708
+2017-09-26 15:33:21,927 [Thread-90:39964] [django.server:131] [basehttp:log_message] [WARNING]- "GET /static/analyzer/js/sequence-diagram.js HTTP/1.1" 404 1711
+2017-09-26 15:33:22,193 [Thread-91:39952] [django.server:131] [basehttp:log_message] [INFO]- "POST /analyzer/ HTTP/1.1" 200 1423
+2017-09-26 15:33:22,381 [Thread-92:39252] [django.server:131] [basehttp:log_message] [WARNING]- "GET /static/analyzer/js/underscore-min.map HTTP/1.1" 404 1708
+2017-09-26 15:33:22,395 [Thread-93:38240] [django.server:131] [basehttp:log_message] [WARNING]- "GET /static/analyzer/js/sequence-diagram.js HTTP/1.1" 404 1711
+2017-09-26 15:33:22,568 [Thread-94:39016] [django.server:131] [basehttp:log_message] [INFO]- "POST /analyzer/ HTTP/1.1" 200 1423
+2017-09-26 15:33:22,726 [Thread-95:37900] [django.server:131] [basehttp:log_message] [WARNING]- "GET /static/analyzer/js/underscore-min.map HTTP/1.1" 404 1708
+2017-09-26 15:33:22,727 [Thread-96:39096] [django.server:131] [basehttp:log_message] [WARNING]- "GET /static/analyzer/js/sequence-diagram.js HTTP/1.1" 404 1711
+2017-09-26 15:33:46,713 [Thread-97:40424] [django.server:131] [basehttp:log_message] [INFO]- "GET /analyzer/ HTTP/1.1" 200 1874
+2017-09-26 15:33:59,447 [Thread-102:40092] [django.server:131] [basehttp:log_message] [INFO]- "POST /analyzer/ HTTP/1.1" 200 4562
+2017-09-26 15:33:59,665 [Thread-103:40132] [django.server:131] [basehttp:log_message] [WARNING]- "GET /static/analyzer/js/underscore-min.map HTTP/1.1" 404 1708
+2017-09-26 15:33:59,680 [Thread-104:40096] [django.server:131] [basehttp:log_message] [WARNING]- "GET /static/analyzer/js/sequence-diagram.js HTTP/1.1" 404 1711
+2017-09-26 15:34:10,880 [Thread-105:33372] [django.server:131] [basehttp:log_message] [INFO]- "POST /analyzer/ HTTP/1.1" 200 4562
+2017-09-26 15:34:11,036 [Thread-106:38864] [django.server:131] [basehttp:log_message] [WARNING]- "GET /static/analyzer/js/underscore-min.map HTTP/1.1" 404 1708
+2017-09-26 15:34:11,036 [Thread-107:40704] [django.server:131] [basehttp:log_message] [WARNING]- "GET /static/analyzer/js/sequence-diagram.js HTTP/1.1" 404 1711
+2017-09-26 15:34:11,786 [Thread-108:40616] [django.server:131] [basehttp:log_message] [INFO]- "POST /analyzer/ HTTP/1.1" 200 4562
+2017-09-26 15:34:11,989 [Thread-109:40664] [django.server:131] [basehttp:log_message] [WARNING]- "GET /static/analyzer/js/underscore-min.map HTTP/1.1" 404 1708
+2017-09-26 15:34:11,989 [Thread-110:36544] [django.server:131] [basehttp:log_message] [WARNING]- "GET /static/analyzer/js/sequence-diagram.js HTTP/1.1" 404 1711
+2017-09-26 15:34:12,394 [Thread-111:37608] [django.server:131] [basehttp:log_message] [INFO]- "POST /analyzer/ HTTP/1.1" 200 4562
+2017-09-26 15:34:12,582 [Thread-112:40460] [django.server:131] [basehttp:log_message] [WARNING]- "GET /static/analyzer/js/underscore-min.map HTTP/1.1" 404 1708
+2017-09-26 15:34:12,582 [Thread-113:40476] [django.server:131] [basehttp:log_message] [WARNING]- "GET /static/analyzer/js/sequence-diagram.js HTTP/1.1" 404 1711
+2017-09-26 15:34:12,910 [Thread-114:5652] [django.server:131] [basehttp:log_message] [INFO]- "POST /analyzer/ HTTP/1.1" 200 4562
+2017-09-26 15:34:13,082 [Thread-115:36316] [django.server:131] [basehttp:log_message] [WARNING]- "GET /static/analyzer/js/underscore-min.map HTTP/1.1" 404 1708
+2017-09-26 15:34:13,082 [Thread-116:40824] [django.server:131] [basehttp:log_message] [WARNING]- "GET /static/analyzer/js/sequence-diagram.js HTTP/1.1" 404 1711
+2017-09-26 15:34:13,737 [Thread-117:39428] [django.server:131] [basehttp:log_message] [INFO]- "GET /analyzer/ HTTP/1.1" 200 1892
+2017-09-26 15:34:46,119 [Thread-121:23092] [django.server:131] [basehttp:log_message] [INFO]- "POST /analyzer/ HTTP/1.1" 200 4562
+2017-09-26 15:34:46,354 [Thread-123:40672] [django.server:131] [basehttp:log_message] [WARNING]- "GET /static/analyzer/js/sequence-diagram.js HTTP/1.1" 404 1711
+2017-09-26 15:34:46,355 [Thread-122:40008] [django.server:131] [basehttp:log_message] [WARNING]- "GET /static/analyzer/js/underscore-min.map HTTP/1.1" 404 1708
+2017-09-26 15:34:51,075 [Thread-124:39576] [django.server:131] [basehttp:log_message] [INFO]- "GET /analyzer/ HTTP/1.1" 200 1892
+2017-09-26 15:35:19,180 [Thread-128:41296] [django.server:131] [basehttp:log_message] [INFO]- "POST /analyzer/ HTTP/1.1" 200 1423
+2017-09-26 15:35:19,381 [Thread-129:41300] [django.server:131] [basehttp:log_message] [WARNING]- "GET /static/analyzer/js/underscore-min.map HTTP/1.1" 404 1708
+2017-09-26 15:35:19,381 [Thread-130:41304] [django.server:131] [basehttp:log_message] [WARNING]- "GET /static/analyzer/js/sequence-diagram.js HTTP/1.1" 404 1711
+2017-09-26 15:35:22,345 [Thread-131:41312] [django.server:131] [basehttp:log_message] [INFO]- "GET /analyzer/ HTTP/1.1" 200 1892
+2017-09-26 15:35:29,298 [Thread-132:41316] [django.server:131] [basehttp:log_message] [INFO]- "POST /analyzer/ HTTP/1.1" 200 4562
+2017-09-26 15:35:29,490 [Thread-133:41320] [django.server:131] [basehttp:log_message] [WARNING]- "GET /static/analyzer/js/underscore-min.map HTTP/1.1" 404 1708
+2017-09-26 15:35:29,493 [Thread-134:41324] [django.server:131] [basehttp:log_message] [WARNING]- "GET /static/analyzer/js/sequence-diagram.js HTTP/1.1" 404 1711
+2017-09-26 15:35:31,309 [Thread-135:41340] [django.server:131] [basehttp:log_message] [INFO]- "GET /analyzer/ HTTP/1.1" 200 1892
+2017-09-26 15:35:38,898 [Thread-140:41868] [django.server:131] [basehttp:log_message] [INFO]- "GET /analyzer/ HTTP/1.1" 200 1892
+2017-09-26 15:35:44,092 [Thread-142:40696] [django.server:131] [basehttp:log_message] [INFO]- "POST /analyzer/ HTTP/1.1" 200 1243
+2017-09-26 15:36:08,256 [Thread-144:41304] [django.server:131] [basehttp:log_message] [INFO]- "GET /analyzer/ HTTP/1.1" 200 1892
+2017-09-26 15:36:13,737 [Thread-146:38152] [django.server:131] [basehttp:log_message] [INFO]- "POST /analyzer/ HTTP/1.1" 200 4382
+2017-09-26 15:36:21,740 [Dummy-1:41752] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2017-09-26 15:36:21,756 [Dummy-1:41752] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2017-09-26 15:36:24,986 [Thread-2:41772] [django.server:131] [basehttp:log_message] [INFO]- "GET /analyzer/ HTTP/1.1" 200 1892
+2017-09-26 15:36:26,920 [Thread-4:41800] [django.server:131] [basehttp:log_message] [INFO]- "POST /analyzer/ HTTP/1.1" 200 4382
+2017-09-26 15:36:27,122 [Thread-5:41812] [django.server:131] [basehttp:log_message] [WARNING]- "GET /static/analyzer/js/underscore-min.map HTTP/1.1" 404 1708
+2017-09-26 15:36:27,138 [Thread-6:41816] [django.server:131] [basehttp:log_message] [WARNING]- "GET /static/analyzer/js/sequence-diagram.js HTTP/1.1" 404 1711
+2017-09-26 15:36:29,135 [Thread-7:41832] [django.server:131] [basehttp:log_message] [INFO]- "GET /analyzer/ HTTP/1.1" 200 1892
+2017-09-26 15:36:30,118 [Thread-11:41856] [django.server:131] [basehttp:log_message] [INFO]- "POST /analyzer/ HTTP/1.1" 200 4382
+2017-09-26 15:37:35,299 [Thread-13:23300] [django.server:131] [basehttp:log_message] [INFO]- "GET /analyzer/ HTTP/1.1" 200 1892
+2017-09-26 15:37:39,980 [Thread-14:42240] [django.server:131] [basehttp:log_message] [INFO]- "POST /analyzer/ HTTP/1.1" 200 4410
+2017-09-26 15:37:40,121 [Thread-17:42612] [django.server:131] [basehttp:log_message] [INFO]- "POST /analyzer/ HTTP/1.1" 200 4410
+2017-09-26 15:37:40,355 [Thread-18:42544] [django.server:131] [basehttp:log_message] [WARNING]- "GET /static/analyzer/js/underscore-min.map HTTP/1.1" 404 1708
+2017-09-26 15:37:40,355 [Thread-19:42608] [django.server:131] [basehttp:log_message] [WARNING]- "GET /static/analyzer/js/sequence-diagram.js HTTP/1.1" 404 1711
+2017-09-26 15:37:46,298 [Thread-20:42564] [django.server:131] [basehttp:log_message] [INFO]- "GET /analyzer/ HTTP/1.1" 200 1892
+2017-09-26 15:37:53,147 [Thread-22:40932] [django.server:131] [basehttp:log_message] [INFO]- "POST /analyzer/ HTTP/1.1" 200 1271
+2017-09-26 15:38:06,799 [Thread-27:41852] [django.server:131] [basehttp:log_message] [INFO]- "GET /analyzer/ HTTP/1.1" 200 1892
+2017-09-26 15:38:12,081 [Thread-29:41384] [django.server:131] [basehttp:log_message] [INFO]- "POST /analyzer/ HTTP/1.1" 200 1271
+2017-09-26 15:38:31,983 [Thread-31:41592] [django.server:131] [basehttp:log_message] [INFO]- "GET /analyzer/ HTTP/1.1" 200 1892
+2017-09-26 15:38:32,013 [Thread-34:40868] [django.server:131] [basehttp:log_message] [INFO]- "GET /analyzer/ HTTP/1.1" 200 1892
+2017-09-26 15:38:36,553 [Thread-35:23440] [django.server:131] [basehttp:log_message] [INFO]- "POST /analyzer/ HTTP/1.1" 200 1271
+2017-09-26 15:38:37,848 [Thread-32:41784] [django.server:131] [basehttp:log_message] [INFO]- "POST /analyzer/ HTTP/1.1" 200 1271
+2017-09-26 15:38:37,989 [Thread-33:42768] [django.server:131] [basehttp:log_message] [WARNING]- "GET /static/analyzer/js/underscore-min.map HTTP/1.1" 404 1708
+2017-09-26 15:38:38,003 [Thread-37:43176] [django.server:131] [basehttp:log_message] [WARNING]- "GET /static/analyzer/js/sequence-diagram.js HTTP/1.1" 404 1711
+2017-09-26 15:38:56,421 [Thread-38:43408] [django.server:131] [basehttp:log_message] [INFO]- "POST /analyzer/ HTTP/1.1" 200 1271
+2017-09-26 15:38:56,625 [Thread-39:43416] [django.server:131] [basehttp:log_message] [WARNING]- "GET /static/analyzer/js/underscore-min.map HTTP/1.1" 404 1708
+2017-09-26 15:38:56,625 [Thread-40:43420] [django.server:131] [basehttp:log_message] [WARNING]- "GET /static/analyzer/js/sequence-diagram.js HTTP/1.1" 404 1711
+2017-09-26 15:39:56,907 [Dummy-1:40324] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2017-09-26 15:39:56,907 [Dummy-1:40324] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2017-09-26 15:39:59,901 [Dummy-1:42688] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2017-09-26 15:39:59,917 [Dummy-1:42688] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2017-09-26 15:40:18,309 [Thread-2:41768] [django.server:131] [basehttp:log_message] [INFO]- "GET /analyzer/ HTTP/1.1" 200 1892
+2017-09-26 15:40:27,871 [Thread-4:43580] [django.server:131] [basehttp:log_message] [INFO]- "POST /analyzer/ HTTP/1.1" 200 1328
+2017-09-26 15:40:42,489 [Thread-6:43592] [django.server:131] [basehttp:log_message] [INFO]- "POST /analyzer/ HTTP/1.1" 200 1328
+2017-09-26 15:40:42,691 [Thread-7:43588] [django.server:131] [basehttp:log_message] [WARNING]- "GET /static/analyzer/js/underscore-min.map HTTP/1.1" 404 1708
+2017-09-26 15:40:42,707 [Thread-8:43608] [django.server:131] [basehttp:log_message] [WARNING]- "GET /static/analyzer/js/sequence-diagram.js HTTP/1.1" 404 1711
+2017-09-26 15:41:29,763 [Thread-12:41244] [django.server:131] [basehttp:log_message] [INFO]- "GET /analyzer/ HTTP/1.1" 200 1892
+2017-09-26 15:41:55,092 [Thread-14:43172] [django.server:131] [basehttp:log_message] [INFO]- "POST /analyzer/ HTTP/1.1" 200 1328
+2017-09-26 15:42:27,512 [Thread-20:43380] [django.server:131] [basehttp:log_message] [INFO]- "GET /analyzer/ HTTP/1.1" 200 1892
+2017-09-26 15:42:28,542 [Thread-22:40592] [django.server:131] [basehttp:log_message] [INFO]- "GET /analyzer/ HTTP/1.1" 200 1892
+2017-09-26 15:42:32,535 [Thread-21:43100] [django.server:131] [basehttp:log_message] [INFO]- "POST /analyzer/ HTTP/1.1" 200 1328
+2017-09-26 15:42:48,730 [Thread-25:43928] [django.server:131] [basehttp:log_message] [INFO]- "POST /analyzer/ HTTP/1.1" 200 1328
+2017-09-26 15:42:48,934 [Thread-26:43932] [django.server:131] [basehttp:log_message] [WARNING]- "GET /static/analyzer/js/underscore-min.map HTTP/1.1" 404 1708
+2017-09-26 15:42:48,934 [Thread-27:43920] [django.server:131] [basehttp:log_message] [WARNING]- "GET /static/analyzer/js/sequence-diagram.js HTTP/1.1" 404 1711
+2017-09-26 15:42:50,243 [Thread-28:43072] [django.server:131] [basehttp:log_message] [INFO]- "GET /analyzer/ HTTP/1.1" 200 1892
+2017-09-26 15:43:00,305 [Thread-29:43000] [django.server:131] [basehttp:log_message] [INFO]- "POST /analyzer/ HTTP/1.1" 200 4410
+2017-09-26 15:43:00,571 [Thread-31:43096] [django.server:131] [basehttp:log_message] [WARNING]- "GET /static/analyzer/js/underscore-min.map HTTP/1.1" 404 1708
+2017-09-26 15:43:00,571 [Thread-32:43196] [django.server:131] [basehttp:log_message] [WARNING]- "GET /static/analyzer/js/sequence-diagram.js HTTP/1.1" 404 1711
+2017-09-26 15:45:26,430 [Thread-33:41760] [django.server:131] [basehttp:log_message] [INFO]- "POST /analyzer/ HTTP/1.1" 200 1328
+2017-09-26 15:49:25,507 [Thread-36:41920] [django.server:131] [basehttp:log_message] [INFO]- "GET /analyzer/ HTTP/1.1" 200 1892
+2017-09-26 15:49:30,828 [Thread-38:43764] [django.server:131] [basehttp:log_message] [INFO]- "POST /analyzer/ HTTP/1.1" 200 1328
+2017-09-26 15:51:17,319 [Thread-40:43956] [django.server:131] [basehttp:log_message] [INFO]- "GET /analyzer/ HTTP/1.1" 200 1892
+2017-09-26 15:51:18,973 [Thread-41:43808] [django.server:131] [basehttp:log_message] [INFO]- "POST /analyzer/ HTTP/1.1" 200 4410
+2017-09-26 15:51:19,203 [Thread-42:43072] [django.server:131] [basehttp:log_message] [WARNING]- "GET /static/analyzer/js/underscore-min.map HTTP/1.1" 404 1708
+2017-09-26 15:51:19,203 [Thread-43:40592] [django.server:131] [basehttp:log_message] [WARNING]- "GET /static/analyzer/js/sequence-diagram.js HTTP/1.1" 404 1711
+2017-09-26 15:51:24,022 [Dummy-1:43668] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2017-09-26 15:51:24,022 [Dummy-1:43668] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2017-09-26 15:51:25,674 [Thread-2:41840] [django.server:131] [basehttp:log_message] [INFO]- "GET /analyzer/ HTTP/1.1" 200 1892
+2017-09-26 15:51:25,846 [Thread-5:38280] [django.server:131] [basehttp:log_message] [INFO]- "GET /analyzer/ HTTP/1.1" 200 1892
+2017-09-26 15:51:31,572 [Thread-7:43840] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'fax_log' in template 'analyzer/diagram.html'.
+Traceback (most recent call last):
+  File "D:\Python27\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [fax_log] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: <function _get_val at 0x036A5470>>, 'user': <SimpleLazyObject: <function <lambda> at 0x036EDE70>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x036A64B0>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x037030D0>, u'request': <WSGIRequest: POST '/analyzer/'>}, {}, {'error_msg': '\\nThere is something wrong with your log file, if you have any comments for this tool, pls contact with jason.a.sun@nokia-sbell.com\\n'}]"
+2017-09-26 15:51:31,588 [Thread-7:43840] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'fax_log' in template 'analyzer/diagram.html'.
+Traceback (most recent call last):
+  File "D:\Python27\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [fax_log] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: <function _get_val at 0x036A5470>>, 'user': <SimpleLazyObject: <function <lambda> at 0x036EDE70>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x036A64B0>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x037030D0>, u'request': <WSGIRequest: POST '/analyzer/'>}, {}, {'error_msg': '\\nThere is something wrong with your log file, if you have any comments for this tool, pls contact with jason.a.sun@nokia-sbell.com\\n'}]"
+2017-09-26 15:51:31,588 [Thread-7:43840] [django.server:131] [basehttp:log_message] [INFO]- "POST /analyzer/ HTTP/1.1" 200 1161
+2017-09-26 15:52:01,523 [Thread-9:44068] [django.server:131] [basehttp:log_message] [INFO]- "GET /analyzer/ HTTP/1.1" 200 1892
+2017-09-26 15:52:06,220 [Thread-10:44088] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'fax_log' in template 'analyzer/diagram.html'.
+Traceback (most recent call last):
+  File "D:\Python27\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [fax_log] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: <function _get_val at 0x0372DD70>>, 'user': <SimpleLazyObject: <function <lambda> at 0x036EDF30>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x03739350>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x037035D0>, u'request': <WSGIRequest: POST '/analyzer/'>}, {}, {'error_msg': '\\nThere is something wrong with your log file, if you have any comments for this tool, pls contact with jason.a.sun@nokia-sbell.com\\n'}]"
+2017-09-26 15:52:06,220 [Thread-10:44088] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'fax_log' in template 'analyzer/diagram.html'.
+Traceback (most recent call last):
+  File "D:\Python27\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [fax_log] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: <function _get_val at 0x0372DD70>>, 'user': <SimpleLazyObject: <function <lambda> at 0x036EDF30>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x03739350>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x037035D0>, u'request': <WSGIRequest: POST '/analyzer/'>}, {}, {'error_msg': '\\nThere is something wrong with your log file, if you have any comments for this tool, pls contact with jason.a.sun@nokia-sbell.com\\n'}]"
+2017-09-26 15:52:06,220 [Thread-10:44088] [django.server:131] [basehttp:log_message] [INFO]- "POST /analyzer/ HTTP/1.1" 200 1165
+2017-09-26 15:55:47,058 [Thread-13:41276] [django.server:131] [basehttp:log_message] [INFO]- "GET /analyzer/ HTTP/1.1" 200 1892
+2017-09-26 15:55:52,378 [Thread-15:44820] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'fax_log' in template 'analyzer/diagram.html'.
+Traceback (most recent call last):
+  File "D:\Python27\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [fax_log] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: <function _get_val at 0x0372DE70>>, 'user': <SimpleLazyObject: <function <lambda> at 0x036A5530>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x0373BA30>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x037032F0>, u'request': <WSGIRequest: POST '/analyzer/'>}, {}, {'error_msg': '\\nThere is something wrong with your log file, if you have any comments for this tool, pls contact with jason.a.sun@nokia-sbell.com\\n'}]"
+2017-09-26 15:55:52,378 [Thread-15:44820] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'fax_log' in template 'analyzer/diagram.html'.
+Traceback (most recent call last):
+  File "D:\Python27\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [fax_log] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: <function _get_val at 0x0372DE70>>, 'user': <SimpleLazyObject: <function <lambda> at 0x036A5530>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x0373BA30>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x037032F0>, u'request': <WSGIRequest: POST '/analyzer/'>}, {}, {'error_msg': '\\nThere is something wrong with your log file, if you have any comments for this tool, pls contact with jason.a.sun@nokia-sbell.com\\n'}]"
+2017-09-26 15:55:52,378 [Thread-15:44820] [django.server:131] [basehttp:log_message] [INFO]- "POST /analyzer/ HTTP/1.1" 200 1288
+2017-09-26 15:56:07,266 [Thread-17:44092] [django.server:131] [basehttp:log_message] [INFO]- "GET /analyzer/ HTTP/1.1" 200 1892
+2017-09-26 15:56:12,085 [Thread-18:40308] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'fax_log' in template 'analyzer/diagram.html'.
+Traceback (most recent call last):
+  File "D:\Python27\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [fax_log] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: <function _get_val at 0x0372DF70>>, 'user': <SimpleLazyObject: <function <lambda> at 0x0372DD30>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x03741090>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x0373B730>, u'request': <WSGIRequest: POST '/analyzer/'>}, {}, {'error_msg': '\\nThere is something wrong with your log file, if you have any comments for this tool, pls contact with jason.a.sun@nokia-sbell.com\\n'}]"
+2017-09-26 15:56:12,085 [Thread-18:40308] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'fax_log' in template 'analyzer/diagram.html'.
+Traceback (most recent call last):
+  File "D:\Python27\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [fax_log] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: <function _get_val at 0x0372DF70>>, 'user': <SimpleLazyObject: <function <lambda> at 0x0372DD30>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x03741090>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x0373B730>, u'request': <WSGIRequest: POST '/analyzer/'>}, {}, {'error_msg': '\\nThere is something wrong with your log file, if you have any comments for this tool, pls contact with jason.a.sun@nokia-sbell.com\\n'}]"
+2017-09-26 15:56:12,085 [Thread-18:40308] [django.server:131] [basehttp:log_message] [INFO]- "POST /analyzer/ HTTP/1.1" 200 1288
+2017-09-26 15:56:21,759 [Thread-21:43196] [django.server:131] [basehttp:log_message] [INFO]- "GET /analyzer/ HTTP/1.1" 200 1892
+2017-09-26 15:56:58,631 [Thread-30:40132] [django.server:131] [basehttp:log_message] [INFO]- "POST /analyzer/ HTTP/1.1" 200 4410
+2017-09-26 16:05:28,732 [Thread-32:45408] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "D:\Python27\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u"<RegexURLResolver <module 'analyzer.urls' from 'E:\\codes\\python\\faxlog\\analyzer\\urls.pyc'> (None:None) ^analyzer/>"
+2017-09-26 16:05:28,732 [Thread-32:45408] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "D:\Python27\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u'<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+2017-09-26 16:05:28,732 [Thread-32:45408] [django.request:152] [base:get_response] [WARNING]- Not Found: /
+2017-09-26 16:05:28,732 [Thread-32:45408] [django.server:131] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2018
+2017-09-26 16:05:34,473 [Thread-33:45444] [django.server:131] [basehttp:log_message] [INFO]- "GET /analyzer/ HTTP/1.1" 200 1892
+2017-09-26 16:06:29,930 [Thread-35:46072] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'fax_log' in template 'analyzer/diagram.html'.
+Traceback (most recent call last):
+  File "D:\Python27\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [fax_log] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: <function _get_val at 0x036EDF70>>, 'user': <SimpleLazyObject: <function <lambda> at 0x03721070>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x03703090>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x0373B790>, u'request': <WSGIRequest: POST '/analyzer/'>}, {}, {'error_msg': '\\nThere is something wrong with your log file, if you have any comments for this tool, pls contact with jason.a.sun@nokia-sbell.com\\n'}]"
+2017-09-26 16:06:29,930 [Thread-35:46072] [django.server:131] [basehttp:log_message] [INFO]- "POST /analyzer/ HTTP/1.1" 200 1288
+2017-09-26 16:06:42,005 [Thread-37:44768] [django.server:131] [basehttp:log_message] [INFO]- "POST /analyzer/ HTTP/1.1" 200 4410
+2017-09-26 16:08:17,549 [Thread-40:42232] [django.server:131] [basehttp:log_message] [INFO]- "GET /analyzer/ HTTP/1.1" 200 1892
+2017-09-26 16:08:22,759 [Thread-42:44940] [django.server:131] [basehttp:log_message] [INFO]- "POST /analyzer/ HTTP/1.1" 200 4449
+2017-09-26 16:08:49,460 [Thread-44:44144] [django.server:131] [basehttp:log_message] [INFO]- "GET /analyzer/ HTTP/1.1" 200 1892
+2017-09-26 16:08:54,815 [Thread-46:45992] [django.server:131] [basehttp:log_message] [INFO]- "POST /analyzer/ HTTP/1.1" 200 4449
+2017-09-26 16:09:08,325 [Thread-48:43348] [django.server:131] [basehttp:log_message] [INFO]- "POST /analyzer/ HTTP/1.1" 200 4449
+2017-09-26 16:09:08,513 [Thread-49:45576] [django.server:131] [basehttp:log_message] [WARNING]- "GET /static/analyzer/js/underscore-min.map HTTP/1.1" 404 1708
+2017-09-26 16:09:08,528 [Thread-50:45604] [django.server:131] [basehttp:log_message] [WARNING]- "GET /static/analyzer/js/sequence-diagram.js HTTP/1.1" 404 1711
+2017-09-26 16:14:42,335 [Thread-51:24124] [django.server:131] [basehttp:log_message] [INFO]- "GET /analyzer/ HTTP/1.1" 200 1892
+2017-09-26 16:14:51,750 [Thread-53:45632] [django.server:131] [basehttp:log_message] [INFO]- "POST /analyzer/ HTTP/1.1" 200 4449
+2017-09-26 16:32:50,698 [Dummy-1:46912] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2017-09-26 16:32:50,698 [Dummy-1:46912] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2017-09-26 16:32:58,654 [Thread-2:46956] [django.server:131] [basehttp:log_message] [INFO]- "GET /analyzer/ HTTP/1.1" 200 1892
+2017-09-26 16:33:05,176 [Thread-4:46092] [django.server:131] [basehttp:log_message] [INFO]- "POST /analyzer/ HTTP/1.1" 200 4506
+2017-09-26 16:38:26,167 [Thread-6:46392] [django.server:131] [basehttp:log_message] [INFO]- "GET /analyzer/ HTTP/1.1" 200 1892
+2017-09-26 16:38:35,154 [Thread-8:46440] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'fax_log' in template 'analyzer/diagram.html'.
+Traceback (most recent call last):
+  File "D:\Python27\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [fax_log] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: <function _get_val at 0x036E7130>>, 'user': <SimpleLazyObject: <function <lambda> at 0x03677EB0>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x036FCF50>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x036FC510>, u'request': <WSGIRequest: POST '/analyzer/'>}, {}, {'error_msg': '\\nThere is something wrong with your log file, if you have any comments for this tool, pls contact with jason.a.sun@nokia-sbell.com\\n'}]"
+2017-09-26 16:38:35,154 [Thread-8:46440] [django.server:131] [basehttp:log_message] [INFO]- "POST /analyzer/ HTTP/1.1" 200 1384
+2017-09-26 16:38:42,079 [Thread-10:46844] [django.server:131] [basehttp:log_message] [INFO]- "POST /analyzer/ HTTP/1.1" 200 4506
+2017-09-26 21:28:22,839 [Dummy-1:10484] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2017-09-26 21:28:22,887 [Dummy-1:10484] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2017-09-26 21:28:37,785 [Thread-2:10604] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "D:\Python27\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u"<RegexURLResolver <module 'analyzer.urls' from 'E:\\codes\\python\\faxlog\\analyzer\\urls.pyc'> (None:None) ^analyzer/>"
+2017-09-26 21:28:37,799 [Thread-2:10604] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "D:\Python27\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u'<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+2017-09-26 21:28:37,799 [Thread-2:10604] [django.request:152] [base:get_response] [WARNING]- Not Found: /
+2017-09-26 21:28:37,815 [Thread-2:10604] [django.server:131] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2013
+2017-09-26 21:28:38,065 [Thread-3:10608] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "D:\Python27\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u"<RegexURLResolver <module 'analyzer.urls' from 'E:\\codes\\python\\faxlog\\analyzer\\urls.pyc'> (None:None) ^analyzer/>"
+2017-09-26 21:28:38,065 [Thread-3:10608] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "D:\Python27\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u'<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+2017-09-26 21:28:38,065 [Thread-3:10608] [django.request:152] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2017-09-26 21:28:38,065 [Thread-3:10608] [django.server:131] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2046
+2017-09-26 21:28:38,144 [Thread-4:10612] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "D:\Python27\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u"<RegexURLResolver <module 'analyzer.urls' from 'E:\\codes\\python\\faxlog\\analyzer\\urls.pyc'> (None:None) ^analyzer/>"
+2017-09-26 21:28:38,144 [Thread-4:10612] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "D:\Python27\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u'<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+2017-09-26 21:28:38,158 [Thread-4:10612] [django.request:152] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2017-09-26 21:28:38,158 [Thread-4:10612] [django.server:131] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2046
+2017-09-26 21:28:45,210 [Thread-5:10732] [django.server:131] [basehttp:log_message] [INFO]- "GET /analyzer/ HTTP/1.1" 200 1892
+2017-09-26 21:28:53,259 [Thread-8:10904] [django.server:131] [basehttp:log_message] [INFO]- "POST /analyzer/ HTTP/1.1" 200 4615
+2017-09-26 21:33:05,436 [Thread-10:8424] [django.server:131] [basehttp:log_message] [INFO]- "GET /analyzer/ HTTP/1.1" 200 1892
+2017-09-26 21:33:13,969 [Thread-12:12044] [django.server:131] [basehttp:log_message] [INFO]- "POST /analyzer/ HTTP/1.1" 200 5339
+2017-09-26 21:34:01,071 [Thread-14:8424] [django.server:131] [basehttp:log_message] [INFO]- "GET /analyzer/ HTTP/1.1" 200 1892
+2017-09-26 21:34:06,608 [Thread-17:10476] [django.server:131] [basehttp:log_message] [INFO]- "POST /analyzer/ HTTP/1.1" 200 5339
+2017-09-26 21:34:21,671 [Thread-19:10476] [django.server:131] [basehttp:log_message] [INFO]- "GET /analyzer/ HTTP/1.1" 200 1892
+2017-09-26 21:34:26,601 [Thread-20:884] [django.server:131] [basehttp:log_message] [INFO]- "POST /analyzer/ HTTP/1.1" 200 5339
+2017-09-26 21:35:46,473 [Thread-22:11528] [django.server:131] [basehttp:log_message] [INFO]- "GET /analyzer/ HTTP/1.1" 200 1892
+2017-09-26 21:35:52,510 [Thread-24:11804] [django.server:131] [basehttp:log_message] [INFO]- "POST /analyzer/ HTTP/1.1" 200 5339
+2017-09-26 21:37:02,019 [Thread-26:13132] [django.server:131] [basehttp:log_message] [INFO]- "GET /analyzer/ HTTP/1.1" 200 1892
+2017-09-26 21:37:07,229 [Thread-28:13288] [django.server:131] [basehttp:log_message] [INFO]- "POST /analyzer/ HTTP/1.1" 200 5339
+2017-09-26 21:37:20,769 [Thread-30:10876] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'fax_log' in template 'analyzer/diagram.html'.
+Traceback (most recent call last):
+  File "D:\Python27\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [fax_log] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: <function _get_val at 0x039697F0>>, 'user': <SimpleLazyObject: <function <lambda> at 0x03969430>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x0397ED10>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x0397E5D0>, u'request': <WSGIRequest: POST '/analyzer/'>}, {}, {'error_msg': '\\nThere is something wrong with your log file, if you have any comments for this tool, pls contact with jason.a.sun@nokia-sbell.com\\n'}]"
+2017-09-26 21:37:20,786 [Thread-30:10876] [django.server:131] [basehttp:log_message] [INFO]- "POST /analyzer/ HTTP/1.1" 200 2217
+2017-09-26 21:37:53,424 [Thread-32:11220] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'fax_log' in template 'analyzer/diagram.html'.
+Traceback (most recent call last):
+  File "D:\Python27\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [fax_log] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: <function _get_val at 0x039698B0>>, 'user': <SimpleLazyObject: <function <lambda> at 0x03969470>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x03986150>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x0397E9F0>, u'request': <WSGIRequest: POST '/analyzer/'>}, {}, {'error_msg': '\\nThere is something wrong with your log file, if you have any comments for this tool, pls contact with jason.a.sun@nokia-sbell.com\\n'}]"
+2017-09-26 21:37:53,440 [Thread-32:11220] [django.server:131] [basehttp:log_message] [INFO]- "POST /analyzer/ HTTP/1.1" 200 2155
+2017-09-26 21:37:56,746 [Thread-33:4692] [django.server:131] [basehttp:log_message] [INFO]- "GET /analyzer/ HTTP/1.1" 200 1892
+2017-09-26 21:38:02,082 [Thread-35:11056] [django.server:131] [basehttp:log_message] [INFO]- "POST /analyzer/ HTTP/1.1" 200 5343
+2017-09-26 21:38:18,596 [Thread-38:13016] [django.server:131] [basehttp:log_message] [INFO]- "GET /analyzer/ HTTP/1.1" 200 1892
+2017-09-26 21:38:24,602 [Thread-40:420] [django.server:131] [basehttp:log_message] [INFO]- "POST /analyzer/ HTTP/1.1" 200 5339
+2017-09-26 21:38:49,161 [Thread-42:9480] [django.server:131] [basehttp:log_message] [INFO]- "GET /analyzer/ HTTP/1.1" 200 1892
+2017-09-26 21:38:53,841 [Thread-43:8680] [django.server:131] [basehttp:log_message] [INFO]- "POST /analyzer/ HTTP/1.1" 200 5345
+2017-09-26 21:39:00,392 [Thread-45:12700] [django.server:131] [basehttp:log_message] [INFO]- "GET /analyzer/ HTTP/1.1" 200 1892
+2017-09-26 21:39:05,634 [Thread-47:12332] [django.server:131] [basehttp:log_message] [INFO]- "POST /analyzer/ HTTP/1.1" 200 5345
+2017-09-26 21:39:26,032 [Thread-49:13448] [django.server:131] [basehttp:log_message] [INFO]- "GET /analyzer/ HTTP/1.1" 200 1892
+2017-09-26 21:39:34,269 [Thread-51:13568] [django.server:131] [basehttp:log_message] [INFO]- "POST /analyzer/ HTTP/1.1" 200 5348
+2017-09-26 21:40:07,948 [Thread-53:13740] [django.server:131] [basehttp:log_message] [INFO]- "GET /analyzer/ HTTP/1.1" 200 1892
+2017-09-26 21:40:14,532 [Thread-55:13864] [django.server:131] [basehttp:log_message] [INFO]- "POST /analyzer/ HTTP/1.1" 200 5348
+2017-09-26 21:54:57,421 [Thread-57:15292] [django.server:131] [basehttp:log_message] [INFO]- "GET /analyzer/ HTTP/1.1" 200 1892
+2017-09-26 21:55:04,417 [Thread-60:12280] [django.server:131] [basehttp:log_message] [INFO]- "POST /analyzer/ HTTP/1.1" 200 5348

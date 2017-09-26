@@ -1,0 +1,1170 @@
+[BEGIN] 2017/9/25 15:47:57
+[iwu_msghandler, 432] [iwu_fn_msghandler] rcv msg from 6 
+[callmgnt_data, 2089] Event IwuCallMgntHandler::onInviteIndication remote user:[+13288618402], local user:[88618403], uaRef:[0082-00000009-0981], dialog_id=0, M parameter=[]
+[callmgnt_data, 2168] IwuCallMgntHandler::onInviteIndication InviteInd.request_info.scheme is 1, InviteInd.request_info.user_name is +13288618403,InviteInd.request_info.domain_name is 21.1.1.103, calleeAoR is +13288618403@21.1.1.103
+[iwu_associate_uri, 409] Enter IwuAssociatedUri::CheckCallNumber. checkedCallAoR:+13288618403@21.1.1.103 scheme:1
+[callmgnt_data, 2183] IwuCallMgntHandler::onInviteIndication line Id is 0
+[IsdnResourceMgnt, 466] Inter IsdnResourceMgnt::getLapdStatus
+[IsdnResourceMgnt, 474] the line lapd status is 4
+[IsdnResourceMgnt, 478] Leave IsdnResourceMgnt::getLapdStatus
+[IsdnResourceMgnt, 466] Inter IsdnResourceMgnt::getLapdStatus
+[IsdnResourceMgnt, 474] the line lapd status is 4
+[IsdnResourceMgnt, 478] Leave IsdnResourceMgnt::getLapdStatus
+[IsdnResourceMgnt, 504] Inter IsdnResourceMgnt::getIsLineAvailableForCall
+[IsdnResourceMgnt, 155] Enter IsdnResourceMgnt: allocBchResReqbChannelIdReq 0, BChannelSelMethod 2
+[IsdnResourceMgnt, 504] Inter IsdnResourceMgnt::getIsLineAvailableForCall
+Lineflag=1, lapdstatus=4, lineId:0
+[IsdnResourceMgnt, 179]Looking for alternative B channel
+[IsdnResourceMgnt, 185] AllocMethod is RANDOM and start is 26
+[IsdnResourceMgnt, 202] Found providing  B channel at 26
+[IsdnResourceMgnt, 238] Leave IsdnResourceMgnt::allocBchResReq,bChannelIdAlloc 26, retval 1
+[callmgnt_data, 2289] IwuCallMgntHandler::onInviteIndication error_code is 0
+[iwu_lm, 528] IwuLM::allocLmId allocate new lm ID : [9]!
+[iwu_lm, 544] IwuLM::allocLmId alloc id for cm 0 module, lmId:[9]!
+[callmgntData] call_id alloc[9] 
+
+[callmgnt_data, 2371] Event IwuCallMgntHandler::onInviteIndication for app_reference: 9-0 in state 0
+[cm_idle_state, 455] Idle STATE: newCallIncoming for channel: 26, CM id[9], inviteInd.histinfo: 1, caller num[+13288618402], callee num[88618403]
+[cm_idle_state, 506] Idle STATE: newCallIncoming i[0], number[+13288618402], name[Unavailable], pai_uri[Unavailable <sip:+13288618402@qd.lucentlab.com;user=phone>]
+[session_itf, 134] Enter iwu_fn_session_offer_received under state:[callmgnt_session_initial]
+[callmgnt_data, 4865] IwuCallMgntHandler::DoSendMsgToSSAPIW Event 3 for Terminal:1 in state 0 with body 0 type 0 callid [9] dialog_id is -1, maxFwd is 70 
+
+[callmgnt_data, 5352] IwuCallMgntHandler::DoSendMsgToSSAPIW CM id[9],pCallMgntData->m_histinfo=1, pCallMgntData->m_hisinfo = <sip:+13288618403@qd.lucentlab.com;user=phone>;index=1
+[callmgnt_data, 5421] IwuCallMgntHandler::DoSendMsgToSSAPIW CM id[9], respons code[0], ua_resp.session_refresher=0
+[callmgnt_data, 5525] IwuCallMgntHandler::DoSendMsgToSSAPIW ua response: 0 method 15 for Terminal:1 in state 0,m_logicalbchannel_id = 26
+[callmgnt_data, 5531] IwuCallMgntHandler::DoSendMsgToSSAPIW pCallMgntData->m_histinfo=1, pCallMgntData->m_hisinfo = <sip:+13288618403@qd.lucentlab.com;user=phone>;index=1
+[callmgnt_data, 3953] Enter DoSendMsgToCallHandler for ccEvent: 26
+[IsdnResourceMgnt, 562] Inter IsdnResourceMgnt::getSignalingType, line id is 0 
+[IsdnResourceMgnt, 570] the line type status is 1
+[IsdnResourceMgnt, 574] Leave IsdnResourceMgnt::getSignalingType,retValue is:1.
+ [PreHandleDiversionParse, 8612] PreHandleDiversionParse:  No valid diversion, reject
+
+[iwu_internalmsg, 191] iwu_internal_msg_mgr::post_internal_message new pCallData allocated, current count is 1
+
+[iwu_internalmsg, 277] post_message: dDestinationFsm=0, dInputEvent.dCommEvents=26
+[callmgnt_data, 2391] Exit IwuCallMgntHandler::onInviteIndication.
+[iwu_msghandler, 498] Enter function: iwu_fn_internalDerivedCcEvent 
+[iwu_msghandler, 512] Enter iwu_fn_internalDerivedCcEvent dDestinationFsm=0, dInputEvent.dCommEvents=26
+[iwu_msghandler, 529] iwu_fn_internalDerivedCcEvent: Iwu_en_callControlFsm entering CC FSM
+[IsdnResourceMgnt, 562] Inter IsdnResourceMgnt::getSignalingType, line id is 0 
+[IsdnResourceMgnt, 570] the line type status is 1
+[IsdnResourceMgnt, 574] Leave IsdnResourceMgnt::getSignalingType,retValue is:1.
+[iwu_msghandler, 610] iwu_fn_ccInternalMsgHandler: Iwu_en_callControlFsm signaling type:1, IWU_IRM_CAS_R2:1
+
+[IsdnResourceMgnt, 562] Inter IsdnResourceMgnt::getSignalingType, line id is 0 
+[IsdnResourceMgnt, 570] the line type status is 1
+[IsdnResourceMgnt, 574] Leave IsdnResourceMgnt::getSignalingType,retValue is:1.
+[iwu_cascc_itf_cm, 466] Enter function: iwu_fn_casccIncomingPrehandler 
+[cascc cm itf] CallId:9, lineId:0 
+
+[iwu_util, 707] iwu_fn_setBchOperStatus: logicalBChanelNum 26, BChannelStatus 2
+
+[IsdnResourceMgnt, 297] Inter IsdnResourceMgnt::setBchOperStatus,bChannelId 26, set status 2
+[IsdnResourceMgnt, 321] previous b channel operation status was 0
+[IsdnResourceMgnt, 323] b channel operation status set to  2
+[IsdnResourceMgnt, 326] Leave IsdnResourceMgnt::setBchOperStatus
+[cc cm itf] begin to create Cas CallContext
+
+[Iwu_initfree, 506] iwu_fn_InitCallContext 
+[Iwu_initfree, 609] iwu_fn_InitFaxCallContext 
+[Iwu_initfree, 709] iwu_fn_InitCasCallContext 
+[iwu_lm, 544] IwuLM::allocLmId alloc id for cm 1 module, lmId:[9]!
+[iwu_fn_PopulateCasCallContext, 120], LineId 0, allocBChannelId 26 alllocatedCallId 9
+
+[iwu_cascc_fsm_idle, 77] iwu_fn_casccIdle: CC FSM: Event Iwu_en_ccIncomingCallInd received in Idle state on CallId:9, channelid=26.
+[iwu_cascc_fsm_call_idle, 215] Enter iwu_fn_casccProcessCMIncomingCallInd:  CallId:9 
+[iwu_cascc_fsm_call_idle, 249] CallId:9, diversion_counter:0
+[iwu_cascc_fsm_call_idle, 313] CallId:9, Acc:
+[iwu_cascc_fsm_call_idle, 316] ssp cpcmapping value:0,
+[iwu_cascc_fsm_call_idle, 319] PAI_cpc:
+ [iwu_cascc_fsm_call_idle, 335] iwu_fn_casccPopCallingNum cpc:1
+
+ [iwu_cascc_fsm_call_idle, 345] Enter iwu_fn_casccPopCallingNum begin:16 end:29  cid.pai_uri:Unavailable <sip:+13288618402@qd.lucentlab.com;user=phone> cid.number:+13288618402
+
+ [iwu_cascc_fsm_call_idle, 351] Enter iwu_fn_casccPopCallingNum From header displayname:Unavailable, user_name:+13288618402, CID header displayname:Unavailable, number:+13288618402, privacy_info:
+
+ [iwu_cascc_fsm_call_idle, 361] Enter iwu_fn_casccPopCallingNum:  cid_local:0 cid_inter:1 caller_local:0 caller_inter:1 privacy:0
+
+ [iwu_cascc_fsm_call_idle, 401] Enter iwu_fn_casccPopCallingNum:  calling digits[13288618402], length[11]
+
+ [iwu_cascc_fsm_call_idle, 442] iwu_fn_casccPopCalledNum:  Enter iwu_fn_casccPopCalledNum, Called Number is 88618403
+ [iwu_cascc_fsm_call_idle, 473] Enter iwu_fn_casccPopCalledNum:  called digits[88618403], length[8]
+
+[iwu_cascc_itf_cas, 82] iwu_fn_casccSendCasMsg Success in Sending cas msg to CAS R2 Stack.
+pCallData deleted, remains 0
+
+[iwu_msghandler, 432] [iwu_fn_msghandler] rcv msg from 36 
+[Iwu_cascc_itf, 78] iwu_fn_casccMsgHandler: Enter iwu_fn_casccMsgHandler.
+[IwuCasccUtility, 62] iwu_fn_casccCopyMsg: CAS Message is received and copyed.
+[IwuCasccUtility, 282] iwu_fn_transMsgTypeToCCEvent: input 20, output 74 
+[iwu_cascc_fsm_inc_call_present, 61] iwu_fn_casccIncCallPresent: CC FSM: Event Iwu_en_casSeizureAckResp received in INCOMING CALL PRESENT state on CallId:9, channelid=26.
+[iwu_cascc_fsm_inc_call_present, 195] Enter iwu_fn_casccProcessIncSeizureAckEvent:  CallId:9 
+[iwu_internalmsg, 191] iwu_internal_msg_mgr::post_internal_message new pCallData allocated, current count is 1
+
+[iwu_internalmsg, 277] post_message: dDestinationFsm=1, dInputEvent.dCommEvents=36
+[wu_initfree, 824] iwu_fn_releaseMsg:  Enter iwu_fn_releaseMsg
+[iwu_msghandler, 498] Enter function: iwu_fn_internalDerivedCcEvent 
+[iwu_msghandler, 512] Enter iwu_fn_internalDerivedCcEvent dDestinationFsm=1, dInputEvent.dCommEvents=36
+[iwu_callmgnt_itf, 109] Enter function: iwu_fn_callmgntFsmMsgHandler 
+[callmgnt_data, 2888] Enter IwuCallMgntHandler::CallMgntMsgHandler logicalBChannelId=[26], dInputEvent=[36]
+[callmgnt_data] callid = [9]
+[callmgnt_data, 3013] IwuCallMgntHandler::CallMgntMsgHandler entering seizureResource, call_id 9
+[IwuCallMgntInCallInProgressState, 1032] Enter function: seizureResource channel id[26], CM id[9]
+[callmgnt_data, 4718] IwuCallMgntHandler::DoSendMsgToMM logicalBChannelId=26 send event 0 to MM in state 7, m_callmgnt_id=[9], streamType=0x1, dialog_id is -1 
+[Iwu_timer, 289] iwu_fn_startTimer: dTimerListId=3, dTimerValue=100000, dLineId=9, dCallId=9, dModuleId=1, dTimerType:[Iwu_en_FSMPendingTimer(0)], Timerid[0]
+[Iwu_timer, 266] iwu_fn_startTimerExt: Timer Started: Cyclic=0, Type:[Iwu_en_FSMPendingTimer], Value=100000, TimerList=3
+
+    TimerID=50, addr=0x580d6b04, Lineid=9, Callid=[9] 
+
+[iwu_internalmsg, 191] iwu_internal_msg_mgr::post_internal_message new pCallData allocated, current count is 2
+
+[iwu_internalmsg, 277] post_message: dDestinationFsm=2, dInputEvent.dCommEvents=0
+[callmgnt_data, 3024] IwuCallMgntHandler::CallMgntMsgHandler for channel:26 is handling event [36] in state 30 callid [9]
+pCallData deleted, remains 1
+
+[iwu_msghandler, 498] Enter function: iwu_fn_internalDerivedCcEvent 
+[iwu_msghandler, 512] Enter iwu_fn_internalDerivedCcEvent dDestinationFsm=2, dInputEvent.dCommEvents=0
+[iwu_lm, 544] IwuLM::allocLmId alloc id for cm 2 module, lmId:[9]!
+[mm_handler, 823] IWU_MM_Handler::allocRes cm_id[9], sipw_stype=1, rsvRes=0
+[iwu_platform, 933] Sending MSG_RES_ALLOC_REQ for txn_id=9, bchannel_id=26
+[iwu_platform, 991] allocCodecResource:0 dStreamType:1 on term: 29
+
+
+ msg: MSG_RES_ALLOC_REQ
+- header->msg_id = 852502
+- header->length = 420
+- ((msg_res_alloc_req_t*)payload)->txn_id = 9
+- ((msg_res_alloc_req_t*)payload)->term_id = 29
+- ((msg_res_alloc_req_t*)payload)->allocCodecResource = 0
+- ((msg_res_alloc_req_t*)payload)->term_type = 0
+- ((msg_res_alloc_req_t*)payload)->stream_id = 9
+- ((msg_res_alloc_req_t*)payload)->new_res_info.algo_info.list.list_qty = 0
+- ((msg_res_alloc_req_t*)payload)->new_res_info.algo_info.list.total_list_qty = 0
+[CVP] - ((msg_res_alloc_req_t*)payload)->new_res_info.algo_info.list.a_list[0] = 0
+[CVP] - ((msg_res_alloc_req_t*)payload)->new_res_info.algo_info.list.a_list[1] = 0
+[CVP] - ((msg_res_alloc_req_t*)payload)->new_res_info.algo_info.list.a_list[2] = 0
+[CVP] - ((msg_res_alloc_req_t*)payload)->new_res_info.algo_info.list.a_list[3] = 0
+[CVP] - ((msg_res_alloc_req_t*)payload)->new_res_info.algo_info.list.a_list[4] = 0
+[CVP] - ((msg_res_alloc_req_t*)payload)->new_res_info.algo_info.list.a_list[5] = 0
+[CVP] - ((msg_res_alloc_req_t*)payload)->new_res_info.algo_info.list.algo_behavior_corelator[0] = 0
+[CVP] - ((msg_res_alloc_req_t*)payload)->new_res_info.algo_info.list.algo_behavior_corelator[1] = 0
+[CVP] - ((msg_res_alloc_req_t*)payload)->new_res_info.algo_info.list.algo_behavior_corelator[2] = 0
+[CVP] - ((msg_res_alloc_req_t*)payload)->new_res_info.algo_info.list.algo_behavior_corelator[3] = 0
+[CVP] - ((msg_res_alloc_req_t*)payload)->new_res_info.algo_info.list.algo_behavior_corelator[4] = 0
+[CVP] - ((msg_res_alloc_req_t*)payload)->new_res_info.algo_info.list.algo_behavior_corelator[5] = 0
+- ((msg_res_alloc_req_t*)payload)->media_type = 0
+[mm_handler, 845] Exit allocRes.
+[Iwu_timer, 289] iwu_fn_startTimer: dTimerListId=3, dTimerValue=4000, dLineId=9, dCallId=9, dModuleId=2, dTimerType:[Iwu_en_FSMPendingTimer(0)], Timerid[0]
+[Iwu_timer, 266] iwu_fn_startTimerExt: Timer Started: Cyclic=0, Type:[Iwu_en_FSMPendingTimer], Value=4000, TimerList=3
+
+    TimerID=51, addr=0x580d6b7c, Lineid=9, Callid=[9] 
+
+pCallData deleted, remains 0
+
+[iwu_msghandler, 432] [iwu_fn_msghandler] rcv msg from 5 
+[iwu_fn_voipManagerMsgHandler, 1062] -- Enter iwu_fn_voipManagerMsgHandler msg_id:[MSG_RES_ALLOC_RESP(535)]
+[mm_handler, 2774] Enter IWU_MM_Handler::handleMsgFromSipw event=9
+[Iwu_timer, 315] iwu_fn_stopTimer: Timer Stop: addr=0x580d6b7c, TimerId=[51], TimerListid=3
+[mm_handler, 3136] IWU_MM_Handler::handleMsgFromSipw entering createStream cmid[9]
+[iwu_platform, 1346] Sending MSG_STREAM_CREATE_REQ for txn_id=[9], bchannel_id=26
+[iwu_platform, 1414] MODE:: 1 is applied on platform
+[iwu_platform, 1510] The Local Session IP and Port are 21.1.1.103 and 49718
+[iwu_platform, 1522] CodeName:[PCMA]
+[iwu_platform, 1584] echo_cancellation_flag=1, dVoiceECSwitch=0,
+[iwu_platform, -1599] local codec#$ seq=0, pt_num=8, bitrate=0
+[iwu_platform, 1522] CodeName:[telephone-event]
+[iwu_platform, 1584] echo_cancellation_flag=1, dVoiceECSwitch=0,
+fmtp:96 16-255
+fmtp:96 16-255
+fmtp:96 16-255
+fmtp:96 16-255
+[iwu_platform, 1647] local codec faxmodem#$ seq=1, pt_num=96,payloadtype=97
+[iwu_platform, 1839] The Remote Session IP and Port are 21.1.1.103 and 51716
+[iwu_platform, 1858] remote codec#$ seq=0, pt_num=8
+fmtp:96 16-255
+fmtp:96 16-255
+fmtp:96 16-255
+fmtp:96 16-255
+remote faxmodem#$ seq=1  pt_num=96
+[iwu_platform, 2035] Create or Modify stream, local rtp_config_options = 14
+[iwu_platform, 2044] iwu_fn_sendStreamCreateOrModifyRequest: echo=1, silenceSupp=0, bitmask=3
+
+ msg: MSG_STREAM_CREATE_REQ
+- header->msg_id = 852537
+- header->length = 1796
+- ((msg_stream_create_req_t*)payload)->stream_param.txn_id = 9
+- ((msg_stream_create_req_t*)payload)->stream_param.term_id = 29
+- ((msg_stream_create_req_t*)payload)->stream_param.term_type = 0
+- ((msg_stream_create_req_t*)payload)->stream_param.stream_id = 9
+- ((msg_stream_create_req_t*)payload)->stream_param.item_id = 0
+- ((msg_stream_create_req_t*)payload)->stream_param.gw_ipaddr = 21.1.1.1
+- ((msg_stream_create_req_t*)payload)->stream_param.echo_cancellation_flag = 1
+- ((msg_stream_create_req_t*)payload)->stream_param.silence_surpression_flag = 0
+- ((msg_stream_create_req_t*)payload)->stream_param.stream_type = 0
+- ((msg_stream_create_req_t*)payload)->stream_param.stream_config_options = 3
+- ((msg_stream_create_req_t*)payload)->stream_mode = 4
+- ((msg_stream_create_req_t*)payload)->media_config.pdn_media_config.local_media_config.rtp_media.rtp_config_options = 14
+- ((msg_stream_create_req_t*)payload)->media_config.pdn_media_config.local_media_config.rtp_media.trans_info.cnx_ip_addr.local_addr.start_port_id = 49718
+- ((msg_stream_create_req_t*)payload)->media_config.pdn_media_config.local_media_config.rtp_media.trans_info.cnx_ip_addr.tpt_addr.base_addr.ipv4_addr = 21.1.1.103
+- ((msg_stream_create_req_t*)payload)->media_config.pdn_media_config.local_media_config.rtp_media.media_type = 0
+- ((msg_stream_create_req_t*)payload)->media_config.pdn_media_config.local_media_config.rtp_media.payload_list.num_payloads = 2
+- ((msg_stream_create_req_t*)payload)->media_config.pdn_media_config.local_media_config.rtp_media.payload_list.a_prefer_list[0].payload_type = 8
+- ((msg_stream_create_req_t*)payload)->media_config.pdn_media_config.local_media_config.rtp_media.payload_list.a_prefer_list[0].payload_bit_rate = 0
+- ((msg_stream_create_req_t*)payload)->media_config.pdn_media_config.local_media_config.rtp_media.payload_list.a_prefer_list[0].pt_number = 8
+- ((msg_stream_create_req_t*)payload)->media_config.pdn_media_config.local_media_config.rtp_media.payload_list.a_prefer_list[1].payload_type = 0
+- ((msg_stream_create_req_t*)payload)->media_config.pdn_media_config.local_media_config.rtp_media.payload_list.a_prefer_list[1].payload_bit_rate = 0
+- ((msg_stream_create_req_t*)payload)->media_config.pdn_media_config.local_media_config.rtp_media.payload_list.a_prefer_list[1].pt_number = 96
+- ((msg_stream_create_req_t*)payload)->media_config.pdn_media_config.local_media_config.rtp_media.payload_list.a_prefer_list[2].payload_type = 0
+- ((msg_stream_create_req_t*)payload)->media_config.pdn_media_config.local_media_config.rtp_media.payload_list.a_prefer_list[2].payload_bit_rate = 0
+- ((msg_stream_create_req_t*)payload)->media_config.pdn_media_config.local_media_config.rtp_media.payload_list.a_prefer_list[2].pt_number = 0
+- ((msg_stream_create_req_t*)payload)->media_config.pdn_media_config.local_media_config.rtp_media.serv_attrib_info.serv_attrib_mask = 0
+- ((msg_stream_create_req_t*)payload)->media_config.pdn_media_config.local_media_config.rtp_media.serv_attrib_info.ptime.packetization_period = 0
+- ((msg_stream_create_req_t*)payload)->media_config.pdn_media_config.local_media_config.rtp_media.serv_attrib_info.t38_attr.t38_mask = 0
+- ((msg_stream_create_req_t*)payload)->media_config.pdn_media_config.local_media_config.rtp_media.serv_attrib_info.t38_attr.version = 0
+- ((msg_stream_create_req_t*)payload)->media_config.pdn_media_config.local_media_config.rtp_media.serv_attrib_info.t38_attr.data_rate = 0
+- ((msg_stream_create_req_t*)payload)->media_config.pdn_media_config.local_media_config.rtp_media.serv_attrib_info.t38_attr.error_correction = 0
+- ((msg_stream_create_req_t*)payload)->media_config.pdn_media_config.local_media_config.rtp_media.serv_attrib_info.t38_attr.implementation_type = 0
+- ((msg_stream_create_req_t*)payload)->media_config.pdn_media_config.local_media_config.rtp_media.serv_attrib_info.t38_attr.packet_time = 0
+- ((msg_stream_create_req_t*)payload)->media_config.pdn_media_config.local_media_config.rtp_media.serv_attrib_info.t38_attr.max_bitrate = 0
+- ((msg_stream_create_req_t*)payload)->media_config.pdn_media_config.local_media_config.rtp_media.serv_attrib_info.t38_attr.max_buffer_size = 0
+- ((msg_stream_create_req_t*)payload)->media_config.pdn_media_config.local_media_config.rtp_media.serv_attrib_info.t38_attr.max_datagram_size = 0
+- ((msg_stream_create_req_t*)payload)->media_config.pdn_media_config.local_media_config.rtp_media.serv_attrib_info.t38_attr.transport_type = 0
+- ((msg_stream_create_req_t*)payload)->media_config.pdn_media_config.remote_media_config.rtp_media.rtp_config_options = 46
+- ((msg_stream_create_req_t*)payload)->media_config.pdn_media_config.remote_media_config.rtp_media.trans_info.cnx_ip_addr.local_addr.start_port_id = 51716
+- ((msg_stream_create_req_t*)payload)->media_config.pdn_media_config.remote_media_config.rtp_media.trans_info.cnx_ip_addr.tpt_addr.base_addr.ipv4_addr = 21.1.1.103
+- ((msg_stream_create_req_t*)payload)->media_config.pdn_media_config.remote_media_config.rtp_media.media_type = 0
+- ((msg_stream_create_req_t*)payload)->media_config.pdn_media_config.remote_media_config.rtp_media.payload_list.num_payloads = 2
+- ((msg_stream_create_req_t*)payload)->media_config.pdn_media_config.remote_media_config.rtp_media.payload_list.a_prefer_list[0].payload_type = 8
+- ((msg_stream_create_req_t*)payload)->media_config.pdn_media_config.remote_media_config.rtp_media.payload_list.a_prefer_list[0].payload_bit_rate = 0
+- ((msg_stream_create_req_t*)payload)->media_config.pdn_media_config.remote_media_config.rtp_media.payload_list.a_prefer_list[0].pt_number = 8
+- ((msg_stream_create_req_t*)payload)->media_config.pdn_media_config.remote_media_config.rtp_media.payload_list.a_prefer_list[1].payload_type = 0
+- ((msg_stream_create_req_t*)payload)->media_config.pdn_media_config.remote_media_config.rtp_media.payload_list.a_prefer_list[1].payload_bit_rate = 0
+- ((msg_stream_create_req_t*)payload)->media_config.pdn_media_config.remote_media_config.rtp_media.payload_list.a_prefer_list[1].pt_number = 96
+- ((msg_stream_create_req_t*)payload)->media_config.pdn_media_config.remote_media_config.rtp_media.payload_list.a_prefer_list[2].payload_type = 0
+- ((msg_stream_create_req_t*)payload)->media_config.pdn_media_config.remote_media_config.rtp_media.payload_list.a_prefer_list[2].payload_bit_rate = 0
+- ((msg_stream_create_req_t*)payload)->media_config.pdn_media_config.remote_media_config.rtp_media.payload_list.a_prefer_list[2].pt_number = 0
+- ((msg_stream_create_req_t*)payload)->media_config.pdn_media_config.remote_media_config.rtp_media.serv_attrib_info.serv_attrib_mask = 2
+- ((msg_stream_create_req_t*)payload)->media_config.pdn_media_config.remote_media_config.rtp_media.serv_attrib_info.ptime.packetization_period = 20
+- ((msg_stream_create_req_t*)payload)->media_config.pdn_media_config.remote_media_config.rtp_media.serv_attrib_info.t38_attr.t38_mask = 0
+- ((msg_stream_create_req_t*)payload)->media_config.pdn_media_config.remote_media_config.rtp_media.serv_attrib_info.t38_attr.version = 0
+- ((msg_stream_create_req_t*)payload)->media_config.pdn_media_config.remote_media_config.rtp_media.serv_attrib_info.t38_attr.data_rate = 0
+- ((msg_stream_create_req_t*)payload)->media_config.pdn_media_config.remote_media_config.rtp_media.serv_attrib_info.t38_attr.error_correction = 0
+- ((msg_stream_create_req_t*)payload)->media_config.pdn_media_config.remote_media_config.rtp_media.serv_attrib_info.t38_attr.implementation_type = 0
+- ((msg_stream_create_req_t*)payload)->media_config.pdn_media_config.remote_media_config.rtp_media.serv_attrib_info.t38_attr.packet_time = 0
+- ((msg_stream_create_req_t*)payload)->media_config.pdn_media_config.remote_media_config.rtp_media.serv_attrib_info.t38_attr.max_bitrate = 0
+- ((msg_stream_create_req_t*)payload)->media_config.pdn_media_config.remote_media_config.rtp_media.serv_attrib_info.t38_attr.max_buffer_size = 0
+- ((msg_stream_create_req_t*)payload)->media_config.pdn_media_config.remote_media_config.rtp_media.serv_attrib_info.t38_attr.max_datagram_size = 0
+- ((msg_stream_create_req_t*)payload)->media_config.pdn_media_config.remote_media_config.rtp_media.serv_attrib_info.t38_attr.transport_type = 0
+- ((msg_stream_create_req_t*)payload)->inband_sig_tone_dect_conf.is_sig_tone_dect_config_changed = 1
+- ((msg_stream_create_req_t*)payload)->inband_sig_tone_dect_conf.inband_sig_tone_dect_param = 1
+- ((msg_stream_create_req_t*)payload)->enable_t38_same_udp = 0
+[iwu_platform, 2065] Exit iwu_fn_sendStreamCreateOrModifyRequest.
+[Iwu_timer, 289] iwu_fn_startTimer: dTimerListId=3, dTimerValue=4000, dLineId=9, dCallId=9, dModuleId=2, dTimerType:[Iwu_en_FSMPendingTimer(0)], Timerid[0]
+[Iwu_timer, 266] iwu_fn_startTimerExt: Timer Started: Cyclic=0, Type:[Iwu_en_FSMPendingTimer], Value=4000, TimerList=3
+
+    TimerID=52, addr=0x580d6ba4, Lineid=9, Callid=[9] 
+
+[iwu_msghandler, 432] [iwu_fn_msghandler] rcv msg from 1 
+[iwu_fn_voipManagerMsgHandler, 1062] -- Enter iwu_fn_voipManagerMsgHandler msg_id:[MSG_STREAM_CREATE_RESP(570)]
+[mm_handler, 2774] Enter IWU_MM_Handler::handleMsgFromSipw event=13
+[Iwu_timer, 315] iwu_fn_stopTimer: Timer Stop: addr=0x580d6ba4, TimerId=[52], TimerListid=3
+[mm_handler, 2864] IWU_MM_Handler::handleMsgFromSipw E_HAL_MM_RESP_STREAM_CREATE cmid[9],entering DStreamType_Set
+[mm_context, 439] MM_Context::DStreamType_Set [1 => 0], type=1, m_data_mode=0
+[mm_handler, 1963] IWU_MM_Handler::doSendRespToCm cm_id [9}, mm_event=13, cc_event=8
+[mm_handler, 1991] IWU_MM_Handler::doSendRespToCm: method is 0
+[mm_context, 362] MM_Context::Sipw_Media_Mode_Get get sipw_media_mode=0
+[mm_handler, 2092] IWU_MM_Handler::doSendRespToCm DP is not 1  cm_id [9} 
+[iwu_internalmsg, 191] iwu_internal_msg_mgr::post_internal_message new pCallData allocated, current count is 1
+
+[iwu_internalmsg, 277] post_message: dDestinationFsm=1, dInputEvent.dCommEvents=8
+iwu_pending_instance::pending_preProcess, pending instance[1-9], receive waiting msg[8]
+[Iwu_timer, 315] iwu_fn_stopTimer: Timer Stop: addr=0x580d6b04, TimerId=[50], TimerListid=3
+[iwu_msghandler, 498] Enter function: iwu_fn_internalDerivedCcEvent 
+[iwu_msghandler, 512] Enter iwu_fn_internalDerivedCcEvent dDestinationFsm=1, dInputEvent.dCommEvents=8
+[iwu_callmgnt_itf, 109] Enter function: iwu_fn_callmgntFsmMsgHandler 
+[callmgnt_data, 2888] Enter IwuCallMgntHandler::CallMgntMsgHandler logicalBChannelId=[26], dInputEvent=[8]
+[callmgnt_data] callid = [9]
+[cm_incoming_seizure_ack_state, 2082]: incoming_seizure_ack STATE: Enter function createMediaSessionRsp for channel:26, CM id[9]
+[mm_handler, 4470] IWU_MM_Handler::getMaxSDPLen length 1501284560
+[callmgnt_data, 3953] Enter DoSendMsgToCallHandler for ccEvent: 46
+[callmgnt_data, 4316] IwuCallMgntHandler::DoSendMsgToCallHandler Send seizure Resp message. callId:9.
+[iwu_internalmsg, 191] iwu_internal_msg_mgr::post_internal_message new pCallData allocated, current count is 2
+
+[iwu_internalmsg, 277] post_message: dDestinationFsm=0, dInputEvent.dCommEvents=46
+[callmgnt_data, 3416] IwuCallMgntHandler::CallMgntMsgHandler for channel: 26 is handling event (8) in state 9 callid 9
+pCallData deleted, remains 1
+
+[iwu_msghandler, 498] Enter function: iwu_fn_internalDerivedCcEvent 
+[iwu_msghandler, 512] Enter iwu_fn_internalDerivedCcEvent dDestinationFsm=0, dInputEvent.dCommEvents=46
+[iwu_msghandler, 529] iwu_fn_internalDerivedCcEvent: Iwu_en_callControlFsm entering CC FSM
+[IsdnResourceMgnt, 562] Inter IsdnResourceMgnt::getSignalingType, line id is 0 
+[IsdnResourceMgnt, 570] the line type status is 1
+[IsdnResourceMgnt, 574] Leave IsdnResourceMgnt::getSignalingType,retValue is:1.
+[iwu_cascc_fsm_inc_call_proceed, 63] iwu_fn_casccIncCallProceed: CC FSM: Event Iwu_en_seizureResp received in INCOMING CALL PROCEED state on CallId:9i, channelid=26.
+Iwu_cc_utils, 250] Enter iwu_fn_ccProcessCasSeizureResp: called number:88618403
+[iwu_cascc_itf_cas, 243] iwu_fn_casccSendIncInfoMsg Success in Sending cas msg to CAS R2 Stack.
+pCallData deleted, remains 0
+
+[iwu_msghandler, 432] [iwu_fn_msghandler] rcv msg from 5 
+[iwu_fn_voipManagerMsgHandler, 1062] -- Enter iwu_fn_voipManagerMsgHandler msg_id:[MSG_START_SIGNAL_RESP(558)]
+[iwu_msghandler, 1412] iwu_fn_voipManagerMsgHandler: currently signal response is not handled
+[iwu_msghandler, 432] [iwu_fn_msghandler] rcv msg from 5 
+[iwu_fn_voipManagerMsgHandler, 1062] -- Enter iwu_fn_voipManagerMsgHandler msg_id:[MSG_STOP_SIGNAL_RESP(560)]
+[iwu_msghandler, 1412] iwu_fn_voipManagerMsgHandler: currently signal response is not handled
+[iwu_msghandler, 432] [iwu_fn_msghandler] rcv msg from 5 
+[iwu_fn_voipManagerMsgHandler, 1062] -- Enter iwu_fn_voipManagerMsgHandler msg_id:[MSG_START_SIGNAL_RESP(558)]
+[iwu_msghandler, 1412] iwu_fn_voipManagerMsgHandler: currently signal response is not handled
+[iwu_msghandler, 432] [iwu_fn_msghandler] rcv msg from 5 
+[iwu_fn_voipManagerMsgHandler, 1062] -- Enter iwu_fn_voipManagerMsgHandler msg_id:[MSG_STOP_SIGNAL_RESP(560)]
+[iwu_msghandler, 1412] iwu_fn_voipManagerMsgHandler: currently signal response is not handled
+[iwu_msghandler, 432] [iwu_fn_msghandler] rcv msg from 5 
+[iwu_fn_voipManagerMsgHandler, 1062] -- Enter iwu_fn_voipManagerMsgHandler msg_id:[MSG_START_SIGNAL_RESP(558)]
+[iwu_msghandler, 1412] iwu_fn_voipManagerMsgHandler: currently signal response is not handled
+[iwu_msghandler, 432] [iwu_fn_msghandler] rcv msg from 5 
+[iwu_fn_voipManagerMsgHandler, 1062] -- Enter iwu_fn_voipManagerMsgHandler msg_id:[MSG_STOP_SIGNAL_RESP(560)]
+[iwu_msghandler, 1412] iwu_fn_voipManagerMsgHandler: currently signal response is not handled
+[iwu_msghandler, 432] [iwu_fn_msghandler] rcv msg from 5 
+[iwu_fn_voipManagerMsgHandler, 1062] -- Enter iwu_fn_voipManagerMsgHandler msg_id:[MSG_START_SIGNAL_RESP(558)]
+[iwu_msghandler, 1412] iwu_fn_voipManagerMsgHandler: currently signal response is not handled
+[iwu_msghandler, 432] [iwu_fn_msghandler] rcv msg from 5 
+[iwu_fn_voipManagerMsgHandler, 1062] -- Enter iwu_fn_voipManagerMsgHandler msg_id:[MSG_STOP_SIGNAL_RESP(560)]
+[iwu_msghandler, 1412] iwu_fn_voipManagerMsgHandler: currently signal response is not handled
+[iwu_msghandler, 432] [iwu_fn_msghandler] rcv msg from 5 
+[iwu_fn_voipManagerMsgHandler, 1062] -- Enter iwu_fn_voipManagerMsgHandler msg_id:[MSG_START_SIGNAL_RESP(558)]
+[iwu_msghandler, 1412] iwu_fn_voipManagerMsgHandler: currently signal response is not handled
+[iwu_msghandler, 432] [iwu_fn_msghandler] rcv msg from 5 
+[iwu_fn_voipManagerMsgHandler, 1062] -- Enter iwu_fn_voipManagerMsgHandler msg_id:[MSG_STOP_SIGNAL_RESP(560)]
+[iwu_msghandler, 1412] iwu_fn_voipManagerMsgHandler: currently signal response is not handled
+[iwu_msghandler, 432] [iwu_fn_msghandler] rcv msg from 5 
+[iwu_fn_voipManagerMsgHandler, 1062] -- Enter iwu_fn_voipManagerMsgHandler msg_id:[MSG_START_SIGNAL_RESP(558)]
+[iwu_msghandler, 1412] iwu_fn_voipManagerMsgHandler: currently signal response is not handled
+[iwu_msghandler, 432] [iwu_fn_msghandler] rcv msg from 5 
+[iwu_fn_voipManagerMsgHandler, 1062] -- Enter iwu_fn_voipManagerMsgHandler msg_id:[MSG_STOP_SIGNAL_RESP(560)]
+[iwu_msghandler, 1412] iwu_fn_voipManagerMsgHandler: currently signal response is not handled
+[iwu_msghandler, 432] [iwu_fn_msghandler] rcv msg from 5 
+[iwu_fn_voipManagerMsgHandler, 1062] -- Enter iwu_fn_voipManagerMsgHandler msg_id:[MSG_EVT_DETECTED_IND(556)]
+[iwu_msghandler, 1098] iwu_fn_voipManagerMsgHandler: MSG_EVT_DETECTED_IND Received FOR TERMINAL:26, item_id=2076
+[iwu_msghandler, 1125] iwu_fn_voipManagerMsgHandler: MG_E_DTONE dtt=43
+[iwu_msghandler, 1253] MG_DTT_Toneholding tone(43) detected Received for 26
+Tone type 13 is detected for term 26
+
+[iwu_msghandler,1382]call not in active state, not handle tone(43) received for 26
+[iwu_msghandler, 432] [iwu_fn_msghandler] rcv msg from 5 
+[iwu_fn_voipManagerMsgHandler, 1062] -- Enter iwu_fn_voipManagerMsgHandler msg_id:[MSG_START_SIGNAL_RESP(558)]
+[iwu_msghandler, 1412] iwu_fn_voipManagerMsgHandler: currently signal response is not handled
+[iwu_msghandler, 432] [iwu_fn_msghandler] rcv msg from 5 
+[iwu_fn_voipManagerMsgHandler, 1062] -- Enter iwu_fn_voipManagerMsgHandler msg_id:[MSG_STOP_SIGNAL_RESP(560)]
+[iwu_msghandler, 1412] iwu_fn_voipManagerMsgHandler: currently signal response is not handled
+[iwu_msghandler, 432] [iwu_fn_msghandler] rcv msg from 5 
+[iwu_fn_voipManagerMsgHandler, 1062] -- Enter iwu_fn_voipManagerMsgHandler msg_id:[MSG_START_SIGNAL_RESP(558)]
+[iwu_msghandler, 1412] iwu_fn_voipManagerMsgHandler: currently signal response is not handled
+[iwu_msghandler, 432] [iwu_fn_msghandler] rcv msg from 5 
+[iwu_fn_voipManagerMsgHandler, 1062] -- Enter iwu_fn_voipManagerMsgHandler msg_id:[MSG_STOP_SIGNAL_RESP(560)]
+[iwu_msghandler, 1412] iwu_fn_voipManagerMsgHandler: currently signal response is not handled
+[iwu_msghandler, 432] [iwu_fn_msghandler] rcv msg from 5 
+[iwu_fn_voipManagerMsgHandler, 1062] -- Enter iwu_fn_voipManagerMsgHandler msg_id:[MSG_START_SIGNAL_RESP(558)]
+[iwu_msghandler, 1412] iwu_fn_voipManagerMsgHandler: currently signal response is not handled
+[iwu_msghandler, 432] [iwu_fn_msghandler] rcv msg from 5 
+[iwu_fn_voipManagerMsgHandler, 1062] -- Enter iwu_fn_voipManagerMsgHandler msg_id:[MSG_STOP_SIGNAL_RESP(560)]
+[iwu_msghandler, 1412] iwu_fn_voipManagerMsgHandler: currently signal response is not handled
+[iwu_msghandler, 432] [iwu_fn_msghandler] rcv msg from 5 
+[iwu_fn_voipManagerMsgHandler, 1062] -- Enter iwu_fn_voipManagerMsgHandler msg_id:[MSG_START_SIGNAL_RESP(558)]
+[iwu_msghandler, 1412] iwu_fn_voipManagerMsgHandler: currently signal response is not handled
+[iwu_msghandler, 432] [iwu_fn_msghandler] rcv msg from 5 
+[iwu_fn_voipManagerMsgHandler, 1062] -- Enter iwu_fn_voipManagerMsgHandler msg_id:[MSG_STOP_SIGNAL_RESP(560)]
+[iwu_msghandler, 1412] iwu_fn_voipManagerMsgHandler: currently signal response is not handled
+[iwu_msghandler, 432] [iwu_fn_msghandler] rcv msg from 5 
+[iwu_fn_voipManagerMsgHandler, 1062] -- Enter iwu_fn_voipManagerMsgHandler msg_id:[MSG_START_SIGNAL_RESP(558)]
+[iwu_msghandler, 1412] iwu_fn_voipManagerMsgHandler: currently signal response is not handled
+[iwu_msghandler, 432] [iwu_fn_msghandler] rcv msg from 5 
+[iwu_fn_voipManagerMsgHandler, 1062] -- Enter iwu_fn_voipManagerMsgHandler msg_id:[MSG_STOP_SIGNAL_RESP(560)]
+[iwu_msghandler, 1412] iwu_fn_voipManagerMsgHandler: currently signal response is not handled
+[iwu_msghandler, 432] [iwu_fn_msghandler] rcv msg from 5 
+[iwu_fn_voipManagerMsgHandler, 1062] -- Enter iwu_fn_voipManagerMsgHandler msg_id:[MSG_START_SIGNAL_RESP(558)]
+[iwu_msghandler, 1412] iwu_fn_voipManagerMsgHandler: currently signal response is not handled
+[iwu_msghandler, 432] [iwu_fn_msghandler] rcv msg from 5 
+[iwu_fn_voipManagerMsgHandler, 1062] -- Enter iwu_fn_voipManagerMsgHandler msg_id:[MSG_STOP_SIGNAL_RESP(560)]
+[iwu_msghandler, 1412] iwu_fn_voipManagerMsgHandler: currently signal response is not handled
+[iwu_msghandler, 432] [iwu_fn_msghandler] rcv msg from 5 
+[iwu_fn_voipManagerMsgHandler, 1062] -- Enter iwu_fn_voipManagerMsgHandler msg_id:[MSG_START_SIGNAL_RESP(558)]
+[iwu_msghandler, 1412] iwu_fn_voipManagerMsgHandler: currently signal response is not handled
+[iwu_msghandler, 432] [iwu_fn_msghandler] rcv msg from 5 
+[iwu_fn_voipManagerMsgHandler, 1062] -- Enter iwu_fn_voipManagerMsgHandler msg_id:[MSG_STOP_SIGNAL_RESP(560)]
+[iwu_msghandler, 1412] iwu_fn_voipManagerMsgHandler: currently signal response is not handled
+[iwu_msghandler, 432] [iwu_fn_msghandler] rcv msg from 5 
+[iwu_fn_voipManagerMsgHandler, 1062] -- Enter iwu_fn_voipManagerMsgHandler msg_id:[MSG_START_SIGNAL_RESP(558)]
+[iwu_msghandler, 1412] iwu_fn_voipManagerMsgHandler: currently signal response is not handled
+[iwu_msghandler, 432] [iwu_fn_msghandler] rcv msg from 5 
+[iwu_fn_voipManagerMsgHandler, 1062] -- Enter iwu_fn_voipManagerMsgHandler msg_id:[MSG_STOP_SIGNAL_RESP(560)]
+[iwu_msghandler, 1412] iwu_fn_voipManagerMsgHandler: currently signal response is not handled
+[iwu_msghandler, 432] [iwu_fn_msghandler] rcv msg from 5 
+[iwu_fn_voipManagerMsgHandler, 1062] -- Enter iwu_fn_voipManagerMsgHandler msg_id:[MSG_START_SIGNAL_RESP(558)]
+[iwu_msghandler, 1412] iwu_fn_voipManagerMsgHandler: currently signal response is not handled
+[iwu_msghandler, 432] [iwu_fn_msghandler] rcv msg from 5 
+[iwu_fn_voipManagerMsgHandler, 1062] -- Enter iwu_fn_voipManagerMsgHandler msg_id:[MSG_STOP_SIGNAL_RESP(560)]
+[iwu_msghandler, 1412] iwu_fn_voipManagerMsgHandler: currently signal response is not handled
+[iwu_msghandler, 432] [iwu_fn_msghandler] rcv msg from 5 
+[iwu_fn_voipManagerMsgHandler, 1062] -- Enter iwu_fn_voipManagerMsgHandler msg_id:[MSG_START_SIGNAL_RESP(558)]
+[iwu_msghandler, 1412] iwu_fn_voipManagerMsgHandler: currently signal response is not handled
+[iwu_msghandler, 432] [iwu_fn_msghandler] rcv msg from 5 
+[iwu_fn_voipManagerMsgHandler, 1062] -- Enter iwu_fn_voipManagerMsgHandler msg_id:[MSG_STOP_SIGNAL_RESP(560)]
+[iwu_msghandler, 1412] iwu_fn_voipManagerMsgHandler: currently signal response is not handled
+[iwu_msghandler, 432] [iwu_fn_msghandler] rcv msg from 5 
+[iwu_fn_voipManagerMsgHandler, 1062] -- Enter iwu_fn_voipManagerMsgHandler msg_id:[MSG_START_SIGNAL_RESP(558)]
+[iwu_msghandler, 1412] iwu_fn_voipManagerMsgHandler: currently signal response is not handled
+[iwu_msghandler, 432] [iwu_fn_msghandler] rcv msg from 5 
+[iwu_fn_voipManagerMsgHandler, 1062] -- Enter iwu_fn_voipManagerMsgHandler msg_id:[MSG_STOP_SIGNAL_RESP(560)]
+[iwu_msghandler, 1412] iwu_fn_voipManagerMsgHandler: currently signal response is not handled
+[iwu_msghandler, 432] [iwu_fn_msghandler] rcv msg from 5 
+[iwu_fn_voipManagerMsgHandler, 1062] -- Enter iwu_fn_voipManagerMsgHandler msg_id:[MSG_START_SIGNAL_RESP(558)]
+[iwu_msghandler, 1412] iwu_fn_voipManagerMsgHandler: currently signal response is not handled
+[iwu_msghandler, 432] [iwu_fn_msghandler] rcv msg from 5 
+[iwu_fn_voipManagerMsgHandler, 1062] -- Enter iwu_fn_voipManagerMsgHandler msg_id:[MSG_STOP_SIGNAL_RESP(560)]
+[iwu_msghandler, 1412] iwu_fn_voipManagerMsgHandler: currently signal response is not handled
+[iwu_msghandler, 432] [iwu_fn_msghandler] rcv msg from 5 
+[iwu_fn_voipManagerMsgHandler, 1062] -- Enter iwu_fn_voipManagerMsgHandler msg_id:[MSG_START_SIGNAL_RESP(558)]
+[iwu_msghandler, 1412] iwu_fn_voipManagerMsgHandler: currently signal response is not handled
+[iwu_msghandler, 432] [iwu_fn_msghandler] rcv msg from 5 
+[iwu_fn_voipManagerMsgHandler, 1062] -- Enter iwu_fn_voipManagerMsgHandler msg_id:[MSG_STOP_SIGNAL_RESP(560)]
+[iwu_msghandler, 1412] iwu_fn_voipManagerMsgHandler: currently signal response is not handled
+[iwu_msghandler, 432] [iwu_fn_msghandler] rcv msg from 5 
+[iwu_fn_voipManagerMsgHandler, 1062] -- Enter iwu_fn_voipManagerMsgHandler msg_id:[MSG_START_SIGNAL_RESP(558)]
+[iwu_msghandler, 1412] iwu_fn_voipManagerMsgHandler: currently signal response is not handled
+[iwu_msghandler, 432] [iwu_fn_msghandler] rcv msg from 5 
+[iwu_fn_voipManagerMsgHandler, 1062] -- Enter iwu_fn_voipManagerMsgHandler msg_id:[MSG_STOP_SIGNAL_RESP(560)]
+[iwu_msghandler, 1412] iwu_fn_voipManagerMsgHandler: currently signal response is not handled
+[iwu_msghandler, 432] [iwu_fn_msghandler] rcv msg from 5 
+[iwu_fn_voipManagerMsgHandler, 1062] -- Enter iwu_fn_voipManagerMsgHandler msg_id:[MSG_START_SIGNAL_RESP(558)]
+[iwu_msghandler, 1412] iwu_fn_voipManagerMsgHandler: currently signal response is not handled
+[iwu_msghandler, 432] [iwu_fn_msghandler] rcv msg from 5 
+[iwu_fn_voipManagerMsgHandler, 1062] -- Enter iwu_fn_voipManagerMsgHandler msg_id:[MSG_STOP_SIGNAL_RESP(560)]
+[iwu_msghandler, 1412] iwu_fn_voipManagerMsgHandler: currently signal response is not handled
+[iwu_msghandler, 432] [iwu_fn_msghandler] rcv msg from 5 
+[iwu_fn_voipManagerMsgHandler, 1062] -- Enter iwu_fn_voipManagerMsgHandler msg_id:[MSG_START_SIGNAL_RESP(558)]
+[iwu_msghandler, 1412] iwu_fn_voipManagerMsgHandler: currently signal response is not handled
+[iwu_msghandler, 432] [iwu_fn_msghandler] rcv msg from 36 
+[Iwu_cascc_itf, 78] iwu_fn_casccMsgHandler: Enter iwu_fn_casccMsgHandler.
+[IwuCasccUtility, 62] iwu_fn_casccCopyMsg: CAS Message is received and copyed.
+[IwuCasccUtility, 282] iwu_fn_transMsgTypeToCCEvent: input 22, output 75 
+[iwu_cascc_fsm_inc_call_proceed, 63] iwu_fn_casccIncCallProceed: CC FSM: Event Iwu_en_casAlertInd received in INCOMING CALL PROCEED state on CallId:9i, channelid=26.
+[iwu_cascc_fsm_inc_call_proceed, 279] Enter iwu_fn_CasCcProcessSendingAlertReq
+[iwu_internalmsg, 191] iwu_internal_msg_mgr::post_internal_message new pCallData allocated, current count is 1
+
+[iwu_internalmsg, 277] post_message: dDestinationFsm=1, dInputEvent.dCommEvents=4
+change call state to CasccCallState_INC_CALL_RECEIVED
+[Iwu_timer, 289] iwu_fn_startTimer: dTimerListId=3, dTimerValue=60000, dLineId=26, dCallId=9, dModuleId=2, dTimerType:[Iwu_en_RingTimer(11)], Timerid[0]
+[Iwu_timer, 266] iwu_fn_startTimerExt: Timer Started: Cyclic=0, Type:[Iwu_en_RingTimer], Value=60000, TimerList=3
+
+    TimerID=53, addr=0x580d6ce4, Lineid=26, Callid=[9] 
+
+[wu_initfree, 824] iwu_fn_releaseMsg:  Enter iwu_fn_releaseMsg
+[iwu_msghandler, 498] Enter function: iwu_fn_internalDerivedCcEvent 
+[iwu_msghandler, 512] Enter iwu_fn_internalDerivedCcEvent dDestinationFsm=1, dInputEvent.dCommEvents=4
+[iwu_callmgnt_itf, 109] Enter function: iwu_fn_callmgntFsmMsgHandler 
+[callmgnt_data, 2888] Enter IwuCallMgntHandler::CallMgntMsgHandler logicalBChannelId=[26], dInputEvent=[4]
+[callmgnt_data] callid = [9]
+[IwuCallMgntInCallWtSetupRespState, 1931] ::handleCcAlertReq for B channel:26, CM id[9]
+[callmgnt_data, 4865] IwuCallMgntHandler::DoSendMsgToSSAPIW Event 3 for Terminal:1 in state 11 with body 0 type 0 callid [9] dialog_id is -1, maxFwd is 70 
+
+[callmgnt_data, 5352] IwuCallMgntHandler::DoSendMsgToSSAPIW CM id[9],pCallMgntData->m_histinfo=1, pCallMgntData->m_hisinfo = <sip:+13288618403@qd.lucentlab.com;user=phone>;index=1
+[callmgnt_data, 5421] IwuCallMgntHandler::DoSendMsgToSSAPIW CM id[9], respons code[180], ua_resp.session_refresher=0
+[callmgnt_data, 5525] IwuCallMgntHandler::DoSendMsgToSSAPIW ua response: 180 method 1 for Terminal:1 in state 11,m_logicalbchannel_id = 26
+[callmgnt_data, 5531] IwuCallMgntHandler::DoSendMsgToSSAPIW pCallMgntData->m_histinfo=1, pCallMgntData->m_hisinfo = <sip:+13288618403@qd.lucentlab.com;user=phone>;index=1
+pCallData deleted, remains 0
+
+[iwu_msghandler, 432] [iwu_fn_msghandler] rcv msg from 5 
+[iwu_fn_voipManagerMsgHandler, 1062] -- Enter iwu_fn_voipManagerMsgHandler msg_id:[MSG_STOP_SIGNAL_RESP(560)]
+[iwu_msghandler, 1412] iwu_fn_voipManagerMsgHandler: currently signal response is not handled
+[iwu_msghandler, 432] [iwu_fn_msghandler] rcv msg from 6 
+[callmgnt_data, 2420] IwuCallMgntHandler::onIndialogIndication ua_ref.call_ref:[0082-00000009-0981], ua_ref.dialog_id=0
+[callmgnt_data, 2449] Event onIndialogIndication for app_reference: 9-0 in state 11
+[callmgnt_data, 2472] IwuCallMgntHandler::onIndialogIndication entering OnPassiveHeartBeat, IndialogInd.method=12
+[callmgnt_data, 2538] IwuCallMgntHandler::onIndialogIndication entering indialogIndication
+[cm_wtsetup_state, 2575] Receive PRACK in IwuCallMgntInCallWtPRACKCommonState::indialogIndication for BChannel:26
+[CALLMGNT_INCALL_WT_PRACK_COMMON_RESP 1072] : ProcIndialogIndication for bChannel=26 CM id[9], method=12
+[callmgnt_data, 4865] IwuCallMgntHandler::DoSendMsgToSSAPIW Event 3 for Terminal:1 in state 11 with body 0 type 0 callid [9] dialog_id is -1, maxFwd is 70 
+
+[callmgnt_data, 5352] IwuCallMgntHandler::DoSendMsgToSSAPIW CM id[9],pCallMgntData->m_histinfo=1, pCallMgntData->m_hisinfo = <sip:+13288618403@qd.lucentlab.com;user=phone>;index=1
+[callmgnt_data, 5421] IwuCallMgntHandler::DoSendMsgToSSAPIW CM id[9], respons code[200], ua_resp.session_refresher=0
+[callmgnt_data, 5525] IwuCallMgntHandler::DoSendMsgToSSAPIW ua response: 200 method 12 for Terminal:1 in state 11,m_logicalbchannel_id = 26
+[callmgnt_data, 5531] IwuCallMgntHandler::DoSendMsgToSSAPIW pCallMgntData->m_histinfo=1, pCallMgntData->m_hisinfo = <sip:+13288618403@qd.lucentlab.com;user=phone>;index=1
+[iwu_msghandler, 432] [iwu_fn_msghandler] rcv msg from 5 
+[iwu_fn_voipManagerMsgHandler, 1062] -- Enter iwu_fn_voipManagerMsgHandler msg_id:[MSG_STOP_SIGNAL_RESP(560)]
+[iwu_msghandler, 1412] iwu_fn_voipManagerMsgHandler: currently signal response is not handled
+[iwu_msghandler, 432] [iwu_fn_msghandler] rcv msg from 36 
+[Iwu_cascc_itf, 78] iwu_fn_casccMsgHandler: Enter iwu_fn_casccMsgHandler.
+[IwuCasccUtility, 62] iwu_fn_casccCopyMsg: CAS Message is received and copyed.
+[IwuCasccUtility, 282] iwu_fn_transMsgTypeToCCEvent: input 24, output 76 
+[iwu_cascc_fsm_inc_call_received, 61] iwu_fn_casccIncCallReceived: CC FSM: Event Iwu_en_casAnswerInd received in INCOMING CALL RECEIVED state on CallId:9, channelid=26.
+[Iwu_timer, 315] iwu_fn_stopTimer: Timer Stop: addr=0x580d6ce4, TimerId=[53], TimerListid=3
+[iwu_cascc_fsm_inc_call_received, 226] Enter iwu_fn_casccProcessAnswerInd: CallId:9 
+[iwu_cc_itf_cm, 291] iwu_fn_sendConnectReq: Enter iwu_fn_sendConnectReq: CallId:9
+[iwu_cc_encode_cm_msg, 799] Enter Iwu_fn_BuildConnectRqstInfo: CallId:9 
+
+[iwu_cc_encode_cm_msg, 627] Iwu_fn_BuildLocalUAInfo:
+    buildLocalUAInfo pTermProfile->dLineId=0, pTermProfile->dTermId=1
+    buildLocalUAInfo pTermProfile->dSipAOR.addr_val.str:+13288618403@qd.lucentlab.com;user=phone
+    buildLocalUAInfo pTermProfile->pDialNumber:88618403, pTermProfile->pUAName:13288618403
+    buildLocalUAInfo pTermProfile->pContactURIUse:+13288618403, pTermProfile->dRandomContact=0
+    buildLocalUAInfo pTermProfile->dAuthentication_key.str:13288618403
+    buildLocalUAInfo pTermProfile->realm.str:qd.lucentlab.com
+    buildLocalUAInfo pTermProfile->dAuthentication_password.str:passwordlss
+[iwu_cc_encode_cm_msg, 246] Iwu_fn_BuildUserName: Enter Iwu_fn_BuildUserName
+[iwu_cc_encode_cm_msg, 279] Iwu_fn_BuildDomainByAOR: Enter Iwu_fn_BuildDomainByAOR
+[iwu_cc_encode_cm_msg, 695] Iwu_fn_BuildLocalUAInfo: Generate Random Contact[+13288618403] in INVITE, Type 0 rand_contact_all:0
+
+[iwu_cc_encode_cm_msg, 713] Iwu_fn_BuildLocalUAInfo:
+    LocalUa.scheme=1, LocalUa.display_name.c_str():["13288618403"],
+    LocalUa.user_name.c_str():[+13288618403], LocalUa.random_contact.c_str():[+13288618403],
+    LocalUa.domain_name.c_str():[qd.lucentlab.com], LocalUa.tag.c_str():[],
+    LocalUa.ip_port.addr.ipv4_addr.s_addr[0x15010167],
+    LocalUa.ip_port.port_num=49665, LocalUa.tp_type=0,
+    LocalUa.m_tag.c_str():[], LocalUa.preferred_identity.c_str():[]
+
+[iwu_cc_itf_cm] iwu_fn_sendConnectReq: sesson_refresher=0
+[iwu_internalmsg, 191] iwu_internal_msg_mgr::post_internal_message new pCallData allocated, current count is 1
+
+[iwu_internalmsg, 277] post_message: dDestinationFsm=1, dInputEvent.dCommEvents=5
+[iwu_cascc_fsm_inc_call_received, 249] Exit iwu_fn_casccProcessAnswerInd 
+
+change call state to CasccCallState_INC_CONNECT_REQUEST
+[wu_initfree, 824] iwu_fn_releaseMsg:  Enter iwu_fn_releaseMsg
+[iwu_msghandler, 498] Enter function: iwu_fn_internalDerivedCcEvent 
+[iwu_msghandler, 512] Enter iwu_fn_internalDerivedCcEvent dDestinationFsm=1, dInputEvent.dCommEvents=5
+[iwu_callmgnt_itf, 109] Enter function: iwu_fn_callmgntFsmMsgHandler 
+[callmgnt_data, 2888] Enter IwuCallMgntHandler::CallMgntMsgHandler logicalBChannelId=[26], dInputEvent=[5]
+[callmgnt_data] callid = [9]
+[callmgnt_data, 3313] CallMgntMsgHandler Empty pcallmgntData->m_alert_req_list before CONNECT.
+[iwu_callmgnt_wtsetupresp_state 2023] Enter sendConnectReq cm_id [9]
+[cm_wtsetup_state, 2057] sendConnectReq pCallMgntData->m_uas.display_name.c_str()="13288618403"
+[cm_wtsetup_state, 2064] sendConnectReq: use new contact +13288618403
+[callmgnt_data, 4865] IwuCallMgntHandler::DoSendMsgToSSAPIW Event 3 for Terminal:1 in state 9 with body 1 type 1 callid [9] dialog_id is -1, maxFwd is 70 
+
+[callmgnt_data, 5352] IwuCallMgntHandler::DoSendMsgToSSAPIW CM id[9],pCallMgntData->m_histinfo=1, pCallMgntData->m_hisinfo = <sip:+13288618403@qd.lucentlab.com;user=phone>;index=1
+[callmgnt_data, 5421] IwuCallMgntHandler::DoSendMsgToSSAPIW CM id[9], respons code[200], ua_resp.session_refresher=0
+[callmgnt_data, 5525] IwuCallMgntHandler::DoSendMsgToSSAPIW ua response: 200 method 1 for Terminal:1 in state 9,m_logicalbchannel_id = 26
+[callmgnt_data, 5531] IwuCallMgntHandler::DoSendMsgToSSAPIW pCallMgntData->m_histinfo=1, pCallMgntData->m_hisinfo = <sip:+13288618403@qd.lucentlab.com;user=phone>;index=1
+[callmgnt_data, 3370] IwuCallMgntHandler::CallMgntMsgHandler for B channel: 26 is handling event [5] in state 13 callid 9
+pCallData deleted, remains 0
+
+[iwu_msghandler, 432] [iwu_fn_msghandler] rcv msg from 6 
+[callmgnt_data, 2567] Event IwuCallMgntHandler::onAckIndication for app_reference: 9-0
+[callmgnt_data, 2596] IwuCallMgntHandler::onAckIndication logical bchannel:26 is handling in state 13
+[cm_wtcon_state, 577] IwuCallMgntInCallWtConnectState::receiveAckInd for logicalbchannel_id=26, CM id[9]
+[session_itf, 152] Enter iwu_fn_session_answer_sent under state:[callmgnt_session_offerreceived]
+[cm_wtcon_state, 622] IwuCallMgntInCallWtConnectState::receiveAckInd for logicalbchannel_id=26, CM id[9], send modify stream msg to MM
+[IsdnResourceMgnt, 562] Inter IsdnResourceMgnt::getSignalingType, line id is 0 
+[IsdnResourceMgnt, 570] the line type status is 1
+[IsdnResourceMgnt, 574] Leave IsdnResourceMgnt::getSignalingType,retValue is:1.
+[callmgnt_data, 4718] IwuCallMgntHandler::DoSendMsgToMM logicalBChannelId=26 send event 1 to MM in state 13, m_callmgnt_id=[9], streamType=0x1, dialog_id is -1 
+[Iwu_timer, 289] iwu_fn_startTimer: dTimerListId=3, dTimerValue=100000, dLineId=9, dCallId=9, dModuleId=1, dTimerType:[Iwu_en_FSMPendingTimer(0)], Timerid[0]
+[Iwu_timer, 266] iwu_fn_startTimerExt: Timer Started: Cyclic=0, Type:[Iwu_en_FSMPendingTimer], Value=100000, TimerList=3
+
+    TimerID=54, addr=0x580d6d5c, Lineid=9, Callid=[9] 
+
+[iwu_internalmsg, 191] iwu_internal_msg_mgr::post_internal_message new pCallData allocated, current count is 1
+
+[iwu_internalmsg, 277] post_message: dDestinationFsm=2, dInputEvent.dCommEvents=1
+[iwu_msghandler, 498] Enter function: iwu_fn_internalDerivedCcEvent 
+[iwu_msghandler, 512] Enter iwu_fn_internalDerivedCcEvent dDestinationFsm=2, dInputEvent.dCommEvents=1
+[mm_handler, 2397] MM_Handler::handleMsgFromCm event=E_CM_MM_MEDIA_STREAM_MODIFY, cm_id=[9], remotesdp.IsPresent()=1
+[mm_context, 322]iSNewRemoteSDP, pRemoteSDP->origin.session_id=1466155055,LastRemoteSDP.origin.session_id=1466155055, pRemoteSDP->origin.version=1466155055, LastRemoteSDP.origin.version=1466155055 
+[mm_context, 353] MM_Context::Sipw_Media_Mode_Set set sipw_media_mode=3
+[iwu_platform, 1353] Sending MSG_STREAM_MODIFY_REQ for txn_id=[9], bchannel_id=26
+[iwu_platform, 1414] MODE:: 4 is applied on platform
+[iwu_platform, 1510] The Local Session IP and Port are 21.1.1.103 and 49718
+[iwu_platform, 1522] CodeName:[PCMA]
+[iwu_platform, 1584] echo_cancellation_flag=1, dVoiceECSwitch=0,
+[iwu_platform, -1599] local codec#$ seq=0, pt_num=8, bitrate=0
+[iwu_platform, 1522] CodeName:[telephone-event]
+[iwu_platform, 1584] echo_cancellation_flag=1, dVoiceECSwitch=0,
+fmtp:96 16-255
+fmtp:96 16-255
+fmtp:96 16-255
+fmtp:96 16-255
+[iwu_platform, 1647] local codec faxmodem#$ seq=1, pt_num=96,payloadtype=97
+[iwu_platform, 1839] The Remote Session IP and Port are 21.1.1.103 and 51716
+[iwu_platform, 1858] remote codec#$ seq=0, pt_num=8
+fmtp:96 16-255
+fmtp:96 16-255
+fmtp:96 16-255
+fmtp:96 16-255
+remote faxmodem#$ seq=1  pt_num=96
+[iwu_platform, 2035] Create or Modify stream, local rtp_config_options = 14
+[iwu_platform, 2044] iwu_fn_sendStreamCreateOrModifyRequest: echo=1, silenceSupp=0, bitmask=3
+
+ msg: MSG_STREAM_MODIFY_REQ
+- header->msg_id = 852539
+- header->length = 1796
+- ((msg_stream_modify_req_t*)payload)->stream_param.txn_id = 9
+- ((msg_stream_modify_req_t*)payload)->stream_param.term_id = 29
+- ((msg_stream_modify_req_t*)payload)->stream_param.term_type = 0
+- ((msg_stream_modify_req_t*)payload)->stream_param.stream_id = 9
+- ((msg_stream_modify_req_t*)payload)->stream_param.item_id = 0
+- ((msg_stream_modify_req_t*)payload)->stream_param.gw_ipaddr = 21.1.1.1
+- ((msg_stream_modify_req_t*)payload)->stream_param.echo_cancellation_flag = 1
+- ((msg_stream_modify_req_t*)payload)->stream_param.silence_surpression_flag = 0
+- ((msg_stream_modify_req_t*)payload)->stream_param.stream_type = 0
+- ((msg_stream_modify_req_t*)payload)->stream_param.stream_config_options = 3
+- ((msg_stream_modify_req_t*)payload)->stream_mode = 2
+- ((msg_stream_modify_req_t*)payload)->media_config.pdn_media_config.local_media_config.rtp_media.rtp_config_options = 14
+- ((msg_stream_modify_req_t*)payload)->media_config.pdn_media_config.local_media_config.rtp_media.trans_info.cnx_ip_addr.local_addr.start_port_id = 49718
+- ((msg_stream_modify_req_t*)payload)->media_config.pdn_media_config.local_media_config.rtp_media.trans_info.cnx_ip_addr.tpt_addr.base_addr.ipv4_addr = 21.1.1.103
+- ((msg_stream_modify_req_t*)payload)->media_config.pdn_media_config.local_media_config.rtp_media.media_type = 0
+- ((msg_stream_modify_req_t*)payload)->media_config.pdn_media_config.local_media_config.rtp_media.payload_list.num_payloads = 2
+- ((msg_stream_modify_req_t*)payload)->media_config.pdn_media_config.local_media_config.rtp_media.payload_list.a_prefer_list[0].payload_type = 8
+- ((msg_stream_modify_req_t*)payload)->media_config.pdn_media_config.local_media_config.rtp_media.payload_list.a_prefer_list[0].payload_bit_rate = 0
+- ((msg_stream_modify_req_t*)payload)->media_config.pdn_media_config.local_media_config.rtp_media.payload_list.a_prefer_list[0].pt_number = 8
+- ((msg_stream_modify_req_t*)payload)->media_config.pdn_media_config.local_media_config.rtp_media.payload_list.a_prefer_list[1].payload_type = 0
+- ((msg_stream_modify_req_t*)payload)->media_config.pdn_media_config.local_media_config.rtp_media.payload_list.a_prefer_list[1].payload_bit_rate = 0
+- ((msg_stream_modify_req_t*)payload)->media_config.pdn_media_config.local_media_config.rtp_media.payload_list.a_prefer_list[1].pt_number = 96
+- ((msg_stream_modify_req_t*)payload)->media_config.pdn_media_config.local_media_config.rtp_media.payload_list.a_prefer_list[2].payload_type = 0
+- ((msg_stream_modify_req_t*)payload)->media_config.pdn_media_config.local_media_config.rtp_media.payload_list.a_prefer_list[2].payload_bit_rate = 0
+- ((msg_stream_modify_req_t*)payload)->media_config.pdn_media_config.local_media_config.rtp_media.payload_list.a_prefer_list[2].pt_number = 0
+- ((msg_stream_modify_req_t*)payload)->media_config.pdn_media_config.local_media_config.rtp_media.serv_attrib_info.serv_attrib_mask = 0
+- ((msg_stream_modify_req_t*)payload)->media_config.pdn_media_config.local_media_config.rtp_media.serv_attrib_info.ptime.packetization_period = 0
+- ((msg_stream_modify_req_t*)payload)->media_config.pdn_media_config.local_media_config.rtp_media.serv_attrib_info.t38_attr.t38_mask = 0
+- ((msg_stream_modify_req_t*)payload)->media_config.pdn_media_config.local_media_config.rtp_media.serv_attrib_info.t38_attr.version = 0
+- ((msg_stream_modify_req_t*)payload)->media_config.pdn_media_config.local_media_config.rtp_media.serv_attrib_info.t38_attr.data_rate = 0
+- ((msg_stream_modify_req_t*)payload)->media_config.pdn_media_config.local_media_config.rtp_media.serv_attrib_info.t38_attr.error_correction = 0
+- ((msg_stream_modify_req_t*)payload)->media_config.pdn_media_config.local_media_config.rtp_media.serv_attrib_info.t38_attr.implementation_type = 0
+- ((msg_stream_modify_req_t*)payload)->media_config.pdn_media_config.local_media_config.rtp_media.serv_attrib_info.t38_attr.packet_time = 0
+- ((msg_stream_modify_req_t*)payload)->media_config.pdn_media_config.local_media_config.rtp_media.serv_attrib_info.t38_attr.max_bitrate = 0
+- ((msg_stream_modify_req_t*)payload)->media_config.pdn_media_config.local_media_config.rtp_media.serv_attrib_info.t38_attr.max_buffer_size = 0
+- ((msg_stream_modify_req_t*)payload)->media_config.pdn_media_config.local_media_config.rtp_media.serv_attrib_info.t38_attr.max_datagram_size = 0
+- ((msg_stream_modify_req_t*)payload)->media_config.pdn_media_config.local_media_config.rtp_media.serv_attrib_info.t38_attr.transport_type = 0
+- ((msg_stream_modify_req_t*)payload)->media_config.pdn_media_config.remote_media_config.rtp_media.rtp_config_options = 46
+- ((msg_stream_modify_req_t*)payload)->media_config.pdn_media_config.remote_media_config.rtp_media.trans_info.cnx_ip_addr.local_addr.start_port_id = 51716
+- ((msg_stream_modify_req_t*)payload)->media_config.pdn_media_config.remote_media_config.rtp_media.trans_info.cnx_ip_addr.tpt_addr.base_addr.ipv4_addr = 21.1.1.103
+- ((msg_stream_modify_req_t*)payload)->media_config.pdn_media_config.remote_media_config.rtp_media.media_type = 0
+- ((msg_stream_modify_req_t*)payload)->media_config.pdn_media_config.remote_media_config.rtp_media.payload_list.num_payloads = 2
+- ((msg_stream_modify_req_t*)payload)->media_config.pdn_media_config.remote_media_config.rtp_media.payload_list.a_prefer_list[0].payload_type = 8
+- ((msg_stream_modify_req_t*)payload)->media_config.pdn_media_config.remote_media_config.rtp_media.payload_list.a_prefer_list[0].payload_bit_rate = 0
+- ((msg_stream_modify_req_t*)payload)->media_config.pdn_media_config.remote_media_config.rtp_media.payload_list.a_prefer_list[0].pt_number = 8
+- ((msg_stream_modify_req_t*)payload)->media_config.pdn_media_config.remote_media_config.rtp_media.payload_list.a_prefer_list[1].payload_type = 0
+- ((msg_stream_modify_req_t*)payload)->media_config.pdn_media_config.remote_media_config.rtp_media.payload_list.a_prefer_list[1].payload_bit_rate = 0
+- ((msg_stream_modify_req_t*)payload)->media_config.pdn_media_config.remote_media_config.rtp_media.payload_list.a_prefer_list[1].pt_number = 96
+- ((msg_stream_modify_req_t*)payload)->media_config.pdn_media_config.remote_media_config.rtp_media.payload_list.a_prefer_list[2].payload_type = 0
+- ((msg_stream_modify_req_t*)payload)->media_config.pdn_media_config.remote_media_config.rtp_media.payload_list.a_prefer_list[2].payload_bit_rate = 0
+- ((msg_stream_modify_req_t*)payload)->media_config.pdn_media_config.remote_media_config.rtp_media.payload_list.a_prefer_list[2].pt_number = 0
+- ((msg_stream_modify_req_t*)payload)->media_config.pdn_media_config.remote_media_config.rtp_media.serv_attrib_info.serv_attrib_mask = 2
+- ((msg_stream_modify_req_t*)payload)->media_config.pdn_media_config.remote_media_config.rtp_media.serv_attrib_info.ptime.packetization_period = 20
+- ((msg_stream_modify_req_t*)payload)->media_config.pdn_media_config.remote_media_config.rtp_media.serv_attrib_info.t38_attr.t38_mask = 0
+- ((msg_stream_modify_req_t*)payload)->media_config.pdn_media_config.remote_media_config.rtp_media.serv_attrib_info.t38_attr.version = 0
+- ((msg_stream_modify_req_t*)payload)->media_config.pdn_media_config.remote_media_config.rtp_media.serv_attrib_info.t38_attr.data_rate = 0
+- ((msg_stream_modify_req_t*)payload)->media_config.pdn_media_config.remote_media_config.rtp_media.serv_attrib_info.t38_attr.error_correction = 0
+- ((msg_stream_modify_req_t*)payload)->media_config.pdn_media_config.remote_media_config.rtp_media.serv_attrib_info.t38_attr.implementation_type = 0
+- ((msg_stream_modify_req_t*)payload)->media_config.pdn_media_config.remote_media_config.rtp_media.serv_attrib_info.t38_attr.packet_time = 0
+- ((msg_stream_modify_req_t*)payload)->media_config.pdn_media_config.remote_media_config.rtp_media.serv_attrib_info.t38_attr.max_bitrate = 0
+- ((msg_stream_modify_req_t*)payload)->media_config.pdn_media_config.remote_media_config.rtp_media.serv_attrib_info.t38_attr.max_buffer_size = 0
+- ((msg_stream_modify_req_t*)payload)->media_config.pdn_media_config.remote_media_config.rtp_media.serv_attrib_info.t38_attr.max_datagram_size = 0
+- ((msg_stream_modify_req_t*)payload)->media_config.pdn_media_config.remote_media_config.rtp_media.serv_attrib_info.t38_attr.transport_type = 0
+- ((msg_stream_modify_req_t*)payload)->inband_sig_tone_dect_conf.is_sig_tone_dect_config_changed = 1
+- ((msg_stream_modify_req_t*)payload)->inband_sig_tone_dect_conf.inband_sig_tone_dect_param = 0
+- ((msg_stream_modify_req_t*)payload)->enable_t38_same_udp = 0
+[iwu_platform, 2065] Exit iwu_fn_sendStreamCreateOrModifyRequest.
+[Iwu_timer, 289] iwu_fn_startTimer: dTimerListId=3, dTimerValue=4000, dLineId=9, dCallId=9, dModuleId=2, dTimerType:[Iwu_en_FSMPendingTimer(0)], Timerid[0]
+[Iwu_timer, 266] iwu_fn_startTimerExt: Timer Started: Cyclic=0, Type:[Iwu_en_FSMPendingTimer], Value=4000, TimerList=3
+
+    TimerID=55, addr=0x580d6dd4, Lineid=9, Callid=[9] 
+
+pCallData deleted, remains 0
+
+[iwu_msghandler, 432] [iwu_fn_msghandler] rcv msg from 1 
+[iwu_fn_voipManagerMsgHandler, 1062] -- Enter iwu_fn_voipManagerMsgHandler msg_id:[MSG_STREAM_MODIFY_RESP(572)]
+[mm_handler, 2774] Enter IWU_MM_Handler::handleMsgFromSipw event=14
+[mm_context, 439] MM_Context::DStreamType_Set [1 => 1], type=1, m_data_mode=0
+[mm_handler, 1963] IWU_MM_Handler::doSendRespToCm cm_id [9}, mm_event=14, cc_event=9
+[mm_handler, 1991] IWU_MM_Handler::doSendRespToCm: method is 0
+[mm_context, 362] MM_Context::Sipw_Media_Mode_Get get sipw_media_mode=3
+[mm_handler, 2092] IWU_MM_Handler::doSendRespToCm DP is not 1  cm_id [9} 
+[iwu_internalmsg, 191] iwu_internal_msg_mgr::post_internal_message new pCallData allocated, current count is 1
+
+[iwu_internalmsg, 277] post_message: dDestinationFsm=1, dInputEvent.dCommEvents=9
+[Iwu_timer, 315] iwu_fn_stopTimer: Timer Stop: addr=0x580d6dd4, TimerId=[55], TimerListid=3
+iwu_pending_instance::pending_preProcess, pending instance[1-9], receive waiting msg[9]
+[Iwu_timer, 315] iwu_fn_stopTimer: Timer Stop: addr=0x580d6d5c, TimerId=[54], TimerListid=3
+[iwu_msghandler, 498] Enter function: iwu_fn_internalDerivedCcEvent 
+[iwu_msghandler, 512] Enter iwu_fn_internalDerivedCcEvent dDestinationFsm=1, dInputEvent.dCommEvents=9
+[iwu_callmgnt_itf, 109] Enter function: iwu_fn_callmgntFsmMsgHandler 
+[callmgnt_data, 2888] Enter IwuCallMgntHandler::CallMgntMsgHandler logicalBChannelId=[26], dInputEvent=[9]
+[callmgnt_data] callid = [9]
+[cm_wtcon_state, 470] IwuCallMgntInCallWtConnectState::ModifyMediaSessionRsp for logicalbchannel_id=26 , CM id[9]
+[callmgnt_data, 3953] Enter DoSendMsgToCallHandler for ccEvent: 32
+[iwu_internalmsg, 191] iwu_internal_msg_mgr::post_internal_message new pCallData allocated, current count is 2
+
+[iwu_internalmsg, 277] post_message: dDestinationFsm=0, dInputEvent.dCommEvents=32
+session state : connected
+[callmgnt_data, 3439] IwuCallMgntHandler::CallMgntMsgHandler Iwu_en_callmgntModifyMediaSessionRsp entering ModifyMediaSessionRsp for Channel: 26 is handling event (9) in state 15 callid 9
+pCallData deleted, remains 1
+
+[iwu_msghandler, 498] Enter function: iwu_fn_internalDerivedCcEvent 
+[iwu_msghandler, 512] Enter iwu_fn_internalDerivedCcEvent dDestinationFsm=0, dInputEvent.dCommEvents=32
+[iwu_msghandler, 529] iwu_fn_internalDerivedCcEvent: Iwu_en_callControlFsm entering CC FSM
+[IsdnResourceMgnt, 562] Inter IsdnResourceMgnt::getSignalingType, line id is 0 
+[IsdnResourceMgnt, 570] the line type status is 1
+[IsdnResourceMgnt, 574] Leave IsdnResourceMgnt::getSignalingType,retValue is:1.
+[iwu_cascc_fsm_inc_connect_request, 57] iwu_fn_casccIncConnectRequest: CC FSM: Event Iwu_en_connectResp received in INCOMING CALL CONNECT REQUEST state on CallId:9.
+[iwu_cascc_itf_cas, 82] iwu_fn_casccSendCasMsg Success in Sending cas msg to CAS R2 Stack.
+[iwu_util, 707] iwu_fn_setBchOperStatus: logicalBChanelNum 26, BChannelStatus 3
+
+[IsdnResourceMgnt, 297] Inter IsdnResourceMgnt::setBchOperStatus,bChannelId 26, set status 3
+[IsdnResourceMgnt, 321] previous b channel operation status was 2
+[IsdnResourceMgnt, 323] b channel operation status set to  3
+[IsdnResourceMgnt, 326] Leave IsdnResourceMgnt::setBchOperStatus
+change call state to CasccCallState_ACTIVE
+pCallData deleted, remains 0
+
+[iwu_msghandler, 432] [iwu_fn_msghandler] rcv msg from 5 
+[iwu_fn_voipManagerMsgHandler, 1062] -- Enter iwu_fn_voipManagerMsgHandler msg_id:[MSG_EVT_DETECTED_IND(556)]
+[iwu_msghandler, 1098] iwu_fn_voipManagerMsgHandler: MSG_EVT_DETECTED_IND Received FOR TERMINAL:26, item_id=2076
+[iwu_msghandler, 1125] iwu_fn_voipManagerMsgHandler: MG_E_DTONE dtt=17
+[iwu_msghandler, 1299] iwu_fn_voipManagerMsgHandler: normal tone dtt=17, dTermType=2
+Tone type 9 is detected for term 26
+
+[iwu_fn_ccFaxIdle, 63]:[Enter FAX FSM]state=FaxccCallState_FaxIdle,event=Iwu_en_FaxTone_DetectInd,CallId=9
+[IsdnResourceMgnt, 562] Inter IsdnResourceMgnt::getSignalingType, line id is 0 
+[IsdnResourceMgnt, 570] the line type status is 1
+[IsdnResourceMgnt, 574] Leave IsdnResourceMgnt::getSignalingType,retValue is:1.
+[iwu_fn_ccFaxIdle, 203]:Iwu_en_FaxTone_DetectInd:dToneTypeDetected=9
+[iwu_fn_ccFaxIdle, 256]:dIsV152NegoSucc=0, gVbdMode=1,lIsSendVBDChangedReq=1, lIsSendECChangedReq=1
+[iwu_fn_ccFaxIdle, 265]:entering iwu_fn_sendChangeVBDModel,dVBDState=1,dECState=0,dDataCallState=0
+[iwu_cc_itf_mm, 122] Sending CHANG_VBD_VOICE_SWITCH_REQ dVBDState=1, dECState=0, dDataCallState=0 for term_id=26, lineid =0
+[iwu_internalmsg, 191] iwu_internal_msg_mgr::post_internal_message new pCallData allocated, current count is 1
+
+[iwu_internalmsg, 277] post_message: dDestinationFsm=2, dInputEvent.dCommEvents=8
+[iwu_fn_ccFaxIdle, 290]:dIsT38Attempted is:0, dIsT38AttemptedFailed is:0
+[iwu_fn_ccFaxIdle, 297]:[Leave FAX FSM]current state=FaxccCallState_VBD_DATA_CALL_INITIATED
+[iwu_msghandler, 498] Enter function: iwu_fn_internalDerivedCcEvent 
+[iwu_msghandler, 512] Enter iwu_fn_internalDerivedCcEvent dDestinationFsm=2, dInputEvent.dCommEvents=8
+[mm_handler, 2624] MM_Handler::handleMsgFromCm E_TERM_MM_MEDIA_STREAM_VBD_VOICE_SWITCH, cm_id 9, dECState 0, dVBDState 1, logicalBChannelId 26
+
+ msg: MSG_VBD_VOICE_SWITCH_REQ
+- header->msg_id = 852534
+- header->length = 80
+- ((msg_vbd_voice_switch_req_t*)payload)->txn_id = 9
+- ((msg_vbd_voice_switch_req_t*)payload)->term_id = 29
+- ((msg_vbd_voice_switch_req_t*)payload)->item_id = 0
+- ((msg_vbd_voice_switch_req_t*)payload)->dDataCallState = 0
+- ((msg_vbd_voice_switch_req_t*)payload)->dStreamId = 9
+- ((msg_vbd_voice_switch_req_t*)payload)->payload.payload_type = 130
+- ((msg_vbd_voice_switch_req_t*)payload)->payload.ptime = 0
+- ((msg_vbd_voice_switch_req_t*)payload)->payload.tx_pt_number = 0
+- ((msg_vbd_voice_switch_req_t*)payload)->payload.rx_pt_number = 0
+pCallData deleted, remains 0
+
+[iwu_msghandler, 432] [iwu_fn_msghandler] rcv msg from 5 
+[iwu_fn_voipManagerMsgHandler, 1062] -- Enter iwu_fn_voipManagerMsgHandler msg_id:[MSG_VBD_VOICE_SWITCH_RESP(567)]
+[mm_handler, 2774] Enter IWU_MM_Handler::handleMsgFromSipw event=16
+[iwu_internalmsg, 191] iwu_internal_msg_mgr::post_internal_message new pCallData allocated, current count is 1
+
+[iwu_internalmsg, 277] post_message: dDestinationFsm=4, dInputEvent.dCommEvents=58
+[mm_context, 459] MM_Context::DStreamType_Set [1 => 2]
+[iwu_msghandler, 498] Enter function: iwu_fn_internalDerivedCcEvent 
+[iwu_msghandler, 512] Enter iwu_fn_internalDerivedCcEvent dDestinationFsm=4, dInputEvent.dCommEvents=58
+[iwu_msghandler, 543] iwu_fn_internalDerivedCcEvent: Iwu_en_faxCallControlFsm entering FAX CC FSM
+[iwu_fn_ccVBDDataCallInitiated, 65]:[Enter FAX FSM]state=FaxccCallState_VBD_DATA_CALL_INITIATED,event=Iwu_en_vbdstate_change_resp,CallId=9
+[IsdnResourceMgnt, 562] Inter IsdnResourceMgnt::getSignalingType, line id is 0 
+[IsdnResourceMgnt, 570] the line type status is 1
+[IsdnResourceMgnt, 574] Leave IsdnResourceMgnt::getSignalingType,retValue is:1.
+[iwu_fn_ccVBDDataCallInitiated, 172]:Iwu_en_vbdstate_change_resp:dVBDState=1,dECState=0,result=1
+[iwu_fn_ccVBDDataCallInitiated, 206]:dIsV152NegoSucc=0, gVbdMode=1,isLocalCNGReceived=0 dIsVBDNegotiated=0
+[iwu_fn_ccVBDDataCallInitiated, 304]:[Leave FAX FSM]current state=FaxccCallState_VBD_DATA_CALL_ACTIVATED
+pCallData deleted, remains 0
+
+[iwu_msghandler, 432] [iwu_fn_msghandler] rcv msg from 6 
+[callmgnt_data, 2420] IwuCallMgntHandler::onIndialogIndication ua_ref.call_ref:[0082-00000009-0981], ua_ref.dialog_id=0
+[callmgnt_data, 2449] Event onIndialogIndication for app_reference: 9-0 in state 15
+[callmgnt_data, 2472] IwuCallMgntHandler::onIndialogIndication entering OnPassiveHeartBeat, IndialogInd.method=1
+[callmgnt_data, 2538] IwuCallMgntHandler::onIndialogIndication entering indialogIndication
+[CALLMGNT_CALL_CONNECTED 1072] : ProcIndialogIndication for bChannel=26 CM id[9], method=1
+[session_itf, 134] Enter iwu_fn_session_offer_received under state:[callmgnt_session_connect]
+[callmgnt_data, 1172] IwuCallMgntData::IsInverseReq
+    CURRENT uac.use_name=+13288618402, uac.domain_name=qd.lucentlab.com, uac.tag=59c084dc-59c8b4cb2dea1383-gm-pt-lucentPCSF-156707 ][ uas.use_name=88618403, uas.domain_name=qd.lucentlab.com, uas.tag=
+    REQUEST uac.use_name=+13288618402, uac.domain_name=qd.lucentlab.com, uac.tag=59c084dc-59c8b4cb2dea1383-gm-pt-lucentPCSF-156707 ][ uas.use_name=88618403, uas.domain_name=qd.lucentlab.com, uas.tag=0082-00000009-0981i0
+[callmgnt_data, 7982] CallMgntHandler::HandleIndialogIndINVITEorUPDATE There is valid IMAGE m-line (port=51716) in SDP!
+[callmgnt_data, 4718] IwuCallMgntHandler::DoSendMsgToMM logicalBChannelId=26 send event 1 to MM in state 15, m_callmgnt_id=[9], streamType=0x1, dialog_id is -1 
+[Iwu_timer, 289] iwu_fn_startTimer: dTimerListId=3, dTimerValue=100000, dLineId=9, dCallId=9, dModuleId=1, dTimerType:[Iwu_en_FSMPendingTimer(0)], Timerid[0]
+[Iwu_timer, 266] iwu_fn_startTimerExt: Timer Started: Cyclic=0, Type:[Iwu_en_FSMPendingTimer], Value=100000, TimerList=3
+
+    TimerID=56, addr=0x580d6f3c, Lineid=9, Callid=[9] 
+
+[iwu_internalmsg, 191] iwu_internal_msg_mgr::post_internal_message new pCallData allocated, current count is 1
+
+[iwu_internalmsg, 277] post_message: dDestinationFsm=2, dInputEvent.dCommEvents=1
+[iwu_msghandler, 498] Enter function: iwu_fn_internalDerivedCcEvent 
+[iwu_msghandler, 512] Enter iwu_fn_internalDerivedCcEvent dDestinationFsm=2, dInputEvent.dCommEvents=1
+[mm_handler, 2397] MM_Handler::handleMsgFromCm event=E_CM_MM_MEDIA_STREAM_MODIFY, cm_id=[9], remotesdp.IsPresent()=1
+[mm_context, 322]iSNewRemoteSDP, pRemoteSDP->origin.session_id=1466155055,LastRemoteSDP.origin.session_id=1466155055, pRemoteSDP->origin.version=1466155056, LastRemoteSDP.origin.version=1466155055 
+[mm_context, 353] MM_Context::Sipw_Media_Mode_Set set sipw_media_mode=3
+[iwu_platform, 1353] Sending MSG_STREAM_MODIFY_REQ for txn_id=[9], bchannel_id=26
+[iwu_platform, 1414] MODE:: 4 is applied on platform
+[iwu_platform, 1510] The Local Session IP and Port are 21.1.1.103 and 49718
+[iwu_platform, 1522] CodeName:[PCMA]
+[iwu_platform, 1584] echo_cancellation_flag=1, dVoiceECSwitch=0,
+[iwu_platform, -1599] local codec#$ seq=0, pt_num=8, bitrate=0
+[iwu_platform, 1839] The Remote Session IP and Port are 21.1.1.103 and 51716
+[iwu_platform, 1858] remote codec#$ seq=0, pt_num=8
+[iwu_platform, 2035] Create or Modify stream, local rtp_config_options = 14
+[iwu_platform, 2044] iwu_fn_sendStreamCreateOrModifyRequest: echo=1, silenceSupp=0, bitmask=3
+
+ msg: MSG_STREAM_MODIFY_REQ
+- header->msg_id = 852539
+- header->length = 1796
+- ((msg_stream_modify_req_t*)payload)->stream_param.txn_id = 9
+- ((msg_stream_modify_req_t*)payload)->stream_param.term_id = 29
+- ((msg_stream_modify_req_t*)payload)->stream_param.term_type = 0
+- ((msg_stream_modify_req_t*)payload)->stream_param.stream_id = 9
+- ((msg_stream_modify_req_t*)payload)->stream_param.item_id = 0
+- ((msg_stream_modify_req_t*)payload)->stream_param.gw_ipaddr = 21.1.1.1
+- ((msg_stream_modify_req_t*)payload)->stream_param.echo_cancellation_flag = 1
+- ((msg_stream_modify_req_t*)payload)->stream_param.silence_surpression_flag = 0
+- ((msg_stream_modify_req_t*)payload)->stream_param.stream_type = 0
+- ((msg_stream_modify_req_t*)payload)->stream_param.stream_config_options = 3
+- ((msg_stream_modify_req_t*)payload)->stream_mode = 2
+- ((msg_stream_modify_req_t*)payload)->media_config.pdn_media_config.local_media_config.rtp_media.rtp_config_options = 14
+- ((msg_stream_modify_req_t*)payload)->media_config.pdn_media_config.local_media_config.rtp_media.trans_info.cnx_ip_addr.local_addr.start_port_id = 49718
+- ((msg_stream_modify_req_t*)payload)->media_config.pdn_media_config.local_media_config.rtp_media.trans_info.cnx_ip_addr.tpt_addr.base_addr.ipv4_addr = 21.1.1.103
+- ((msg_stream_modify_req_t*)payload)->media_config.pdn_media_config.local_media_config.rtp_media.media_type = 0
+- ((msg_stream_modify_req_t*)payload)->media_config.pdn_media_config.local_media_config.rtp_media.payload_list.num_payloads = 1
+- ((msg_stream_modify_req_t*)payload)->media_config.pdn_media_config.local_media_config.rtp_media.payload_list.a_prefer_list[0].payload_type = 8
+- ((msg_stream_modify_req_t*)payload)->media_config.pdn_media_config.local_media_config.rtp_media.payload_list.a_prefer_list[0].payload_bit_rate = 0
+- ((msg_stream_modify_req_t*)payload)->media_config.pdn_media_config.local_media_config.rtp_media.payload_list.a_prefer_list[0].pt_number = 8
+- ((msg_stream_modify_req_t*)payload)->media_config.pdn_media_config.local_media_config.rtp_media.payload_list.a_prefer_list[1].payload_type = 0
+- ((msg_stream_modify_req_t*)payload)->media_config.pdn_media_config.local_media_config.rtp_media.payload_list.a_prefer_list[1].payload_bit_rate = 0
+- ((msg_stream_modify_req_t*)payload)->media_config.pdn_media_config.local_media_config.rtp_media.payload_list.a_prefer_list[1].pt_number = 0
+- ((msg_stream_modify_req_t*)payload)->media_config.pdn_media_config.local_media_config.rtp_media.payload_list.a_prefer_list[2].payload_type = 0
+- ((msg_stream_modify_req_t*)payload)->media_config.pdn_media_config.local_media_config.rtp_media.payload_list.a_prefer_list[2].payload_bit_rate = 0
+- ((msg_stream_modify_req_t*)payload)->media_config.pdn_media_config.local_media_config.rtp_media.payload_list.a_prefer_list[2].pt_number = 0
+- ((msg_stream_modify_req_t*)payload)->media_config.pdn_media_config.local_media_config.rtp_media.serv_attrib_info.serv_attrib_mask = 0
+- ((msg_stream_modify_req_t*)payload)->media_config.pdn_media_config.local_media_config.rtp_media.serv_attrib_info.ptime.packetization_period = 0
+- ((msg_stream_modify_req_t*)payload)->media_config.pdn_media_config.local_media_config.rtp_media.serv_attrib_info.t38_attr.t38_mask = 0
+- ((msg_stream_modify_req_t*)payload)->media_config.pdn_media_config.local_media_config.rtp_media.serv_attrib_info.t38_attr.version = 0
+- ((msg_stream_modify_req_t*)payload)->media_config.pdn_media_config.local_media_config.rtp_media.serv_attrib_info.t38_attr.data_rate = 0
+- ((msg_stream_modify_req_t*)payload)->media_config.pdn_media_config.local_media_config.rtp_media.serv_attrib_info.t38_attr.error_correction = 0
+- ((msg_stream_modify_req_t*)payload)->media_config.pdn_media_config.local_media_config.rtp_media.serv_attrib_info.t38_attr.implementation_type = 0
+- ((msg_stream_modify_req_t*)payload)->media_config.pdn_media_config.local_media_config.rtp_media.serv_attrib_info.t38_attr.packet_time = 0
+- ((msg_stream_modify_req_t*)payload)->media_config.pdn_media_config.local_media_config.rtp_media.serv_attrib_info.t38_attr.max_bitrate = 0
+- ((msg_stream_modify_req_t*)payload)->media_config.pdn_media_config.local_media_config.rtp_media.serv_attrib_info.t38_attr.max_buffer_size = 0
+- ((msg_stream_modify_req_t*)payload)->media_config.pdn_media_config.local_media_config.rtp_media.serv_attrib_info.t38_attr.max_datagram_size = 0
+- ((msg_stream_modify_req_t*)payload)->media_config.pdn_media_config.local_media_config.rtp_media.serv_attrib_info.t38_attr.transport_type = 0
+- ((msg_stream_modify_req_t*)payload)->media_config.pdn_media_config.remote_media_config.rtp_media.rtp_config_options = 46
+- ((msg_stream_modify_req_t*)payload)->media_config.pdn_media_config.remote_media_config.rtp_media.trans_info.cnx_ip_addr.local_addr.start_port_id = 51716
+- ((msg_stream_modify_req_t*)payload)->media_config.pdn_media_config.remote_media_config.rtp_media.trans_info.cnx_ip_addr.tpt_addr.base_addr.ipv4_addr = 21.1.1.103
+- ((msg_stream_modify_req_t*)payload)->media_config.pdn_media_config.remote_media_config.rtp_media.media_type = 0
+- ((msg_stream_modify_req_t*)payload)->media_config.pdn_media_config.remote_media_config.rtp_media.payload_list.num_payloads = 1
+- ((msg_stream_modify_req_t*)payload)->media_config.pdn_media_config.remote_media_config.rtp_media.payload_list.a_prefer_list[0].payload_type = 8
+- ((msg_stream_modify_req_t*)payload)->media_config.pdn_media_config.remote_media_config.rtp_media.payload_list.a_prefer_list[0].payload_bit_rate = 0
+- ((msg_stream_modify_req_t*)payload)->media_config.pdn_media_config.remote_media_config.rtp_media.payload_list.a_prefer_list[0].pt_number = 8
+- ((msg_stream_modify_req_t*)payload)->media_config.pdn_media_config.remote_media_config.rtp_media.payload_list.a_prefer_list[1].payload_type = 0
+- ((msg_stream_modify_req_t*)payload)->media_config.pdn_media_config.remote_media_config.rtp_media.payload_list.a_prefer_list[1].payload_bit_rate = 0
+- ((msg_stream_modify_req_t*)payload)->media_config.pdn_media_config.remote_media_config.rtp_media.payload_list.a_prefer_list[1].pt_number = 0
+- ((msg_stream_modify_req_t*)payload)->media_config.pdn_media_config.remote_media_config.rtp_media.payload_list.a_prefer_list[2].payload_type = 0
+- ((msg_stream_modify_req_t*)payload)->media_config.pdn_media_config.remote_media_config.rtp_media.payload_list.a_prefer_list[2].payload_bit_rate = 0
+- ((msg_stream_modify_req_t*)payload)->media_config.pdn_media_config.remote_media_config.rtp_media.payload_list.a_prefer_list[2].pt_number = 0
+- ((msg_stream_modify_req_t*)payload)->media_config.pdn_media_config.remote_media_config.rtp_media.serv_attrib_info.serv_attrib_mask = 2
+- ((msg_stream_modify_req_t*)payload)->media_config.pdn_media_config.remote_media_config.rtp_media.serv_attrib_info.ptime.packetization_period = 20
+- ((msg_stream_modify_req_t*)payload)->media_config.pdn_media_config.remote_media_config.rtp_media.serv_attrib_info.t38_attr.t38_mask = 0
+- ((msg_stream_modify_req_t*)payload)->media_config.pdn_media_config.remote_media_config.rtp_media.serv_attrib_info.t38_attr.version = 0
+- ((msg_stream_modify_req_t*)payload)->media_config.pdn_media_config.remote_media_config.rtp_media.serv_attrib_info.t38_attr.data_rate = 0
+- ((msg_stream_modify_req_t*)payload)->media_config.pdn_media_config.remote_media_config.rtp_media.serv_attrib_info.t38_attr.error_correction = 0
+- ((msg_stream_modify_req_t*)payload)->media_config.pdn_media_config.remote_media_config.rtp_media.serv_attrib_info.t38_attr.implementation_type = 0
+- ((msg_stream_modify_req_t*)payload)->media_config.pdn_media_config.remote_media_config.rtp_media.serv_attrib_info.t38_attr.packet_time = 0
+- ((msg_stream_modify_req_t*)payload)->media_config.pdn_media_config.remote_media_config.rtp_media.serv_attrib_info.t38_attr.max_bitrate = 0
+- ((msg_stream_modify_req_t*)payload)->media_config.pdn_media_config.remote_media_config.rtp_media.serv_attrib_info.t38_attr.max_buffer_size = 0
+- ((msg_stream_modify_req_t*)payload)->media_config.pdn_media_config.remote_media_config.rtp_media.serv_attrib_info.t38_attr.max_datagram_size = 0
+- ((msg_stream_modify_req_t*)payload)->media_config.pdn_media_config.remote_media_config.rtp_media.serv_attrib_info.t38_attr.transport_type = 0
+- ((msg_stream_modify_req_t*)payload)->inband_sig_tone_dect_conf.is_sig_tone_dect_config_changed = 0
+- ((msg_stream_modify_req_t*)payload)->inband_sig_tone_dect_conf.inband_sig_tone_dect_param = 0
+- ((msg_stream_modify_req_t*)payload)->enable_t38_same_udp = 0
+[iwu_platform, 2065] Exit iwu_fn_sendStreamCreateOrModifyRequest.
+[Iwu_timer, 289] iwu_fn_startTimer: dTimerListId=3, dTimerValue=4000, dLineId=9, dCallId=9, dModuleId=2, dTimerType:[Iwu_en_FSMPendingTimer(0)], Timerid[0]
+[Iwu_timer, 266] iwu_fn_startTimerExt: Timer Started: Cyclic=0, Type:[Iwu_en_FSMPendingTimer], Value=4000, TimerList=3
+
+    TimerID=57, addr=0x580d6fb4, Lineid=9, Callid=[9] 
+
+pCallData deleted, remains 0
+
+[iwu_msghandler, 432] [iwu_fn_msghandler] rcv msg from 1 
+[iwu_fn_voipManagerMsgHandler, 1062] -- Enter iwu_fn_voipManagerMsgHandler msg_id:[MSG_STREAM_MODIFY_RESP(572)]
+[mm_handler, 2774] Enter IWU_MM_Handler::handleMsgFromSipw event=14
+[mm_context, 439] MM_Context::DStreamType_Set [2 => 2], type=1, m_data_mode=2
+[mm_handler, 1963] IWU_MM_Handler::doSendRespToCm cm_id [9}, mm_event=14, cc_event=9
+[mm_handler, 1991] IWU_MM_Handler::doSendRespToCm: method is 0
+[mm_context, 362] MM_Context::Sipw_Media_Mode_Get get sipw_media_mode=3
+[mm_handler, 2092] IWU_MM_Handler::doSendRespToCm DP is not 1  cm_id [9} 
+[iwu_internalmsg, 191] iwu_internal_msg_mgr::post_internal_message new pCallData allocated, current count is 1
+
+[iwu_internalmsg, 277] post_message: dDestinationFsm=1, dInputEvent.dCommEvents=9
+[Iwu_timer, 315] iwu_fn_stopTimer: Timer Stop: addr=0x580d6fb4, TimerId=[57], TimerListid=3
+iwu_pending_instance::pending_preProcess, pending instance[1-9], receive waiting msg[9]
+[Iwu_timer, 315] iwu_fn_stopTimer: Timer Stop: addr=0x580d6f3c, TimerId=[56], TimerListid=3
+[iwu_msghandler, 498] Enter function: iwu_fn_internalDerivedCcEvent 
+[iwu_msghandler, 512] Enter iwu_fn_internalDerivedCcEvent dDestinationFsm=1, dInputEvent.dCommEvents=9
+[iwu_callmgnt_itf, 109] Enter function: iwu_fn_callmgntFsmMsgHandler 
+[callmgnt_data, 2888] Enter IwuCallMgntHandler::CallMgntMsgHandler logicalBChannelId=[26], dInputEvent=[9]
+[callmgnt_data] callid = [9]
+[cm_con_state, 423] IwuCallMgntCallConnectedState::ModifyMediaSessionRsp for dTermId=1, response_code=0
+[cm_con_state, 442] IwuCallMgntCallConnectedState::ModifyMediaSessionRsp for dTermId=1, session state =2
+[callmgnt_data, 4540] Enter DoSendMsgToFaxCallHandler for ccEvent: 44
+[iwu_internalmsg, 191] iwu_internal_msg_mgr::post_internal_message new pCallData allocated, current count is 2
+
+[iwu_internalmsg, 277] post_message: dDestinationFsm=4, dInputEvent.dCommEvents=44
+[cm_con_state, 537] CallMgntCallConnectedState::ModifyMediaSessionRsp entering DoSendMsgToSSAPIW and ExitInverseReqProc, response_code=200
+[callmgnt_data, 4865] IwuCallMgntHandler::DoSendMsgToSSAPIW Event 3 for Terminal:1 in state 15 with body 1 type 1 callid [9] dialog_id is -1, maxFwd is 70 
+
+[callmgnt_data, 5352] IwuCallMgntHandler::DoSendMsgToSSAPIW CM id[9],pCallMgntData->m_histinfo=1, pCallMgntData->m_hisinfo = <sip:+13288618403@qd.lucentlab.com;user=phone>;index=1
+[callmgnt_data, 5421] IwuCallMgntHandler::DoSendMsgToSSAPIW CM id[9], respons code[200], ua_resp.session_refresher=0
+[callmgnt_data, 5525] IwuCallMgntHandler::DoSendMsgToSSAPIW ua response: 200 method 1 for Terminal:1 in state 15,m_logicalbchannel_id = 26
+[callmgnt_data, 5531] IwuCallMgntHandler::DoSendMsgToSSAPIW pCallMgntData->m_histinfo=1, pCallMgntData->m_hisinfo = <sip:+13288618403@qd.lucentlab.com;user=phone>;index=1
+[callmgnt_data, 3439] IwuCallMgntHandler::CallMgntMsgHandler Iwu_en_callmgntModifyMediaSessionRsp entering ModifyMediaSessionRsp for Channel: 26 is handling event (9) in state 15 callid 9
+pCallData deleted, remains 1
+
+[iwu_msghandler, 498] Enter function: iwu_fn_internalDerivedCcEvent 
+[iwu_msghandler, 512] Enter iwu_fn_internalDerivedCcEvent dDestinationFsm=4, dInputEvent.dCommEvents=44
+[iwu_msghandler, 543] iwu_fn_internalDerivedCcEvent: Iwu_en_faxCallControlFsm entering FAX CC FSM
+[iwu_fn_ccVBDDataCallActivated, 67]:[Enter FAX FSM]state=FaxccCallState_VBD_DATA_CALL_Activated,event=Iwu_en_callmgntDataCallModifyInd,CallId=9
+[IsdnResourceMgnt, 562] Inter IsdnResourceMgnt::getSignalingType, line id is 0 
+[IsdnResourceMgnt, 570] the line type status is 1
+[IsdnResourceMgnt, 574] Leave IsdnResourceMgnt::getSignalingType,retValue is:1.
+[iwu_fn_ccVBDDataCallActivated, 84]:Iwu_en_callmgntDataCallModifyInd:isSucc=1,type=1,is_v152_nego_succ=0
+[iwu_fn_ccVBDDataCallActivated, 113]:[Leave FAX FSM]current state=FaxccCallState_VBD_DATA_CALL_ACTIVATED
+pCallData deleted, remains 0
+
+[iwu_msghandler, 432] [iwu_fn_msghandler] rcv msg from 6 
+[callmgnt_data, 2567] Event IwuCallMgntHandler::onAckIndication for app_reference: 9-0
+[callmgnt_data, 2596] IwuCallMgntHandler::onAckIndication logical bchannel:26 is handling in state 15
+[cm_con_state, 925] FSM state:CALLMGNT_CALL_CONNECTED: Event receiveAckInd for Terminal:1 is handling
+[iwu_msghandler, 432] [iwu_fn_msghandler] rcv msg from 5 
+[iwu_fn_voipManagerMsgHandler, 1062] -- Enter iwu_fn_voipManagerMsgHandler msg_id:[MSG_EVT_DETECTED_IND(556)]
+[iwu_msghandler, 1098] iwu_fn_voipManagerMsgHandler: MSG_EVT_DETECTED_IND Received FOR TERMINAL:26, item_id=2076
+[iwu_msghandler, 1125] iwu_fn_voipManagerMsgHandler: MG_E_DTONE dtt=20
+[iwu_msghandler, 1299] iwu_fn_voipManagerMsgHandler: normal tone dtt=20, dTermType=2
+Tone type 9 is detected for term 26
+
+[iwu_fn_ccVBDDataCallActivated, 67]:[Enter FAX FSM]state=FaxccCallState_VBD_DATA_CALL_Activated,event=Iwu_en_FaxTone_DetectInd,CallId=9
+[IsdnResourceMgnt, 562] Inter IsdnResourceMgnt::getSignalingType, line id is 0 
+[IsdnResourceMgnt, 570] the line type status is 1
+[IsdnResourceMgnt, 574] Leave IsdnResourceMgnt::getSignalingType,retValue is:1.
+[iwu_fn_ccVBDDataCallActivated, 227]:Iwu_en_FaxTone_DetectInd,dToneTypeDetected=9gVbdMode=1, dIsV152NegoSucc=0, dIsVBDNegotiated=1, lIsAutoSwitch=0
+[iwu_fn_ccVBDDataCallActivated, 355]:lIsSendVBDChangedReq=0, lIsSendECChangedReq=0, lIsSendVoiceReq=0, lIsSendT38Req=0
+[iwu_fn_ccVBDDataCallActivated, 419]:[Leave FAX FSM]current state=FaxccCallState_VBD_DATA_CALL_ACTIVATED
+[iwu_msghandler, 432] [iwu_fn_msghandler] rcv msg from 5 
+[iwu_fn_voipManagerMsgHandler, 1062] -- Enter iwu_fn_voipManagerMsgHandler msg_id:[MSG_EVT_DETECTED_IND(556)]
+[iwu_msghandler, 1098] iwu_fn_voipManagerMsgHandler: MSG_EVT_DETECTED_IND Received FOR TERMINAL:26, item_id=2076
+[iwu_msghandler, 1125] iwu_fn_voipManagerMsgHandler: MG_E_DTONE dtt=22
+[iwu_msghandler, 1299] iwu_fn_voipManagerMsgHandler: normal tone dtt=22, dTermType=2
+Tone type 9 is detected for term 26
+
+[iwu_fn_ccVBDDataCallActivated, 67]:[Enter FAX FSM]state=FaxccCallState_VBD_DATA_CALL_Activated,event=Iwu_en_FaxTone_DetectInd,CallId=9
+[IsdnResourceMgnt, 562] Inter IsdnResourceMgnt::getSignalingType, line id is 0 
+[IsdnResourceMgnt, 570] the line type status is 1
+[IsdnResourceMgnt, 574] Leave IsdnResourceMgnt::getSignalingType,retValue is:1.
+[iwu_fn_ccVBDDataCallActivated, 227]:Iwu_en_FaxTone_DetectInd,dToneTypeDetected=9gVbdMode=1, dIsV152NegoSucc=0, dIsVBDNegotiated=1, lIsAutoSwitch=0
+[iwu_fn_ccVBDDataCallActivated, 355]:lIsSendVBDChangedReq=0, lIsSendECChangedReq=0, lIsSendVoiceReq=0, lIsSendT38Req=0
+[iwu_fn_ccVBDDataCallActivated, 419]:[Leave FAX FSM]current state=FaxccCallState_VBD_DATA_CALL_ACTIVATED
+[iwu_msghandler, 432] [iwu_fn_msghandler] rcv msg from 5 
+[iwu_fn_voipManagerMsgHandler, 1062] -- Enter iwu_fn_voipManagerMsgHandler msg_id:[MSG_EVT_DETECTED_IND(556)]
+[iwu_msghandler, 1098] iwu_fn_voipManagerMsgHandler: MSG_EVT_DETECTED_IND Received FOR TERMINAL:26, item_id=2076
+[iwu_msghandler, 1125] iwu_fn_voipManagerMsgHandler: MG_E_DTONE dtt=23
+[iwu_msghandler, 1229] Change to VBD and set EC off tone(23) detected Received for 26
+Tone type 11 is detected for term 26
+
+[iwu_fn_ccVBDDataCallActivated, 67]:[Enter FAX FSM]state=FaxccCallState_VBD_DATA_CALL_Activated,event=Iwu_en_FaxTone_DetectInd,CallId=9
+[IsdnResourceMgnt, 562] Inter IsdnResourceMgnt::getSignalingType, line id is 0 
+[IsdnResourceMgnt, 570] the line type status is 1
+[IsdnResourceMgnt, 574] Leave IsdnResourceMgnt::getSignalingType,retValue is:1.
+[iwu_fn_ccVBDDataCallActivated, 227]:Iwu_en_FaxTone_DetectInd,dToneTypeDetected=11gVbdMode=1, dIsV152NegoSucc=0, dIsVBDNegotiated=1, lIsAutoSwitch=0
+[iwu_fn_ccVBDDataCallActivated, 355]:lIsSendVBDChangedReq=0, lIsSendECChangedReq=1, lIsSendVoiceReq=0, lIsSendT38Req=0
+[iwu_fn_ccVBDDataCallActivated, 372]:entering iwu_fn_sendChangeVBDModel,dVBDState=2,dECState=1,dDataCallState=1
+[iwu_cc_itf_mm, 122] Sending CHANG_VBD_VOICE_SWITCH_REQ dVBDState=2, dECState=1, dDataCallState=1 for term_id=26, lineid =0
+[iwu_internalmsg, 191] iwu_internal_msg_mgr::post_internal_message new pCallData allocated, current count is 1
+
+[iwu_internalmsg, 277] post_message: dDestinationFsm=2, dInputEvent.dCommEvents=8
+[iwu_fn_ccVBDDataCallActivated, 419]:[Leave FAX FSM]current state=FaxccCallState_VBD_DATA_CALL_ACTIVATED
+[iwu_msghandler, 498] Enter function: iwu_fn_internalDerivedCcEvent 
+[iwu_msghandler, 512] Enter iwu_fn_internalDerivedCcEvent dDestinationFsm=2, dInputEvent.dCommEvents=8
+[mm_handler, 2624] MM_Handler::handleMsgFromCm E_TERM_MM_MEDIA_STREAM_VBD_VOICE_SWITCH, cm_id 9, dECState 1, dVBDState 2, logicalBChannelId 26
+
+ msg: MSG_VBD_VOICE_SWITCH_REQ
+- header->msg_id = 852534
+- header->length = 80
+- ((msg_vbd_voice_switch_req_t*)payload)->txn_id = 9
+- ((msg_vbd_voice_switch_req_t*)payload)->term_id = 29
+- ((msg_vbd_voice_switch_req_t*)payload)->item_id = 0
+- ((msg_vbd_voice_switch_req_t*)payload)->dDataCallState = 1
+- ((msg_vbd_voice_switch_req_t*)payload)->dStreamId = 9
+- ((msg_vbd_voice_switch_req_t*)payload)->payload.payload_type = 130
+- ((msg_vbd_voice_switch_req_t*)payload)->payload.ptime = 0
+- ((msg_vbd_voice_switch_req_t*)payload)->payload.tx_pt_number = 0
+- ((msg_vbd_voice_switch_req_t*)payload)->payload.rx_pt_number = 0
+pCallData deleted, remains 0
+
+[iwu_msghandler, 432] [iwu_fn_msghandler] rcv msg from 5 
+[iwu_fn_voipManagerMsgHandler, 1062] -- Enter iwu_fn_voipManagerMsgHandler msg_id:[MSG_VBD_VOICE_SWITCH_RESP(567)]
+[mm_handler, 2774] Enter IWU_MM_Handler::handleMsgFromSipw event=16
+[iwu_internalmsg, 191] iwu_internal_msg_mgr::post_internal_message new pCallData allocated, current count is 1
+
+[iwu_internalmsg, 277] post_message: dDestinationFsm=4, dInputEvent.dCommEvents=58
+[iwu_msghandler, 498] Enter function: iwu_fn_internalDerivedCcEvent 
+[iwu_msghandler, 512] Enter iwu_fn_internalDerivedCcEvent dDestinationFsm=4, dInputEvent.dCommEvents=58
+[iwu_msghandler, 543] iwu_fn_internalDerivedCcEvent: Iwu_en_faxCallControlFsm entering FAX CC FSM
+[iwu_fn_ccVBDDataCallActivated, 67]:[Enter FAX FSM]state=FaxccCallState_VBD_DATA_CALL_Activated,event=Iwu_en_vbdstate_change_resp,CallId=9
+[IsdnResourceMgnt, 562] Inter IsdnResourceMgnt::getSignalingType, line id is 0 
+[IsdnResourceMgnt, 570] the line type status is 1
+[IsdnResourceMgnt, 574] Leave IsdnResourceMgnt::getSignalingType,retValue is:1.
+[iwu_fn_ccVBDDataCallActivated, 126]:Iwu_en_vbdstate_change_resp:dVBDState=2,dECState=1,result=1
+[iwu_fn_ccVBDDataCallActivated, 139]:[Leave FAX FSM]current state=FaxccCallState_VBD_DATA_CALL_ACTIVATED
+pCallData deleted, remains 0
+
+[iwu_msghandler, 432] [iwu_fn_msghandler] rcv msg from 5 
+[iwu_fn_voipManagerMsgHandler, 1062] -- Enter iwu_fn_voipManagerMsgHandler msg_id:[MSG_EVT_DETECTED_IND(556)]
+[iwu_msghandler, 1098] iwu_fn_voipManagerMsgHandler: MSG_EVT_DETECTED_IND Received FOR TERMINAL:26, item_id=2076
+[iwu_msghandler, 1125] iwu_fn_voipManagerMsgHandler: MG_E_DTONE dtt=41
+[iwu_msghandler, 1342] iwu_fn_voipManagerMsgHandler: abnormal tone dtt=41, dTermType=2
+Tone type 11 is detected for term 26
+
+[iwu_fn_ccVBDDataCallActivated, 67]:[Enter FAX FSM]state=FaxccCallState_VBD_DATA_CALL_Activated,event=Iwu_en_FaxTone_DetectInd,CallId=9
+[IsdnResourceMgnt, 562] Inter IsdnResourceMgnt::getSignalingType, line id is 0 
+[IsdnResourceMgnt, 570] the line type status is 1
+[IsdnResourceMgnt, 574] Leave IsdnResourceMgnt::getSignalingType,retValue is:1.
+[iwu_fn_ccVBDDataCallActivated, 227]:Iwu_en_FaxTone_DetectInd,dToneTypeDetected=11gVbdMode=1, dIsV152NegoSucc=0, dIsVBDNegotiated=1, lIsAutoSwitch=0
+[iwu_fn_ccVBDDataCallActivated, 355]:lIsSendVBDChangedReq=0, lIsSendECChangedReq=0, lIsSendVoiceReq=0, lIsSendT38Req=0
+[iwu_fn_ccVBDDataCallActivated, 419]:[Leave FAX FSM]current state=FaxccCallState_VBD_DATA_CALL_ACTIVATED
+
+{lt0x1104}[USR0-shell]>
+{lt0x1104}[USR0-shell]>
+{lt0x1104}[USR0-shell]>
+{lt0x1104}[USR0-shell]>
+{lt0x1104}[USR0-shell]>[iwu_msghandler, 432] [iwu_fn_msghandler] rcv msg from 6 
+[callmgnt_data, 2667] Event IwuCallMgntHandler::onReleaseIndication for app_reference: 9-0 release reason 0 method 5,reason header protocol: , cause value: 0, text:  , CM id[9]
+[callmgnt_data, 2721] IwuCallMgntHandler::onReleaseIndication enPANIheader:1, hdrValue:, accessInfo:IsamvSystemId, accessType:ADSL!
+[callmgnt_data, 2741] CallMgntHandler::onReleaseIndication for Terminal:1 is handling in state 15
+[cm_con_state, 234] CALL CONNECT STATE: receiveReleaseInd for Logical BChannel:26
+[callmgnt_data, 3953] Enter DoSendMsgToCallHandler for ccEvent: 34
+[callmgnt_data, 4342] IwuCallMgntHandler::DoSendMsgToCallHandler cause value: 0, response code: 200
+[iwu_internalmsg, 191] iwu_internal_msg_mgr::post_internal_message new pCallData allocated, current count is 1
+
+[iwu_internalmsg, 277] post_message: dDestinationFsm=0, dInputEvent.dCommEvents=34
+[callmgnt_data, 2761] IwuCallMgntHandler::onReleaseIndication ua_ref dialog id:0  and active dialog id:0
+[iwu_msghandler, 498] Enter function: iwu_fn_internalDerivedCcEvent 
+[iwu_msghandler, 512] Enter iwu_fn_internalDerivedCcEvent dDestinationFsm=0, dInputEvent.dCommEvents=34
+[iwu_msghandler, 529] iwu_fn_internalDerivedCcEvent: Iwu_en_callControlFsm entering CC FSM
+[IsdnResourceMgnt, 562] Inter IsdnResourceMgnt::getSignalingType, line id is 0 
+[IsdnResourceMgnt, 570] the line type status is 1
+[IsdnResourceMgnt, 574] Leave IsdnResourceMgnt::getSignalingType,retValue is:1.
+[iwu_cascc_fsm_call_active, 73] iwu_fn_casccActive: CC FSM: Event Iwu_en_terminateCallIndication received in CALL ACTIVE state on CallId:9 , channelid=26.
+[iwu_cascc_itf_cas, 82] iwu_fn_casccSendCasMsg Success in Sending cas msg to CAS R2 Stack.
+pCallData deleted, remains 0
+
+[iwu_msghandler, 432] [iwu_fn_msghandler] rcv msg from 36 
+[Iwu_cascc_itf, 78] iwu_fn_casccMsgHandler: Enter iwu_fn_casccMsgHandler.
+[IwuCasccUtility, 62] iwu_fn_casccCopyMsg: CAS Message is received and copyed.
+[IwuCasccUtility, 282] iwu_fn_transMsgTypeToCCEvent: input 11, output 82 
+[iwu_cascc_fsm_release_req_with_cm_reply, 60] iwu_fn_casccReleaseReqWithCMReply: CC FSM: Event Iwu_en_casReleaseResp received in RELEASE_REQ state on CallId:9,event:82, channelid=26.
+[iwu_cc_itf_cm, 255] iwu_fn_sendRemoteUserTerminateCallReply:  send terminate call reply, CallId:9 ,  bchannel:26 
+[iwu_internalmsg, 191] iwu_internal_msg_mgr::post_internal_message new pCallData allocated, current count is 1
+
+[iwu_internalmsg, 277] post_message: dDestinationFsm=1, dInputEvent.dCommEvents=2
+[wu_initfree, 860] iwu_fn_ccReleaseResource: Enter iwu_fn_ccReleaseResource, CallId:9 , lineId=0, channelid=26
+[iwu_lm, 582] IwuLM::deallocLmId dealloc id for 1 modu lmId:[9]!
+remove CallContext from term list , callId 9, dline 0 
+
+******Freeing Call Context with CallId = 9, lineId 0 ******
+[iwu_initfree, 892] iwu_fn_freeFaxCallContext,free fax call context
+
+remove CallContext from callContext list , result 1 
+
+[wu_initfree, 824] iwu_fn_releaseMsg:  Enter iwu_fn_releaseMsg
+[iwu_msghandler, 498] Enter function: iwu_fn_internalDerivedCcEvent 
+[iwu_msghandler, 512] Enter iwu_fn_internalDerivedCcEvent dDestinationFsm=1, dInputEvent.dCommEvents=2
+[iwu_callmgnt_itf, 109] Enter function: iwu_fn_callmgntFsmMsgHandler 
+[callmgnt_data, 2888] Enter IwuCallMgntHandler::CallMgntMsgHandler logicalBChannelId=[26], dInputEvent=[2]
+[callmgnt_data] callid = [9]
+[cm_wtterm_state, 481] IwuCallMgntTerminateCallbyRemoteState::LocalTerminateCallRsp for channel:26 CM id[9]
+[callmgnt_data, 4718] IwuCallMgntHandler::DoSendMsgToMM logicalBChannelId=26 send event 2 to MM in state 18, m_callmgnt_id=[9], streamType=0xff, dialog_id is -1 
+[iwu_internalmsg, 191] iwu_internal_msg_mgr::post_internal_message new pCallData allocated, current count is 2
+
+[iwu_internalmsg, 277] post_message: dDestinationFsm=2, dInputEvent.dCommEvents=2
+[callmgnt_data, 3256] IwuCallMgntHandler::CallMgntMsgHandler Iwu_en_callmgntTerminateCallReply for Terminal:1 is handling event Iwu_en_callmgntTerminateCallReply(2) in state 18 callid 9
+pCallData deleted, remains 1
+
+[iwu_msghandler, 498] Enter function: iwu_fn_internalDerivedCcEvent 
+[iwu_msghandler, 512] Enter iwu_fn_internalDerivedCcEvent dDestinationFsm=2, dInputEvent.dCommEvents=2
+[mm_handler, 2542] MM_Handler::handleMsgFromCm event E_CM_MM_MEDIA_STREAM_DELETE is processing , new MM id=[9]
+[mm_handler, 2547] MM_Handler::handleMsgFromCm GetState()=6
+[mm_handler, 1928] IWU_MM_Handler::deleteStream cm_id=[9], sipw_stype=0
+[iwu_platform, 2266] Sending MSG_STREAM_DELETE_REQ for txn_id=9, bchannel_id=26
+
+ msg: MSG_STREAM_DELETE_REQ
+- header->msg_id = 852542
+- header->length = 132
+- ((msg_stream_delete_req_t*)payload)->stream_param.txn_id = 9
+- ((msg_stream_delete_req_t*)payload)->stream_param.term_id = 29
+- ((msg_stream_delete_req_t*)payload)->stream_param.term_type = 0
+- ((msg_stream_delete_req_t*)payload)->stream_param.stream_id = 9
+[mm_handler, 921] IWU_MM_Handler::deallocRes cm_id=9
+[iwu_platform, 1231] Sending MSG_RES_DEALLOC_REQ for txn_id=9, term_id=1
+[iwu_platform, 1254] Sending MSG_RES_DEALLOC_REQ for pMsgReq->isForced = 0, 
+
+ msg: MSG_RES_DEALLOC_REQ
+- header->msg_id = 852510
+- header->length = 180
+- ((msg_res_dealloc_req_t*)payload)->txn_id = 9
+- ((msg_res_dealloc_req_t*)payload)->term_id = 29
+- ((msg_res_dealloc_req_t*)payload)->stream_id = 9
+- ((msg_res_dealloc_req_t*)payload)->term_type = 0
+- ((msg_res_dealloc_req_t*)payload)->res_id = 9
+[Iwu_timer, 289] iwu_fn_startTimer: dTimerListId=3, dTimerValue=4000, dLineId=9, dCallId=9, dModuleId=2, dTimerType:[Iwu_en_FSMPendingTimer(0)], Timerid[0]
+[Iwu_timer, 266] iwu_fn_startTimerExt: Timer Started: Cyclic=0, Type:[Iwu_en_FSMPendingTimer], Value=4000, TimerList=3
+
+    TimerID=58, addr=0x580d7234, Lineid=9, Callid=[9] 
+
+pCallData deleted, remains 0
+
+[iwu_msghandler, 432] [iwu_fn_msghandler] rcv msg from 5 
+[iwu_fn_voipManagerMsgHandler, 1062] -- Enter iwu_fn_voipManagerMsgHandler msg_id:[MSG_STREAM_DELETE_RESP(575)]
+[mm_handler, 2774] Enter IWU_MM_Handler::handleMsgFromSipw event=15
+[iwu_msghandler, 432] [iwu_fn_msghandler] rcv msg from 5 
+[iwu_fn_voipManagerMsgHandler, 1062] -- Enter iwu_fn_voipManagerMsgHandler msg_id:[MSG_RES_DEALLOC_RESP(543)]
+[mm_handler, 2774] Enter IWU_MM_Handler::handleMsgFromSipw event=10
+[Iwu_timer, 315] iwu_fn_stopTimer: Timer Stop: addr=0x580d7234, TimerId=[58], TimerListid=3
+[mm_handler, 3028] Enter IWU_MM_Handler::handleMsgFromSipw stream delete resp from SIPW  mm_id[9] 
+[mm_handler, 1963] IWU_MM_Handler::doSendRespToCm cm_id [9}, mm_event=10, cc_event=10
+[mm_handler, 1991] IWU_MM_Handler::doSendRespToCm: method is 0
+[mm_handler, 2092] IWU_MM_Handler::doSendRespToCm DP is not 1  cm_id [9} 
+[iwu_internalmsg, 191] iwu_internal_msg_mgr::post_internal_message new pCallData allocated, current count is 1
+
+[iwu_internalmsg, 277] post_message: dDestinationFsm=1, dInputEvent.dCommEvents=10
+[iwu_lm, 582] IwuLM::deallocLmId dealloc id for 2 modu lmId:[9]!
+[iwu_msghandler, 498] Enter function: iwu_fn_internalDerivedCcEvent 
+[iwu_msghandler, 512] Enter iwu_fn_internalDerivedCcEvent dDestinationFsm=1, dInputEvent.dCommEvents=10
+[iwu_callmgnt_itf, 109] Enter function: iwu_fn_callmgntFsmMsgHandler 
+[callmgnt_data, 2888] Enter IwuCallMgntHandler::CallMgntMsgHandler logicalBChannelId=[26], dInputEvent=[10]
+[callmgnt_data] callid = [9]
+[cm_wtterm_state, 446] IwuCallMgntTerminateCallbyRemoteState::DeleteMediaSessionRsp for channel:26, CM id[9]
+[callmgnt_data, 5901] IwuCallMgntHandler::DoSendMsgToCallMgnt Event 13 for Terminal:1 in state 18
+[callmgnt_data, 5909] DoSendMsgToCallMgnt Empty pcallmgntData->m_alert_req_list before delete CM data.
+[iwu_internalmsg, 191] iwu_internal_msg_mgr::post_internal_message new pCallData allocated, current count is 2
+
+[iwu_internalmsg, 277] post_message: dDestinationFsm=1, dInputEvent.dCommEvents=13
+[callmgnt_data, 3463] IwuCallMgntHandler::CallMgntMsgHandler for channel: 26 is handling event (10) in state 18 callid 9
+pCallData deleted, remains 1
+
+[iwu_msghandler, 498] Enter function: iwu_fn_internalDerivedCcEvent 
+[iwu_msghandler, 512] Enter iwu_fn_internalDerivedCcEvent dDestinationFsm=1, dInputEvent.dCommEvents=13
+[iwu_callmgnt_itf, 109] Enter function: iwu_fn_callmgntFsmMsgHandler 
+[callmgnt_data, 2888] Enter IwuCallMgntHandler::CallMgntMsgHandler logicalBChannelId=[26], dInputEvent=[13]
+[callmgnt_data] callid = [9]
+[iwu_util, 723] iwu_fn_getBchOperStatus: logicalBChanelNum 26 
+
+[IsdnResourceMgnt, 252] Inter IsdnResourceMgnt::deallocBchResReq
+[IsdnResourceMgnt, 274] setting b channel operation status to IWU_IRM_IDLE
+[IsdnResourceMgnt, 279] Leave IsdnResourceMgnt::deallocBchResReq
+[iwu_lm, 582] IwuLM::deallocLmId dealloc id for 0 modu lmId:[9]!
+[iwu_lm, 588] IwuLM::deallocLmId no moudle use, free lmId:[9]!
+pCallData deleted, remains 0
+
+
+{lt0x1104}[USR0-shell]>
+[END] 2017/9/25 15:49:27
